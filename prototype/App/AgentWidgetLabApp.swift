@@ -106,6 +106,14 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
                 await RLPrerender.handle(cmd)
             }
         }
+        // SurfaceLab: `simctl launch <bundle> -slcmd <base64 JSON>`
+        if let raw = UserDefaults.standard.string(forKey: "slcmd"), let d = Data(base64Encoded: raw),
+           let cmd = try? JSONSerialization.jsonObject(with: d) as? [String: Any] {
+            Task { @MainActor in
+                try? await Task.sleep(nanoseconds: 800_000_000)
+                await SLApp.handle(cmd)
+            }
+        }
         return true
     }
 
@@ -145,6 +153,10 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
     }
 
     static func handleSilentPush(_ info: [AnyHashable: Any]) async -> UIBackgroundFetchResult {
+        if let sl = info["surfacelab"] as? [String: Any] {
+            await SLApp.handle(sl)
+            return .newData
+        }
         if let rl = info["renderlab"] as? [String: Any] {
             Log.event("rl_push", detail: "appState=\(await UIApplication.shared.applicationState.rawValue)")
             await RLPrerender.handle(rl)

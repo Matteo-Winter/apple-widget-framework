@@ -1,0 +1,30 @@
+{
+ "requested_h": 400,
+ "regions": {
+  "lockscreen": [
+   "0x400",
+   "374x400"
+  ],
+  "bottom": [
+   "338x400"
+  ],
+  "center": [
+   "322x0"
+  ],
+  "trailing": [
+   "0x0"
+  ],
+  "leading": [
+   "0x0"
+  ],
+  "compactL": [
+   "10x22"
+  ],
+  "compactT": [
+   "10x22"
+  ],
+  "minimal": [
+   "10x22"
+  ]
+ }
+}

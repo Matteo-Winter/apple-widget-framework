@@ -20,3 +20,5 @@ experiments/raw/
 # RenderLab: full-screen Simulator screenshots and intermediate files (crops are in experiments/rendering/img)
 experiments/rendering/raw/
 tools/rl/__pycache__/
+experiments/screen-surfaces-raw/
+tools/sl/__pycache__/

@@ -1,0 +1,311 @@
+{
+ "events": [
+  [
+   "sl_la_ended",
+   ""
+  ],
+  [
+   "sl_la_started",
+   "name=Agent 1 id=46571502-AA7B-42C5-86A4-AE43890C911E total=1"
+  ],
+  [
+   "sl_la_started",
+   "name=Agent 2 id=1D7B26A2-A5CD-4A92-BA75-64B569E546A2 total=2"
+  ],
+  [
+   "sl_la_started",
+   "name=Agent 3 id=E89C6425-A743-4BDE-86F3-6B77A138FCC0 total=3"
+  ],
+  [
+   "sl_la_started",
+   "name=Agent 4 id=7BF6B8A4-8562-40A3-AD22-2C8BFA4DA263 total=4"
+  ],
+  [
+   "sl_la_started",
+   "name=Agent 5 id=81718A92-42F1-4D0C-BEC5-73931E724571 total=5"
+  ],
+  [
+   "sl_la_failed",
+   "name=Agent 6 The operation couldn\u2019t be completed. Maximum number of activities for target already exists"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 1 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 2 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 3 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 4 region=minimal size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=lockscreen size=0x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=lockscreen size=374x160"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=bottom size=338x60"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=center size=322x0"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=trailing size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=leading size=0x8"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=compactL size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=compactT size=10x22"
+  ],
+  [
+   "sl_la_region",
+   "activity=Agent 5 region=minimal size=10x22"
+  ]
+ ],
+ "regions": {
+  "lockscreen": [
+   "0x160",
+   "374x160"
+  ],
+  "bottom": [
+   "338x60"
+  ],
+  "center": [
+   "322x0"
+  ],
+  "trailing": [
+   "0x8"
+  ],
+  "leading": [
+   "0x8"
+  ],
+  "compactL": [
+   "10x22"
+  ],
+  "compactT": [
+   "10x22"
+  ],
+  "minimal": [
+   "10x22"
+  ]
+ }
+}

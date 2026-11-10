@@ -20,6 +20,7 @@ targets:
       - path: App
       - path: Shared
       - path: RenderLab
+      - path: Surfaces
     info:
       path: App/Info.plist
       properties:
@@ -46,6 +47,7 @@ targets:
         CODE_SIGN_ENTITLEMENTS: App/AgentWidgetLab.entitlements
     dependencies:
       - target: AgentWidgetExtension
+      - target: NotificationLab
   AgentWidgetExtension:
     type: app-extension
     platform: iOS
@@ -54,6 +56,7 @@ targets:
         excludes: [Info.plist]
       - path: Shared
       - path: RenderLab
+      - path: Surfaces
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: $(AWL_APP_BUNDLE_ID).Widgets
@@ -62,6 +65,20 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: Agent Surface
         SKIP_INSTALL: YES
         CODE_SIGN_ENTITLEMENTS: Widget/AgentWidgetExtension.entitlements
+  NotificationLab:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: NotificationLab
+        excludes: [Info.plist, NotificationLab.entitlements]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(AWL_APP_BUNDLE_ID).NotificationLab
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: NotificationLab/Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: Notification Lab
+        SKIP_INSTALL: YES
+        CODE_SIGN_ENTITLEMENTS: NotificationLab/NotificationLab.entitlements
   AgentWidgetLabUITests:
     type: bundle.ui-testing
     platform: iOS

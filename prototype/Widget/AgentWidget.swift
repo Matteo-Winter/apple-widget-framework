@@ -126,11 +126,16 @@ struct AgentWidgetBundle: WidgetBundle {
         AgentWidget()
         RenderLabWidget()
         RenderLabMarginsWidget()
+        SLTileA(); SLTileB(); SLTileC(); SLTileD()
         if #available(iOS 26.0, *) {
             AgentPushWidget()
         }
         #if canImport(ActivityKit)
         AgentLiveActivity()
+        SLLiveActivity()
         #endif
+        if #available(iOS 18.0, *) {
+            SLControl()
+        }
     }
 }

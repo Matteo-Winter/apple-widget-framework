@@ -1,0 +1,207 @@
+{
+ "boxes_px": [
+  [
+   82,
+   270,
+   569,
+   763
+  ],
+  [
+   638,
+   270,
+   1125,
+   763
+  ],
+  [
+   82,
+   872,
+   1125,
+   1365
+  ],
+  [
+   82,
+   1474,
+   1125,
+   1967
+  ]
+ ],
+ "plan": [
+  [
+   "A:bridge",
+   133.16666666666666,
+   220.0
+  ],
+  [
+   "B:bridge",
+   269.0,
+   220.0
+  ],
+  [
+   "C:btn1",
+   94.16666666666667,
+   423.3333333333333
+  ],
+  [
+   "C:btn2",
+   201.16666666666666,
+   423.3333333333333
+  ],
+  [
+   "C:btn3",
+   308.1666666666667,
+   423.3333333333333
+  ],
+  [
+   "D:btn1",
+   94.16666666666667,
+   624.0
+  ],
+  [
+   "D:btn2",
+   201.16666666666666,
+   624.0
+  ],
+  [
+   "D:btn3",
+   308.1666666666667,
+   624.0
+  ],
+  [
+   "(gap)",
+   201.16666666666666,
+   220.0
+  ]
+ ],
+ "taps": [
+  {
+   "want": "A:bridge",
+   "got": [
+    "A:bridge"
+   ],
+   "hit_ms": 586,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 700,
+   "last_rerender_ms": 899
+  },
+  {
+   "want": "B:bridge",
+   "got": [
+    "B:bridge"
+   ],
+   "hit_ms": 450,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 532,
+   "last_rerender_ms": 722
+  },
+  {
+   "want": "C:btn1",
+   "got": [
+    "C:btn1"
+   ],
+   "hit_ms": 458,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 544,
+   "last_rerender_ms": 724
+  },
+  {
+   "want": "C:btn2",
+   "got": [
+    "C:btn2"
+   ],
+   "hit_ms": 451,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 535,
+   "last_rerender_ms": 713
+  },
+  {
+   "want": "C:btn3",
+   "got": [
+    "C:btn3"
+   ],
+   "hit_ms": 499,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 588,
+   "last_rerender_ms": 778
+  },
+  {
+   "want": "D:btn1",
+   "got": [
+    "D:btn1"
+   ],
+   "hit_ms": 450,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 539,
+   "last_rerender_ms": 713
+  },
+  {
+   "want": "D:btn2",
+   "got": [
+    "D:btn2"
+   ],
+   "hit_ms": 449,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 534,
+   "last_rerender_ms": 719
+  },
+  {
+   "want": "D:btn3",
+   "got": [
+    "D:btn3"
+   ],
+   "hit_ms": 432,
+   "tiles_rerendered": [
+    "A/systemSmall",
+    "B/systemSmall",
+    "C/systemMedium",
+    "D/systemMedium"
+   ],
+   "first_rerender_ms": 530,
+   "last_rerender_ms": 712
+  },
+  {
+   "want": "(gap)",
+   "got": [],
+   "hit_ms": null,
+   "tiles_rerendered": [],
+   "first_rerender_ms": null,
+   "last_rerender_ms": null
+  }
+ ],
+ "app_events": [],
+ "uitest_ok": true
+}
