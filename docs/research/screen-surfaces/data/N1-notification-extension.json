@@ -1,0 +1,52 @@
+{
+ "visible_card_pt": [
+  16.7,
+  68.7,
+  385.3,
+  628.0
+ ],
+ "card_w_pt": 368.6,
+ "card_h_pt": 559.3,
+ "view_bounds_logged": "402x900 (requested preferredContentSize 900 pt)",
+ "interactions": [
+  {
+   "what": "button",
+   "x": 104,
+   "y": 145
+  },
+  {
+   "x": 200,
+   "y": 185,
+   "what": "field"
+  },
+  {
+   "y": 520,
+   "what": "scroll",
+   "x": 200
+  }
+ ],
+ "events": [
+  [
+   "sl_notify_scheduled",
+   "delay=30.0"
+  ],
+  [
+   "sl_notif_receive",
+   "sl-1794321649"
+  ],
+  [
+   "sl_notif_button",
+   ""
+  ],
+  [
+   "sl_notif_field_focus",
+   ""
+  ],
+  [
+   "sl_notif_field_text",
+   "agent reply"
+  ]
+ ],
+ "webview": "WKWebView area stayed white in screenshots (web content not rendered in the extension)",
+ "card_share_of_screen_pct": 58.7
+}

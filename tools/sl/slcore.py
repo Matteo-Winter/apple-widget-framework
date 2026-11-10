@@ -83,3 +83,26 @@ def uitest_hold(name, shots_prefix, **env):
                 time.sleep(0.8); shots[o["what"]] = shot(f"{shots_prefix}-{o['what']}")
     p.wait()
     return out, shots
+
+def _is_app_white(p):
+    from PIL import Image
+    im = Image.open(p).convert("RGB"); px = im.load()
+    pts = [px[200, 600], px[1000, 600], px[600, 1500]]
+    return sum(1 for c in pts if min(c) > 235) >= 2
+
+def to_home():
+    for _ in range(3):
+        lab.home(1); time.sleep(1.2)
+        p = shot("_state")
+        if not _is_app_white(p): return True
+    return False
+
+def lock_screen(name):
+    """Lock (Cmd+L) from the Home Screen and screenshot; verifies the app is not in front."""
+    to_home()
+    for _ in range(3):
+        lock(); time.sleep(2.5)
+        p = shot(name)
+        if not _is_app_white(p): return p
+        to_home()
+    return p

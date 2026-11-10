@@ -1,0 +1,9 @@
+{
+ "device": "iPhone 17 Pro Max",
+ "uitest_ok": true,
+ "sizes_pt": {
+  "systemSmall": "176.66666666666666x176.66666666666666",
+  "systemMedium": "378.0x176.66666666666666",
+  "systemLarge": "378.0x394.0"
+ }
+}

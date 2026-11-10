@@ -79,6 +79,10 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: Notification Lab
         SKIP_INSTALL: YES
         CODE_SIGN_ENTITLEMENTS: NotificationLab/NotificationLab.entitlements
+        # The Debug-dylib stub loads UserNotificationsUI too late: "Unable to find NSExtensionContextClass
+        # (_UNNotificationContentExtensionVendorContext) … did you link the framework" → extension crashes.
+        ENABLE_DEBUG_DYLIB: NO
+        OTHER_LDFLAGS: ["-framework", "UserNotificationsUI"]
   AgentWidgetLabUITests:
     type: bundle.ui-testing
     platform: iOS

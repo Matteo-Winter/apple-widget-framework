@@ -1,0 +1,9 @@
+{
+ "device": "iPhone 16e",
+ "uitest_ok": true,
+ "sizes_pt": {
+  "systemSmall": "162.0x162.0",
+  "systemMedium": "342.0x162.0",
+  "systemLarge": "342.0x358.0"
+ }
+}

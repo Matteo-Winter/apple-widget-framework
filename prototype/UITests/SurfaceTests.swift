@@ -58,8 +58,8 @@ final class SurfaceTests: XCTestCase {
     /// then exercise button, text field and scrolling by coordinates.
     func testNotificationExpand() {
         XCUIDevice.shared.press(.home); sleep(1)
-        let banner = sb.otherElements.matching(NSPredicate(format: "label CONTAINS 'SurfaceLab'")).firstMatch
-        let found = banner.waitForExistence(timeout: 15)
+        let banner = sb.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS 'SurfaceLab' OR label CONTAINS 'Long-press'")).firstMatch
+        let found = banner.waitForExistence(timeout: Double(env["SL_WAIT"] ?? "15") ?? 15)
         emit("banner", ["found": found, "frame": found ? ["x": banner.frame.minX, "y": banner.frame.minY, "w": banner.frame.width, "h": banner.frame.height] : [:]])
         guard found else { shot("notif-no-banner"); return }
         shot("notif-banner")
@@ -109,8 +109,10 @@ final class SurfaceTests: XCTestCase {
         let gap = UInt32(Int(env["SL_GAP_MS"] ?? "1300") ?? 1300) * 1000
         guard let b = env["SL_POINTS"], let d = Data(base64Encoded: b),
               let pts = try? JSONSerialization.jsonObject(with: d) as? [[Any]] else { return XCTFail("SL_POINTS") }
-        XCUIDevice.shared.press(.home); sleep(1)
-        for _ in 0..<(Int(env["SL_PAGE"] ?? "0") ?? 0) { sb.swipeLeft(); sleep(1) }   // Home press lands on page 0
+        if env["SL_NOHOME"] != "1" {   // a Home press on the Lock Screen would unlock the (passcode-less) Simulator
+            XCUIDevice.shared.press(.home); sleep(1)
+            for _ in 0..<(Int(env["SL_PAGE"] ?? "0") ?? 0) { sb.swipeLeft(); sleep(1) }   // Home press lands on page 0
+        }
         let origin = sb.coordinate(withNormalizedOffset: .zero)
         for p in pts {
             guard let want = p[0] as? String, let x = p[1] as? Double, let y = p[2] as? Double else { continue }
@@ -156,5 +158,67 @@ final class SurfaceTests: XCTestCase {
             sb.swipeLeft(); sleep(1)
         }
         XCUIDevice.shared.press(.home); sleep(1)
+    }
+
+    /// Exploratory: Lock Screen customisation (device must already be locked by the host).
+    /// SL_STEPS = comma list of labels to tap in order; dumps the tree after each step.
+    func testLockCustomize() {
+        let hold = UInt32(env["SL_HOLD"] ?? "3") ?? 3
+        if let a = env["SL_PRE"], !a.isEmpty { let e = sb.descendants(matching: .any).matching(NSPredicate(format: "label == %@", a)).firstMatch; if e.waitForExistence(timeout: 3) { e.tap(); sleep(2) } }
+        sb.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: Double(env["SL_LP_Y"] ?? "0.45") ?? 0.45)).press(forDuration: 2.5)
+        sleep(2)
+        emit("lc_tree", ["step": "longpress", "tree": String(sb.debugDescription.prefix(5000))])
+        emit("hold", ["what": "lc-0-longpress"]); sleep(hold)
+        for (i, l) in (env["SL_STEPS"] ?? "").split(separator: ",").map(String.init).enumerated() where !l.isEmpty {
+            let e = sb.descendants(matching: .any).matching(NSPredicate(format: "label == %@ OR identifier == %@", l, l)).firstMatch
+            let found = e.waitForExistence(timeout: 4)
+            if found { e.tap() }
+            sleep(2)
+            emit("lc_tree", ["step": l, "found": found, "tree": String(sb.debugDescription.prefix(5000))])
+            emit("hold", ["what": "lc-\(i + 1)"]); sleep(hold)
+        }
+    }
+
+    /// Exploratory: open Control Center (swipe down from the top-right corner) and dump its tree.
+    func testControlCenter() {
+        XCUIDevice.shared.press(.home); sleep(1)
+        let start = sb.coordinate(withNormalizedOffset: CGVector(dx: 0.92, dy: 0.005))
+        start.press(forDuration: 0.1, thenDragTo: sb.coordinate(withNormalizedOffset: CGVector(dx: 0.92, dy: 0.6)))
+        sleep(2)
+        emit("cc_tree", ["tree": String(sb.debugDescription.prefix(6000))])
+        emit("hold", ["what": "cc-open"]); sleep(UInt32(env["SL_HOLD"] ?? "3") ?? 3)
+        for (i, l) in (env["SL_STEPS"] ?? "").split(separator: ",").map(String.init).enumerated() where !l.isEmpty {
+            let e = sb.descendants(matching: .any).matching(NSPredicate(format: "label == %@ OR identifier == %@", l, l)).firstMatch
+            let found = e.waitForExistence(timeout: 4)
+            if found { e.tap() }
+            sleep(2)
+            emit("cc_tree", ["step": l, "found": found, "tree": String(sb.debugDescription.prefix(6000))])
+            emit("hold", ["what": "cc-\(i + 1)"]); sleep(UInt32(env["SL_HOLD"] ?? "3") ?? 3)
+        }
+        XCUIDevice.shared.press(.home); sleep(1)
+    }
+
+    /// Coordinate-only steps with host screenshots (for system UIs missing from the AX tree).
+    /// SL_OPEN_CC=1 opens Control Center first. SL_STEPS_XY = "x,y;x,y;…" (pt), "type:<text>" types text.
+    func testCoordSteps() {
+        let hold = UInt32(env["SL_HOLD"] ?? "2") ?? 2
+        if env["SL_NOHOME"] != "1" { XCUIDevice.shared.press(.home); sleep(1) }
+        if env["SL_OPEN_CC"] == "1" {
+            sb.coordinate(withNormalizedOffset: CGVector(dx: 0.92, dy: 0.005))
+                .press(forDuration: 0.1, thenDragTo: sb.coordinate(withNormalizedOffset: CGVector(dx: 0.92, dy: 0.6)))
+            sleep(2)
+        }
+        emit("hold", ["what": "step-0"]); sleep(hold)
+        let origin = sb.coordinate(withNormalizedOffset: .zero)
+        for (i, st) in (env["SL_STEPS_XY"] ?? "").split(separator: ";").map(String.init).enumerated() {
+            if st.hasPrefix("type:") { sb.typeText(String(st.dropFirst(5))) }
+            else {
+                let v = st.split(separator: ",").compactMap { Double($0) }
+                if v.count == 2 { origin.withOffset(CGVector(dx: v[0], dy: v[1])).tap() }
+                if v.count == 3 { origin.withOffset(CGVector(dx: v[0], dy: v[1])).press(forDuration: v[2]) }
+            }
+            sleep(2)
+            emit("hold", ["what": "step-\(i + 1)"]); sleep(hold)
+        }
     }
 }

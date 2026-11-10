@@ -1,0 +1,14 @@
+{
+ "events": [
+  [
+   14365,
+   "sl_control",
+   ""
+  ]
+ ],
+ "tap_pt": [
+  72,
+  189
+ ],
+ "note": "control added via CC edit mode (+ \u2192 Steuerelement hinzuf\u00fcgen \u2192 Agent Surface Control); persisted after reopening"
+}
