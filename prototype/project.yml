@@ -30,10 +30,11 @@ targets:
     sources:
       - path: Widget
       - path: Shared
+    info:
+      path: Widget/Info.plist
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.example.AgentWidgetLab.Widgets
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier: com.apple.widgetkit-extension
+        GENERATE_INFOPLIST_FILE: NO
         CODE_SIGN_ENTITLEMENTS: Widget/AgentWidgetExtension.entitlements
         TARGETED_DEVICE_FAMILY: "1"
