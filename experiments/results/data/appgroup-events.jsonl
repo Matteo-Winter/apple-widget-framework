@@ -1,0 +1,1183 @@
+{"d":"state=2 remote=false","e":"app_launch","p":"app","t":1794305118847}
+{"e":"scene_active","t":1794305119865,"p":"app"}
+{"e":"scene_inactive","p":"app","t":1794305175793}
+{"e":"scene_background","t":1794305176590,"p":"app"}
+{"p":"ext","rev":1,"d":"systemMedium","t":1794305400461,"e":"get_timeline"}
+{"e":"timeline_built","rev":1,"t":1794305400464,"d":"entries=1","p":"ext"}
+{"e":"get_timeline","rev":1,"d":"systemMedium","t":1794305420647,"p":"ext"}
+{"e":"timeline_built","rev":1,"t":1794305420648,"d":"entries=1","p":"ext"}
+{"d":"systemSmall","p":"ext","e":"get_timeline","t":1794305420668,"rev":1}
+{"d":"entries=1","p":"ext","e":"timeline_built","t":1794305420669,"rev":1}
+{"d":"systemSmall","e":"get_timeline","t":1794305498591,"rev":1,"p":"ext"}
+{"e":"timeline_built","rev":1,"d":"entries=1","t":1794305498591,"p":"ext"}
+{"d":"state=2 remote=false","p":"app","t":1794305498609,"e":"app_launch"}
+{"p":"ext","t":1794305498640,"e":"get_timeline","rev":1,"d":"systemMedium"}
+{"rev":1,"e":"timeline_built","t":1794305498641,"d":"entries=1","p":"ext"}
+{"d":"agentlab:\/\/preset\/decision?reload=1","t":1794305499403,"p":"app","e":"url_command"}
+{"d":"url decision-1 reload=true","e":"publish","t":1794305499406,"p":"app","rev":2}
+{"e":"surface_saved","t":1794305499407,"p":"app","rev":2,"d":"decision-1"}
+{"rev":2,"t":1794305499410,"p":"app","e":"reload_requested"}
+{"d":"systemMedium","rev":2,"t":1794305499500,"p":"ext","e":"get_timeline"}
+{"t":1794305499505,"p":"ext","e":"timeline_built","d":"entries=2","rev":2}
+{"t":1794305499721,"p":"ext","d":"systemSmall","rev":2,"e":"get_timeline"}
+{"e":"timeline_built","t":1794305499722,"p":"ext","rev":2,"d":"entries=2"}
+{"p":"app","t":1794305523636,"d":"state=2 remote=false","e":"app_launch"}
+{"p":"app","t":1794305524208,"e":"url_command","d":"agentlab:\/\/preset\/status?reload=1"}
+{"p":"app","t":1794305524210,"d":"url status-1 reload=true","e":"publish","rev":3}
+{"p":"app","t":1794305524210,"rev":3,"e":"surface_saved","d":"status-1"}
+{"e":"reload_requested","p":"app","t":1794305524214,"rev":3}
+{"d":"systemMedium","e":"get_timeline","p":"ext","t":1794305524265,"rev":3}
+{"d":"entries=1","e":"timeline_built","t":1794305524265,"p":"ext","rev":3}
+{"d":"systemSmall","rev":3,"e":"get_timeline","t":1794305524281,"p":"ext"}
+{"e":"timeline_built","p":"ext","rev":3,"d":"entries=1","t":1794305524281}
+{"t":1794305548342,"d":"state=2 remote=false","p":"app","e":"app_launch"}
+{"t":1794305548909,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command"}
+{"rev":4,"d":"url decision-1 reload=true","t":1794305548911,"p":"app","e":"publish"}
+{"rev":4,"d":"decision-1","t":1794305548913,"p":"app","e":"surface_saved"}
+{"t":1794305548915,"p":"app","rev":4,"e":"reload_requested"}
+{"p":"ext","e":"get_timeline","d":"systemMedium","rev":4,"t":1794305548962}
+{"p":"ext","d":"entries=2","e":"timeline_built","rev":4,"t":1794305548962}
+{"p":"ext","e":"get_timeline","d":"systemSmall","rev":4,"t":1794305549000}
+{"rev":4,"e":"timeline_built","t":1794305549001,"p":"ext","d":"entries=2"}
+{"p":"app","e":"app_launch","t":1794305573136,"d":"state=2 remote=false"}
+{"e":"url_command","p":"app","t":1794305573721,"d":"agentlab:\/\/preset\/status?reload=1"}
+{"p":"app","t":1794305573723,"e":"publish","rev":5,"d":"url status-1 reload=true"}
+{"e":"surface_saved","p":"app","t":1794305573724,"rev":5,"d":"status-1"}
+{"e":"reload_requested","p":"app","t":1794305573727,"rev":5}
+{"rev":5,"d":"systemMedium","e":"get_timeline","p":"ext","t":1794305573783}
+{"rev":5,"d":"entries=1","e":"timeline_built","p":"ext","t":1794305573783}
+{"p":"ext","d":"systemSmall","rev":5,"t":1794305573813,"e":"get_timeline"}
+{"p":"ext","d":"entries=1","rev":5,"t":1794305573814,"e":"timeline_built"}
+{"p":"app","e":"app_launch","t":1794305598067,"d":"state=2 remote=false"}
+{"e":"url_command","p":"app","t":1794305598619,"d":"agentlab:\/\/preset\/decision?reload=1"}
+{"e":"publish","t":1794305598622,"rev":6,"d":"url decision-1 reload=true","p":"app"}
+{"rev":6,"d":"decision-1","t":1794305598623,"e":"surface_saved","p":"app"}
+{"rev":6,"t":1794305598626,"e":"reload_requested","p":"app"}
+{"d":"systemSmall","p":"ext","e":"get_timeline","t":1794305598676,"rev":6}
+{"d":"entries=2","p":"ext","e":"timeline_built","t":1794305598677,"rev":6}
+{"rev":6,"e":"get_timeline","t":1794305598721,"d":"systemMedium","p":"ext"}
+{"rev":6,"e":"timeline_built","t":1794305598721,"d":"entries=2","p":"ext"}
+{"t":1794305622685,"d":"state=2 remote=false","e":"app_launch","p":"app"}
+{"t":1794305623263,"e":"url_command","p":"app","d":"agentlab:\/\/preset\/status?reload=1"}
+{"d":"url status-1 reload=true","rev":7,"p":"app","e":"publish","t":1794305623264}
+{"e":"surface_saved","p":"app","d":"status-1","t":1794305623265,"rev":7}
+{"p":"app","rev":7,"e":"reload_requested","t":1794305623268}
+{"p":"ext","e":"get_timeline","d":"systemMedium","rev":7,"t":1794305623316}
+{"p":"ext","rev":7,"t":1794305623316,"e":"timeline_built","d":"entries=1"}
+{"d":"systemSmall","t":1794305623332,"p":"ext","e":"get_timeline","rev":7}
+{"e":"timeline_built","p":"ext","d":"entries=1","rev":7,"t":1794305623332}
+{"p":"app","d":"state=2 remote=false","e":"app_launch","t":1794305647546}
+{"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","p":"app","t":1794305648110}
+{"p":"app","e":"publish","t":1794305648113,"rev":8,"d":"url decision-1 reload=true"}
+{"rev":8,"e":"surface_saved","d":"decision-1","p":"app","t":1794305648114}
+{"p":"app","e":"reload_requested","t":1794305648117,"rev":8}
+{"e":"get_timeline","d":"systemMedium","rev":8,"p":"ext","t":1794305648166}
+{"e":"timeline_built","d":"entries=2","rev":8,"p":"ext","t":1794305648166}
+{"rev":8,"d":"systemSmall","e":"get_timeline","p":"ext","t":1794305648202}
+{"rev":8,"d":"entries=2","e":"timeline_built","p":"ext","t":1794305648203}
+{"t":1794305672359,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"t":1794305673131,"d":"agentlab:\/\/preset\/status?reload=1","e":"url_command","p":"app"}
+{"t":1794305673133,"rev":9,"e":"publish","p":"app","d":"url status-1 reload=true"}
+{"t":1794305673134,"rev":9,"e":"surface_saved","p":"app","d":"status-1"}
+{"t":1794305673139,"e":"reload_requested","p":"app","rev":9}
+{"p":"ext","d":"systemSmall","e":"get_timeline","rev":9,"t":1794305673227}
+{"e":"timeline_built","p":"ext","rev":9,"d":"entries=1","t":1794305673228}
+{"rev":9,"p":"ext","e":"get_timeline","t":1794305673282,"d":"systemMedium"}
+{"rev":9,"d":"entries=1","e":"timeline_built","p":"ext","t":1794305673283}
+{"d":"state=2 remote=false","p":"app","e":"app_launch","t":1794305697848}
+{"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","t":1794305698428}
+{"d":"url decision-1 reload=true","p":"app","t":1794305698431,"e":"publish","rev":10}
+{"d":"decision-1","p":"app","t":1794305698432,"e":"surface_saved","rev":10}
+{"p":"app","rev":10,"t":1794305698436,"e":"reload_requested"}
+{"p":"ext","e":"get_timeline","t":1794305698503,"rev":10,"d":"systemSmall"}
+{"e":"timeline_built","rev":10,"d":"entries=2","p":"ext","t":1794305698504}
+{"t":1794305698555,"rev":10,"d":"systemMedium","p":"ext","e":"get_timeline"}
+{"t":1794305698556,"rev":10,"d":"entries=2","p":"ext","e":"timeline_built"}
+{"e":"app_launch","t":1794305723431,"p":"app","d":"state=2 remote=false"}
+{"t":1794305724010,"d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","p":"app"}
+{"t":1794305724012,"p":"app","e":"publish","rev":11,"d":"url decision-1 reload=true"}
+{"p":"app","d":"decision-1","e":"surface_saved","rev":11,"t":1794305724013}
+{"p":"app","e":"reload_requested","t":1794305724015,"rev":11}
+{"p":"ext","e":"get_timeline","d":"systemMedium","rev":11,"t":1794305724065}
+{"p":"ext","rev":11,"t":1794305724066,"e":"timeline_built","d":"entries=2"}
+{"d":"systemSmall","p":"ext","t":1794305724110,"e":"get_timeline","rev":11}
+{"d":"entries=2","p":"ext","e":"timeline_built","t":1794305724111,"rev":11}
+{"p":"app","t":1794305749174,"e":"app_launch","d":"state=2 remote=false"}
+{"t":1794305749752,"d":"agentlab:\/\/preset\/decision?reload=1","p":"app","e":"url_command"}
+{"t":1794305749754,"d":"url decision-1 reload=true","p":"app","rev":12,"e":"publish"}
+{"t":1794305749755,"d":"decision-1","p":"app","rev":12,"e":"surface_saved"}
+{"rev":12,"t":1794305749757,"p":"app","e":"reload_requested"}
+{"e":"get_timeline","rev":12,"d":"systemSmall","p":"ext","t":1794305749803}
+{"e":"timeline_built","rev":12,"d":"entries=2","p":"ext","t":1794305749804}
+{"e":"get_timeline","rev":12,"d":"systemMedium","t":1794305749847,"p":"ext"}
+{"e":"timeline_built","rev":12,"d":"entries=2","t":1794305749848,"p":"ext"}
+{"p":"app","d":"state=2 remote=false","t":1794305774871,"e":"app_launch"}
+{"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","t":1794305775453}
+{"e":"publish","t":1794305775454,"d":"url decision-1 reload=true","rev":13,"p":"app"}
+{"e":"surface_saved","t":1794305775455,"d":"decision-1","rev":13,"p":"app"}
+{"rev":13,"e":"reload_requested","t":1794305775457,"p":"app"}
+{"p":"ext","e":"get_timeline","d":"systemSmall","rev":13,"t":1794305775507}
+{"p":"ext","rev":13,"t":1794305775508,"e":"timeline_built","d":"entries=2"}
+{"t":1794305775556,"e":"get_timeline","rev":13,"d":"systemMedium","p":"ext"}
+{"e":"timeline_built","t":1794305775557,"rev":13,"d":"entries=2","p":"ext"}
+{"p":"app","d":"state=2 remote=false","t":1794305800452,"e":"app_launch"}
+{"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","t":1794305801027,"p":"app"}
+{"e":"publish","rev":14,"d":"url decision-1 reload=true","t":1794305801029,"p":"app"}
+{"e":"surface_saved","rev":14,"d":"decision-1","t":1794305801029,"p":"app"}
+{"t":1794305801032,"e":"reload_requested","rev":14,"p":"app"}
+{"e":"get_timeline","rev":14,"p":"ext","t":1794305801080,"d":"systemSmall"}
+{"e":"timeline_built","rev":14,"t":1794305801080,"p":"ext","d":"entries=2"}
+{"p":"ext","d":"systemMedium","t":1794305801124,"e":"get_timeline","rev":14}
+{"p":"ext","d":"entries=2","t":1794305801124,"e":"timeline_built","rev":14}
+{"t":1794305826092,"e":"app_launch","p":"app","d":"state=2 remote=false"}
+{"p":"app","e":"url_command","t":1794305826766,"d":"agentlab:\/\/preset\/decision?reload=1"}
+{"e":"publish","d":"url decision-1 reload=true","t":1794305826768,"rev":15,"p":"app"}
+{"rev":15,"p":"app","e":"surface_saved","t":1794305826769,"d":"decision-1"}
+{"rev":15,"p":"app","e":"reload_requested","t":1794305826771}
+{"p":"ext","t":1794305826839,"d":"systemMedium","rev":15,"e":"get_timeline"}
+{"p":"ext","t":1794305826840,"d":"entries=2","rev":15,"e":"timeline_built"}
+{"rev":15,"d":"systemSmall","e":"get_timeline","p":"ext","t":1794305826897}
+{"rev":15,"d":"entries=2","e":"timeline_built","p":"ext","t":1794305826899}
+{"t":1794305851950,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","p":"app","t":1794305852559}
+{"rev":16,"e":"publish","d":"url decision-1 reload=true","t":1794305852561,"p":"app"}
+{"rev":16,"e":"surface_saved","d":"decision-1","t":1794305852562,"p":"app"}
+{"t":1794305852565,"p":"app","rev":16,"e":"reload_requested"}
+{"e":"get_timeline","rev":16,"d":"systemSmall","p":"ext","t":1794305852616}
+{"t":1794305852617,"d":"entries=2","e":"timeline_built","rev":16,"p":"ext"}
+{"rev":16,"d":"systemMedium","e":"get_timeline","p":"ext","t":1794305852663}
+{"d":"entries=2","p":"ext","e":"timeline_built","t":1794305852664,"rev":16}
+{"p":"app","t":1794305877538,"e":"app_launch","d":"state=2 remote=false"}
+{"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","t":1794305878158}
+{"p":"app","rev":17,"d":"url decision-1 reload=true","e":"publish","t":1794305878161}
+{"p":"app","rev":17,"d":"decision-1","t":1794305878161,"e":"surface_saved"}
+{"p":"app","rev":17,"e":"reload_requested","t":1794305878164}
+{"p":"ext","e":"get_timeline","d":"systemSmall","rev":17,"t":1794305878218}
+{"p":"ext","e":"timeline_built","d":"entries=2","rev":17,"t":1794305878219}
+{"rev":17,"d":"systemMedium","e":"get_timeline","p":"ext","t":1794305878270}
+{"rev":17,"d":"entries=2","e":"timeline_built","p":"ext","t":1794305878271}
+{"p":"app","d":"state=2 remote=false","e":"app_launch","t":1794305903149}
+{"e":"url_command","t":1794305903717,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"d":"url decision-1 reload=true","t":1794305903719,"rev":18,"e":"publish","p":"app"}
+{"d":"decision-1","t":1794305903720,"rev":18,"e":"surface_saved","p":"app"}
+{"e":"reload_requested","rev":18,"t":1794305903723,"p":"app"}
+{"d":"systemSmall","rev":18,"p":"ext","t":1794305903769,"e":"get_timeline"}
+{"d":"entries=2","rev":18,"p":"ext","t":1794305903770,"e":"timeline_built"}
+{"rev":18,"d":"systemMedium","e":"get_timeline","p":"ext","t":1794305903816}
+{"rev":18,"d":"entries=2","e":"timeline_built","p":"ext","t":1794305903817}
+{"d":"state=2 remote=false","p":"app","t":1794305929596,"e":"app_launch"}
+{"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","p":"app","t":1794305931395}
+{"t":1794305931403,"d":"url decision-1 reload=true","e":"publish","p":"app","rev":19}
+{"d":"decision-1","e":"surface_saved","p":"app","t":1794305931409,"rev":19}
+{"t":1794305931420,"p":"app","e":"reload_requested","rev":19}
+{"e":"get_timeline","p":"ext","rev":19,"d":"systemSmall","t":1794305932472}
+{"rev":19,"d":"entries=2","p":"ext","e":"timeline_built","t":1794305932477}
+{"d":"systemMedium","t":1794305933308,"e":"get_timeline","p":"ext","rev":19}
+{"e":"timeline_built","t":1794305933321,"p":"ext","rev":19,"d":"entries=2"}
+{"p":"app","t":1794306002653,"d":"state=2 remote=false","e":"app_launch"}
+{"e":"get_timeline","p":"ext","t":1794306002863,"d":"systemMedium","rev":19}
+{"d":"entries=2","t":1794306002867,"rev":19,"p":"ext","e":"timeline_built"}
+{"d":"systemSmall","e":"get_timeline","p":"ext","t":1794306003007,"rev":19}
+{"e":"timeline_built","p":"ext","d":"entries=2","t":1794306003009,"rev":19}
+{"t":1794306003595,"p":"app","e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"e":"publish","rev":20,"p":"app","t":1794306003597,"d":"url decision-1 reload=true"}
+{"rev":20,"e":"surface_saved","p":"app","t":1794306003598,"d":"decision-1"}
+{"t":1794306003602,"p":"app","rev":20,"e":"reload_requested"}
+{"t":1794306003617,"p":"app","e":"scene_active"}
+{"t":1794306003657,"e":"get_timeline","rev":20,"p":"ext","d":"systemSmall"}
+{"p":"ext","t":1794306003658,"e":"timeline_built","rev":20,"d":"entries=2"}
+{"e":"get_timeline","d":"systemMedium","t":1794306003739,"p":"ext","rev":20}
+{"p":"ext","e":"timeline_built","rev":20,"t":1794306003740,"d":"entries=2"}
+{"p":"app","e":"scene_inactive","t":1794306004983}
+{"e":"scene_background","t":1794306005690,"p":"app"}
+{"e":"get_timeline","d":"systemMedium","rev":20,"t":1794306057439,"p":"ext"}
+{"t":1794306057444,"d":"entries=2","p":"ext","e":"timeline_built","rev":20}
+{"rev":20,"e":"get_timeline","t":1794306057601,"p":"ext","d":"systemSmall"}
+{"d":"entries=2","e":"timeline_built","p":"ext","rev":20,"t":1794306057602}
+{"t":1794306057517,"p":"app","d":"state=2 remote=false","e":"app_launch"}
+{"p":"app","t":1794306058671,"d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command"}
+{"t":1794306058675,"p":"app","rev":21,"d":"url decision-1 reload=true","e":"publish"}
+{"p":"app","t":1794306058677,"rev":21,"d":"decision-1","e":"surface_saved"}
+{"t":1794306058685,"rev":21,"p":"app","e":"reload_requested"}
+{"e":"scene_active","p":"app","t":1794306058737}
+{"p":"ext","t":1794306058951,"e":"get_timeline","rev":21,"d":"systemSmall"}
+{"rev":21,"d":"entries=2","p":"ext","t":1794306058953,"e":"timeline_built"}
+{"e":"get_timeline","t":1794306059047,"d":"systemMedium","p":"ext","rev":21}
+{"t":1794306059048,"d":"entries=2","e":"timeline_built","rev":21,"p":"ext"}
+{"e":"scene_inactive","p":"app","t":1794306060151}
+{"e":"scene_background","p":"app","t":1794306060921}
+{"d":"state=2 remote=false","e":"app_launch","t":1794306066048,"p":"app"}
+{"t":1794306066828,"p":"app","d":"agentlab:\/\/preset\/status?reload=1","e":"url_command"}
+{"e":"publish","d":"url status-1 reload=true","t":1794306066831,"rev":22,"p":"app"}
+{"d":"status-1","p":"app","e":"surface_saved","rev":22,"t":1794306066833}
+{"e":"reload_requested","t":1794306066843,"rev":22,"p":"app"}
+{"t":1794306066882,"p":"app","e":"scene_active"}
+{"t":1794306067087,"d":"systemSmall","e":"get_timeline","rev":22,"p":"ext"}
+{"rev":22,"p":"ext","t":1794306067089,"d":"entries=1","e":"timeline_built"}
+{"e":"get_timeline","t":1794306067156,"d":"systemMedium","rev":22,"p":"ext"}
+{"rev":22,"t":1794306067157,"e":"timeline_built","p":"ext","d":"entries=1"}
+{"p":"app","e":"scene_inactive","t":1794306068350}
+{"e":"scene_background","t":1794306069024,"p":"app"}
+{"p":"app","d":"state=2 remote=false","e":"app_launch","t":1794306071911}
+{"d":"agentlab:\/\/preset\/decision?reload=1","t":1794306072489,"p":"app","e":"url_command"}
+{"p":"app","e":"publish","t":1794306072492,"rev":23,"d":"url decision-1 reload=true"}
+{"p":"app","e":"surface_saved","t":1794306072493,"rev":23,"d":"decision-1"}
+{"rev":23,"t":1794306072497,"e":"reload_requested","p":"app"}
+{"t":1794306072509,"e":"scene_active","p":"app"}
+{"t":1794306072571,"e":"get_timeline","d":"systemMedium","p":"ext","rev":23}
+{"rev":23,"d":"entries=2","p":"ext","e":"timeline_built","t":1794306072572}
+{"rev":23,"t":1794306072627,"e":"get_timeline","p":"ext","d":"systemSmall"}
+{"t":1794306072629,"e":"timeline_built","p":"ext","rev":23,"d":"entries=2"}
+{"t":1794306073837,"p":"app","e":"scene_inactive"}
+{"e":"scene_background","t":1794306074490,"p":"app"}
+{"t":1794306078306,"p":"app","d":"state=2 remote=false","e":"app_launch"}
+{"p":"app","d":"agentlab:\/\/preset\/status?reload=1","t":1794306079116,"e":"url_command"}
+{"d":"url status-1 reload=true","p":"app","t":1794306079118,"rev":24,"e":"publish"}
+{"t":1794306079119,"p":"app","e":"surface_saved","rev":24,"d":"status-1"}
+{"t":1794306079124,"p":"app","e":"reload_requested","rev":24}
+{"t":1794306079150,"p":"app","e":"scene_active"}
+{"e":"get_timeline","p":"ext","t":1794306079213,"rev":24,"d":"systemSmall"}
+{"p":"ext","rev":24,"e":"timeline_built","d":"entries=1","t":1794306079215}
+{"p":"ext","t":1794306079250,"e":"get_timeline","rev":24,"d":"systemMedium"}
+{"e":"timeline_built","t":1794306079250,"d":"entries=1","p":"ext","rev":24}
+{"e":"scene_inactive","t":1794306080485,"p":"app"}
+{"e":"scene_background","t":1794306081127,"p":"app"}
+{"e":"app_launch","p":"app","t":1794306084758,"d":"state=2 remote=false"}
+{"d":"agentlab:\/\/preset\/decision?reload=1","p":"app","e":"url_command","t":1794306085321}
+{"d":"url decision-1 reload=true","t":1794306085325,"p":"app","rev":25,"e":"publish"}
+{"e":"surface_saved","p":"app","t":1794306085327,"rev":25,"d":"decision-1"}
+{"p":"app","e":"reload_requested","t":1794306085330,"rev":25}
+{"t":1794306085346,"p":"app","e":"scene_active"}
+{"e":"get_timeline","d":"systemMedium","rev":25,"p":"ext","t":1794306085419}
+{"e":"timeline_built","d":"entries=2","t":1794306085421,"p":"ext","rev":25}
+{"rev":25,"p":"ext","t":1794306085509,"e":"get_timeline","d":"systemSmall"}
+{"e":"timeline_built","d":"entries=2","t":1794306085512,"p":"ext","rev":25}
+{"e":"scene_inactive","t":1794306086715,"p":"app"}
+{"p":"app","e":"scene_background","t":1794306087376}
+{"p":"app","d":"state=2 remote=false","e":"app_launch","t":1794306091335}
+{"e":"url_command","d":"agentlab:\/\/preset\/status?reload=1","t":1794306091876,"p":"app"}
+{"t":1794306091877,"p":"app","e":"publish","rev":26,"d":"url status-1 reload=true"}
+{"p":"app","t":1794306091878,"d":"status-1","e":"surface_saved","rev":26}
+{"e":"reload_requested","t":1794306091881,"p":"app","rev":26}
+{"t":1794306091891,"e":"scene_active","p":"app"}
+{"p":"ext","e":"get_timeline","rev":26,"d":"systemMedium","t":1794306091924}
+{"e":"timeline_built","t":1794306091925,"d":"entries=1","p":"ext","rev":26}
+{"e":"get_timeline","t":1794306091938,"rev":26,"p":"ext","d":"systemSmall"}
+{"e":"timeline_built","t":1794306091939,"rev":26,"p":"ext","d":"entries=1"}
+{"e":"scene_inactive","t":1794306093217,"p":"app"}
+{"p":"app","t":1794306093854,"e":"scene_background"}
+{"t":1794306096604,"d":"state=2 remote=false","p":"app","e":"app_launch"}
+{"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","t":1794306097120,"p":"app"}
+{"p":"app","t":1794306097122,"rev":27,"d":"url decision-1 reload=true","e":"publish"}
+{"t":1794306097123,"d":"decision-1","rev":27,"p":"app","e":"surface_saved"}
+{"rev":27,"t":1794306097126,"p":"app","e":"reload_requested"}
+{"p":"app","t":1794306097141,"e":"scene_active"}
+{"t":1794306097167,"p":"ext","rev":27,"d":"systemMedium","e":"get_timeline"}
+{"p":"ext","e":"timeline_built","rev":27,"d":"entries=2","t":1794306097169}
+{"p":"ext","e":"get_timeline","rev":27,"d":"systemSmall","t":1794306097205}
+{"e":"timeline_built","rev":27,"t":1794306097206,"d":"entries=2","p":"ext"}
+{"t":1794306098463,"p":"app","e":"scene_inactive"}
+{"p":"app","e":"scene_background","t":1794306099109}
+{"e":"app_launch","d":"state=2 remote=false","p":"app","t":1794306102891}
+{"p":"app","t":1794306103454,"d":"agentlab:\/\/preset\/status?reload=1","e":"url_command"}
+{"p":"app","t":1794306103455,"d":"url status-1 reload=true","e":"publish","rev":28}
+{"d":"status-1","t":1794306103456,"e":"surface_saved","rev":28,"p":"app"}
+{"t":1794306103458,"p":"app","rev":28,"e":"reload_requested"}
+{"t":1794306103469,"e":"scene_active","p":"app"}
+{"e":"get_timeline","d":"systemMedium","rev":28,"t":1794306103502,"p":"ext"}
+{"e":"timeline_built","d":"entries=1","rev":28,"t":1794306103503,"p":"ext"}
+{"p":"ext","rev":28,"e":"get_timeline","d":"systemSmall","t":1794306103517}
+{"t":1794306103517,"p":"ext","rev":28,"d":"entries=1","e":"timeline_built"}
+{"e":"scene_inactive","p":"app","t":1794306104830}
+{"e":"scene_background","t":1794306105471,"p":"app"}
+{"t":1794306108851,"d":"state=2 remote=false","p":"app","e":"app_launch"}
+{"e":"url_command","t":1794306109387,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"p":"app","t":1794306109390,"e":"publish","rev":29,"d":"url decision-1 reload=true"}
+{"p":"app","t":1794306109391,"e":"surface_saved","rev":29,"d":"decision-1"}
+{"p":"app","e":"reload_requested","rev":29,"t":1794306109394}
+{"t":1794306109409,"p":"app","e":"scene_active"}
+{"e":"get_timeline","d":"systemMedium","rev":29,"t":1794306109435,"p":"ext"}
+{"p":"ext","t":1794306109436,"rev":29,"d":"entries=2","e":"timeline_built"}
+{"e":"get_timeline","d":"systemSmall","rev":29,"t":1794306109474,"p":"ext"}
+{"p":"ext","e":"timeline_built","t":1794306109475,"d":"entries=2","rev":29}
+{"e":"scene_inactive","t":1794306110732,"p":"app"}
+{"t":1794306111390,"p":"app","e":"scene_background"}
+{"p":"ext","e":"action_received","t":1794306114335,"rev":29,"d":"widget decision-1\/investigate"}
+{"e":"surface_saved","t":1794306114346,"p":"ext","rev":30,"d":"decision-1"}
+{"t":1794306114426,"d":"77ms Verbindung zum Server konnte nicht hergestellt werden.","e":"bridge_post_failed","p":"ext"}
+{"t":1794306114427,"rev":30,"e":"action_done","p":"ext","d":"delivered=false"}
+{"e":"get_timeline","rev":30,"d":"systemMedium","p":"ext","t":1794306114476}
+{"t":1794306114477,"e":"timeline_built","d":"entries=2","p":"ext","rev":30}
+{"e":"get_timeline","rev":30,"d":"systemSmall","p":"ext","t":1794306114597}
+{"t":1794306114598,"p":"ext","rev":30,"e":"timeline_built","d":"entries=2"}
+{"p":"app","e":"app_launch","t":1794306117237,"d":"state=2 remote=false"}
+{"d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","p":"app","t":1794306117809}
+{"p":"app","t":1794306117811,"e":"publish","rev":31,"d":"url decision-1 reload=true"}
+{"p":"app","t":1794306117812,"e":"surface_saved","rev":31,"d":"decision-1"}
+{"e":"reload_requested","t":1794306117815,"rev":31,"p":"app"}
+{"t":1794306117840,"p":"app","e":"scene_active"}
+{"t":1794306117849,"e":"bridge_post_failed","d":"39ms Could not connect to the server.","p":"app"}
+{"e":"get_timeline","rev":31,"d":"systemSmall","p":"ext","t":1794306117859}
+{"e":"timeline_built","rev":31,"d":"entries=2","p":"ext","t":1794306117860}
+{"rev":31,"t":1794306117908,"d":"systemMedium","e":"get_timeline","p":"ext"}
+{"p":"ext","d":"entries=2","t":1794306117909,"e":"timeline_built","rev":31}
+{"p":"app","e":"scene_inactive","t":1794306119167}
+{"p":"app","t":1794306119825,"e":"scene_background"}
+{"d":"widget decision-1\/investigate","rev":31,"p":"ext","e":"action_received","t":1794306122561}
+{"p":"ext","rev":32,"d":"decision-1","t":1794306122565,"e":"surface_saved"}
+{"e":"bridge_post_failed","p":"ext","d":"4ms Verbindung zum Server konnte nicht hergestellt werden.","t":1794306122570}
+{"rev":32,"t":1794306122570,"d":"delivered=false","p":"ext","e":"action_done"}
+{"e":"get_timeline","rev":32,"p":"ext","d":"systemMedium","t":1794306122604}
+{"e":"timeline_built","t":1794306122605,"rev":32,"p":"ext","d":"entries=2"}
+{"e":"get_timeline","t":1794306122633,"p":"ext","rev":32,"d":"systemSmall"}
+{"e":"timeline_built","t":1794306122634,"p":"ext","rev":32,"d":"entries=2"}
+{"e":"app_launch","d":"state=2 remote=false","p":"app","t":1794306125272}
+{"e":"url_command","t":1794306125851,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"t":1794306125853,"d":"url decision-1 reload=true","p":"app","e":"publish","rev":33}
+{"p":"app","e":"surface_saved","d":"decision-1","rev":33,"t":1794306125854}
+{"e":"reload_requested","t":1794306125858,"rev":33,"p":"app"}
+{"p":"app","t":1794306125889,"e":"scene_active"}
+{"d":"41ms Could not connect to the server.","p":"app","e":"bridge_post_failed","t":1794306125894}
+{"p":"app","e":"bridge_post_failed","t":1794306125900,"d":"5ms Could not connect to the server."}
+{"e":"get_timeline","rev":33,"d":"systemMedium","p":"ext","t":1794306125913}
+{"e":"timeline_built","rev":33,"d":"entries=2","p":"ext","t":1794306125913}
+{"e":"get_timeline","rev":33,"d":"systemSmall","p":"ext","t":1794306125952}
+{"e":"timeline_built","rev":33,"d":"entries=2","p":"ext","t":1794306125952}
+{"e":"scene_inactive","p":"app","t":1794306127215}
+{"p":"app","e":"scene_background","t":1794306127859}
+{"rev":33,"e":"action_received","p":"ext","d":"widget decision-1\/investigate","t":1794306130602}
+{"rev":34,"p":"ext","t":1794306130605,"d":"decision-1","e":"surface_saved"}
+{"t":1794306130608,"e":"bridge_post_failed","p":"ext","d":"2ms Verbindung zum Server konnte nicht hergestellt werden."}
+{"t":1794306130609,"rev":34,"d":"delivered=false","p":"ext","e":"action_done"}
+{"e":"get_timeline","rev":34,"p":"ext","d":"systemSmall","t":1794306130652}
+{"t":1794306130653,"rev":34,"e":"timeline_built","p":"ext","d":"entries=2"}
+{"rev":34,"t":1794306130714,"d":"systemMedium","p":"ext","e":"get_timeline"}
+{"e":"timeline_built","rev":34,"d":"entries=2","p":"ext","t":1794306130716}
+{"t":1794306134474,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command","t":1794306135501}
+{"p":"app","d":"url decision-1 reload=true","e":"publish","t":1794306135503,"rev":35}
+{"p":"app","t":1794306135505,"e":"surface_saved","rev":35,"d":"decision-1"}
+{"p":"app","t":1794306135508,"e":"reload_requested","rev":35}
+{"p":"app","t":1794306135553,"e":"scene_active"}
+{"t":1794306135722,"p":"ext","d":"systemMedium","rev":35,"e":"get_timeline"}
+{"p":"ext","t":1794306135724,"e":"timeline_built","rev":35,"d":"entries=2"}
+{"p":"ext","e":"get_timeline","t":1794306135798,"rev":35,"d":"systemSmall"}
+{"d":"entries=2","t":1794306135800,"rev":35,"p":"ext","e":"timeline_built"}
+{"t":1794306135818,"e":"bridge_post_failed","d":"310ms Could not connect to the server.","p":"app"}
+{"p":"app","t":1794306135860,"d":"39ms Could not connect to the server.","e":"bridge_post_failed"}
+{"p":"app","t":1794306135901,"d":"40ms Could not connect to the server.","e":"bridge_post_failed"}
+{"p":"app","e":"scene_inactive","t":1794306136984}
+{"e":"scene_background","t":1794306137643,"p":"app"}
+{"p":"ext","e":"action_received","t":1794306140386,"d":"widget decision-1\/investigate","rev":35}
+{"p":"ext","e":"surface_saved","t":1794306140389,"d":"decision-1","rev":36}
+{"e":"bridge_post_failed","d":"3ms Verbindung zum Server konnte nicht hergestellt werden.","p":"ext","t":1794306140392}
+{"e":"action_done","d":"delivered=false","rev":36,"t":1794306140393,"p":"ext"}
+{"d":"systemSmall","t":1794306140422,"e":"get_timeline","p":"ext","rev":36}
+{"e":"timeline_built","p":"ext","rev":36,"d":"entries=2","t":1794306140423}
+{"rev":36,"t":1794306140450,"d":"systemMedium","e":"get_timeline","p":"ext"}
+{"e":"timeline_built","rev":36,"t":1794306140451,"p":"ext","d":"entries=2"}
+{"d":"state=2 remote=false","e":"app_launch","p":"app","t":1794306143186}
+{"d":"agentlab:\/\/preset\/decision?reload=1","t":1794306143772,"p":"app","e":"url_command"}
+{"p":"app","d":"url decision-1 reload=true","t":1794306143774,"rev":37,"e":"publish"}
+{"p":"app","t":1794306143775,"d":"decision-1","e":"surface_saved","rev":37}
+{"rev":37,"p":"app","t":1794306143779,"e":"reload_requested"}
+{"p":"app","e":"scene_active","t":1794306143793}
+{"p":"app","e":"bridge_post_failed","t":1794306143808,"d":"34ms Could not connect to the server."}
+{"e":"bridge_post_failed","t":1794306143817,"d":"8ms Could not connect to the server.","p":"app"}
+{"e":"get_timeline","rev":37,"d":"systemMedium","p":"ext","t":1794306143838}
+{"e":"timeline_built","rev":37,"d":"entries=2","p":"ext","t":1794306143839}
+{"d":"33ms Could not connect to the server.","p":"app","t":1794306143851,"e":"bridge_post_failed"}
+{"e":"get_timeline","rev":37,"d":"systemSmall","p":"ext","t":1794306143876}
+{"e":"timeline_built","rev":37,"d":"entries=2","p":"ext","t":1794306143876}
+{"t":1794306143883,"p":"app","e":"bridge_post_failed","d":"31ms Could not connect to the server."}
+{"p":"app","e":"scene_inactive","t":1794306145123}
+{"e":"scene_background","t":1794306145771,"p":"app"}
+{"rev":37,"d":"widget decision-1\/investigate","t":1794306148502,"p":"ext","e":"action_received"}
+{"e":"surface_saved","t":1794306148504,"p":"ext","rev":38,"d":"decision-1"}
+{"e":"bridge_post_failed","p":"ext","d":"4ms Verbindung zum Server konnte nicht hergestellt werden.","t":1794306148509}
+{"t":1794306148510,"rev":38,"e":"action_done","p":"ext","d":"delivered=false"}
+{"e":"get_timeline","t":1794306148539,"p":"ext","rev":38,"d":"systemSmall"}
+{"d":"entries=2","t":1794306148540,"e":"timeline_built","p":"ext","rev":38}
+{"e":"get_timeline","rev":38,"d":"systemMedium","p":"ext","t":1794306148566}
+{"e":"timeline_built","rev":38,"d":"entries=2","p":"ext","t":1794306148566}
+{"d":"state=2 remote=false","e":"app_launch","p":"app","t":1794306151217}
+{"p":"app","t":1794306151790,"e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"rev":39,"d":"url decision-1 reload=true","e":"publish","t":1794306151792,"p":"app"}
+{"t":1794306151793,"rev":39,"e":"surface_saved","d":"decision-1","p":"app"}
+{"e":"reload_requested","t":1794306151796,"rev":39,"p":"app"}
+{"t":1794306151820,"e":"bridge_post_failed","p":"app","d":"29ms Could not connect to the server."}
+{"p":"app","e":"scene_active","t":1794306151822}
+{"p":"app","t":1794306151826,"e":"bridge_post_failed","d":"5ms Could not connect to the server."}
+{"e":"bridge_post_failed","p":"app","d":"7ms Could not connect to the server.","t":1794306151834}
+{"e":"bridge_post_failed","t":1794306151840,"d":"4ms Could not connect to the server.","p":"app"}
+{"e":"get_timeline","t":1794306151841,"p":"ext","rev":39,"d":"systemMedium"}
+{"e":"timeline_built","t":1794306151841,"p":"ext","rev":39,"d":"entries=2"}
+{"d":"3ms Could not connect to the server.","p":"app","t":1794306151844,"e":"bridge_post_failed"}
+{"e":"get_timeline","rev":39,"d":"systemSmall","p":"ext","t":1794306151877}
+{"e":"timeline_built","rev":39,"d":"entries=2","p":"ext","t":1794306151878}
+{"e":"scene_inactive","t":1794306153134,"p":"app"}
+{"e":"scene_background","p":"app","t":1794306153792}
+{"p":"ext","d":"widget decision-1\/investigate","t":1794306156501,"e":"action_received","rev":39}
+{"p":"ext","e":"surface_saved","rev":40,"d":"decision-1","t":1794306156504}
+{"e":"bridge_post_failed","p":"ext","d":"2ms Verbindung zum Server konnte nicht hergestellt werden.","t":1794306156507}
+{"e":"action_done","rev":40,"p":"ext","d":"delivered=false","t":1794306156508}
+{"e":"get_timeline","rev":40,"d":"systemSmall","p":"ext","t":1794306156540}
+{"e":"timeline_built","rev":40,"d":"entries=2","p":"ext","t":1794306156540}
+{"e":"get_timeline","rev":40,"d":"systemMedium","p":"ext","t":1794306156568}
+{"e":"timeline_built","rev":40,"d":"entries=2","p":"ext","t":1794306156568}
+{"p":"app","d":"state=2 remote=false","e":"app_launch","t":1794306159313}
+{"t":1794306159903,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command"}
+{"rev":41,"t":1794306159905,"p":"app","d":"url decision-1 reload=true","e":"publish"}
+{"e":"surface_saved","t":1794306159906,"p":"app","d":"decision-1","rev":41}
+{"e":"reload_requested","p":"app","t":1794306159909,"rev":41}
+{"t":1794306159932,"e":"bridge_post_failed","p":"app","d":"28ms Could not connect to the server."}
+{"p":"app","e":"scene_active","t":1794306159933}
+{"d":"6ms Could not connect to the server.","t":1794306159939,"p":"app","e":"bridge_post_failed"}
+{"t":1794306159951,"e":"bridge_post_failed","d":"11ms Could not connect to the server.","p":"app"}
+{"p":"ext","e":"get_timeline","rev":41,"d":"systemSmall","t":1794306159956}
+{"e":"timeline_built","p":"ext","rev":41,"d":"entries=2","t":1794306159956}
+{"p":"app","e":"bridge_post_failed","d":"5ms Could not connect to the server.","t":1794306159957}
+{"e":"bridge_post_failed","p":"app","t":1794306159960,"d":"3ms Could not connect to the server."}
+{"e":"bridge_post_failed","p":"app","t":1794306159965,"d":"3ms Could not connect to the server."}
+{"e":"get_timeline","rev":41,"p":"ext","d":"systemMedium","t":1794306160000}
+{"e":"timeline_built","rev":41,"p":"ext","d":"entries=2","t":1794306160001}
+{"p":"app","e":"scene_inactive","t":1794306161282}
+{"t":1794306161938,"p":"app","e":"scene_background"}
+{"e":"action_received","p":"ext","t":1794306164653,"rev":41,"d":"widget decision-1\/investigate"}
+{"rev":42,"t":1794306164656,"d":"decision-1","e":"surface_saved","p":"ext"}
+{"e":"bridge_post_failed","d":"2ms Verbindung zum Server konnte nicht hergestellt werden.","p":"ext","t":1794306164659}
+{"e":"action_done","rev":42,"d":"delivered=false","p":"ext","t":1794306164659}
+{"e":"get_timeline","rev":42,"d":"systemMedium","p":"ext","t":1794306164690}
+{"e":"timeline_built","rev":42,"d":"entries=2","p":"ext","t":1794306164691}
+{"rev":42,"t":1794306164714,"d":"systemSmall","p":"ext","e":"get_timeline"}
+{"e":"timeline_built","rev":42,"t":1794306164715,"p":"ext","d":"entries=2"}
+{"t":1794306168081,"d":"state=2 remote=false","e":"app_launch","p":"app"}
+{"e":"url_command","p":"app","d":"agentlab:\/\/preset\/decision?reload=1","t":1794306168653}
+{"e":"publish","rev":43,"p":"app","d":"url decision-1 reload=true","t":1794306168655}
+{"p":"app","t":1794306168656,"e":"surface_saved","rev":43,"d":"decision-1"}
+{"p":"app","rev":43,"t":1794306168659,"e":"reload_requested"}
+{"e":"scene_active","t":1794306168679,"p":"app"}
+{"p":"app","e":"bridge_post_failed","t":1794306168683,"d":"29ms Could not connect to the server."}
+{"e":"bridge_post_failed","p":"app","d":"6ms Could not connect to the server.","t":1794306168692}
+{"e":"bridge_post_failed","t":1794306168696,"p":"app","d":"3ms Could not connect to the server."}
+{"t":1794306168707,"p":"app","d":"9ms Could not connect to the server.","e":"bridge_post_failed"}
+{"t":1794306168708,"rev":43,"e":"get_timeline","p":"ext","d":"systemSmall"}
+{"t":1794306168709,"rev":43,"e":"timeline_built","p":"ext","d":"entries=2"}
+{"e":"bridge_post_failed","d":"5ms Could not connect to the server.","t":1794306168713,"p":"app"}
+{"e":"get_timeline","rev":43,"d":"systemMedium","p":"ext","t":1794306168756}
+{"e":"timeline_built","rev":43,"d":"entries=2","p":"ext","t":1794306168756}
+{"p":"app","d":"47ms Could not connect to the server.","e":"bridge_post_failed","t":1794306168761}
+{"e":"bridge_post_failed","p":"app","d":"43ms Could not connect to the server.","t":1794306168817}
+{"p":"app","e":"scene_inactive","t":1794306170002}
+{"p":"app","e":"scene_background","t":1794306170656}
+{"e":"action_received","d":"widget decision-1\/investigate","p":"ext","rev":43,"t":1794306173386}
+{"e":"surface_saved","rev":44,"p":"ext","d":"decision-1","t":1794306173389}
+{"e":"bridge_post_failed","p":"ext","d":"2ms Verbindung zum Server konnte nicht hergestellt werden.","t":1794306173392}
+{"e":"action_done","rev":44,"d":"delivered=false","p":"ext","t":1794306173392}
+{"e":"get_timeline","rev":44,"d":"systemMedium","p":"ext","t":1794306173421}
+{"e":"timeline_built","rev":44,"d":"entries=2","p":"ext","t":1794306173422}
+{"e":"get_timeline","rev":44,"d":"systemSmall","p":"ext","t":1794306173447}
+{"e":"timeline_built","p":"ext","t":1794306173448,"rev":44,"d":"entries=2"}
+{"d":"state=2 remote=false","p":"app","e":"app_launch","t":1794306176560}
+{"p":"app","e":"url_command","t":1794306177387,"d":"agentlab:\/\/preset\/decision?reload=1"}
+{"e":"publish","p":"app","t":1794306177390,"rev":45,"d":"url decision-1 reload=true"}
+{"t":1794306177392,"p":"app","rev":45,"e":"surface_saved","d":"decision-1"}
+{"e":"reload_requested","p":"app","rev":45,"t":1794306177396}
+{"p":"app","t":1794306177421,"e":"scene_active"}
+{"e":"get_timeline","rev":45,"p":"ext","d":"systemSmall","t":1794306177457}
+{"e":"timeline_built","rev":45,"p":"ext","d":"entries=2","t":1794306177459}
+{"p":"app","d":"129ms Could not connect to the server.","t":1794306177518,"e":"bridge_post_failed"}
+{"e":"get_timeline","t":1794306177595,"p":"ext","d":"systemMedium","rev":45}
+{"e":"timeline_built","t":1794306177600,"p":"ext","d":"entries=2","rev":45}
+{"p":"app","t":1794306177657,"e":"bridge_post_failed","d":"136ms Could not connect to the server."}
+{"p":"app","t":1794306177736,"e":"bridge_post_failed","d":"78ms Could not connect to the server."}
+{"e":"bridge_post_failed","d":"49ms Could not connect to the server.","t":1794306177787,"p":"app"}
+{"p":"app","e":"bridge_post_failed","t":1794306177824,"d":"35ms Could not connect to the server."}
+{"e":"bridge_post_failed","t":1794306177869,"d":"29ms Could not connect to the server.","p":"app"}
+{"t":1794306177908,"e":"bridge_post_failed","p":"app","d":"38ms Could not connect to the server."}
+{"d":"34ms Could not connect to the server.","e":"bridge_post_failed","p":"app","t":1794306177943}
+{"t":1794306178906,"e":"scene_inactive","p":"app"}
+{"t":1794306179573,"p":"app","e":"scene_background"}
+{"e":"action_received","t":1794306182285,"p":"ext","rev":45,"d":"widget decision-1\/investigate"}
+{"e":"surface_saved","rev":46,"p":"ext","d":"decision-1","t":1794306182288}
+{"e":"bridge_post_failed","t":1794306182291,"p":"ext","d":"2ms Verbindung zum Server konnte nicht hergestellt werden."}
+{"d":"delivered=false","e":"action_done","t":1794306182292,"p":"ext","rev":46}
+{"rev":46,"t":1794306182326,"d":"systemMedium","p":"ext","e":"get_timeline"}
+{"e":"timeline_built","rev":46,"p":"ext","t":1794306182327,"d":"entries=2"}
+{"e":"get_timeline","t":1794306182350,"p":"ext","rev":46,"d":"systemSmall"}
+{"e":"timeline_built","t":1794306182351,"p":"ext","rev":46,"d":"entries=2"}
+{"d":"state=2 remote=false","e":"app_launch","p":"app","t":1794306185114}
+{"t":1794306185687,"e":"url_command","p":"app","d":"agentlab:\/\/preset\/decision?reload=1"}
+{"e":"publish","d":"url decision-1 reload=true","rev":47,"p":"app","t":1794306185689}
+{"rev":47,"d":"decision-1","t":1794306185689,"p":"app","e":"surface_saved"}
+{"e":"reload_requested","t":1794306185692,"p":"app","rev":47}
+{"t":1794306185710,"p":"app","e":"scene_active"}
+{"p":"app","t":1794306185711,"d":"25ms Could not connect to the server.","e":"bridge_post_failed"}
+{"t":1794306185720,"p":"app","e":"bridge_post_failed","d":"7ms Could not connect to the server."}
+{"t":1794306185727,"e":"bridge_post_failed","p":"app","d":"5ms Could not connect to the server."}
+{"t":1794306185735,"e":"bridge_post_failed","d":"6ms Could not connect to the server.","p":"app"}
+{"rev":47,"e":"get_timeline","d":"systemMedium","p":"ext","t":1794306185737}
+{"rev":47,"t":1794306185738,"d":"entries=2","e":"timeline_built","p":"ext"}
+{"d":"4ms Could not connect to the server.","e":"bridge_post_failed","p":"app","t":1794306185740}
+{"e":"bridge_post_failed","d":"5ms Could not connect to the server.","t":1794306185746,"p":"app"}
+{"e":"get_timeline","rev":47,"p":"ext","d":"systemSmall","t":1794306185775}
+{"p":"ext","rev":47,"d":"entries=2","t":1794306185776,"e":"timeline_built"}
+{"t":1794306185792,"p":"app","d":"44ms Could not connect to the server.","e":"bridge_post_failed"}
+{"t":1794306185846,"p":"app","d":"53ms Could not connect to the server.","e":"bridge_post_failed"}
+{"t":1794306185883,"p":"app","d":"35ms Could not connect to the server.","e":"bridge_post_failed"}
+{"e":"scene_inactive","t":1794306187028,"p":"app"}
+{"t":1794306187674,"p":"app","e":"scene_background"}
+{"p":"ext","d":"widget decision-1\/investigate","t":1794306190472,"e":"action_received","rev":47}
+{"d":"decision-1","e":"surface_saved","t":1794306190476,"p":"ext","rev":48}
+{"e":"bridge_post_failed","d":"3ms Verbindung zum Server konnte nicht hergestellt werden.","p":"ext","t":1794306190479}
+{"e":"action_done","d":"delivered=false","rev":48,"p":"ext","t":1794306190480}
+{"e":"get_timeline","t":1794306190521,"p":"ext","rev":48,"d":"systemSmall"}
+{"d":"entries=2","e":"timeline_built","t":1794306190522,"p":"ext","rev":48}
+{"d":"systemMedium","t":1794306190557,"e":"get_timeline","rev":48,"p":"ext"}
+{"t":1794306190558,"rev":48,"e":"timeline_built","p":"ext","d":"entries=2"}
+{"e":"get_timeline","t":1794306257060,"p":"ext","rev":48,"d":"systemMedium"}
+{"t":1794306257065,"e":"timeline_built","p":"ext","rev":48,"d":"entries=2"}
+{"p":"ext","e":"get_timeline","rev":48,"t":1794306257161,"d":"systemSmall"}
+{"t":1794306257162,"e":"timeline_built","p":"ext","rev":48,"d":"entries=2"}
+{"d":"state=2 remote=false","p":"app","t":1794306317730,"e":"app_launch"}
+{"e":"surface_invalid","t":1794306317890,"d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","p":"app"}
+{"t":1794306317952,"p":"app","e":"bridge_post_ok","d":"83ms next=false"}
+{"t":1794306317959,"p":"app","e":"bridge_post_ok","d":"4ms next=false"}
+{"p":"app","d":"5ms next=false","t":1794306317966,"e":"bridge_post_ok"}
+{"d":"2ms next=false","e":"bridge_post_ok","p":"app","t":1794306317969}
+{"d":"2ms next=false","t":1794306317973,"p":"app","e":"bridge_post_ok"}
+{"d":"2ms next=false","e":"bridge_post_ok","p":"app","t":1794306317976}
+{"t":1794306317980,"p":"app","e":"bridge_post_ok","d":"2ms next=false"}
+{"d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","e":"surface_invalid","t":1794306317983,"p":"app"}
+{"p":"app","d":"2ms next=false","t":1794306317983,"e":"bridge_post_ok"}
+{"d":"3ms next=false","p":"app","t":1794306317988,"e":"bridge_post_ok"}
+{"d":"3ms next=false","p":"app","e":"bridge_post_ok","t":1794306317993}
+{"e":"app_launch","t":1794306568408,"p":"app","d":"state=2 remote=false"}
+{"rev":1004,"p":"ext","t":1794306569082,"d":"systemSmall","e":"get_timeline"}
+{"rev":1004,"p":"ext","t":1794306569084,"d":"entries=1","e":"timeline_built"}
+{"rev":1004,"d":"systemMedium","p":"ext","t":1794306569153,"e":"get_timeline"}
+{"rev":1004,"d":"entries=1","p":"ext","t":1794306569153,"e":"timeline_built"}
+{"e":"app_launch","t":1794306620656,"d":"state=2 remote=false","p":"app"}
+{"p":"app","e":"scene_active","t":1794306621800}
+{"t":1794306622686,"e":"get_timeline","d":"systemSmall","rev":1004,"p":"ext"}
+{"t":1794306622691,"e":"timeline_built","d":"entries=1","rev":1004,"p":"ext"}
+{"t":1794306622779,"rev":1004,"e":"get_timeline","d":"systemMedium","p":"ext"}
+{"e":"timeline_built","p":"ext","t":1794306622780,"rev":1004,"d":"entries=1"}
+{"p":"app","e":"perform_fetch","t":1794306623589}
+{"p":"app","e":"perform_fetch","t":1794306633800}
+{"t":1794306633821,"e":"notification_will_present","p":"app"}
+{"t":1794306638758,"p":"app","d":"state=2 remote=false","e":"app_launch"}
+{"t":1794306638820,"e":"perform_fetch","p":"app"}
+{"p":"ext","e":"get_timeline","t":1794306665706,"rev":1004,"d":"systemSmall"}
+{"d":"entries=1","rev":1004,"p":"ext","t":1794306665708,"e":"timeline_built"}
+{"d":"systemMedium","p":"ext","t":1794306665733,"e":"get_timeline","rev":1004}
+{"d":"entries=1","p":"ext","t":1794306665733,"e":"timeline_built","rev":1004}
+{"t":1794306669715,"p":"app","e":"app_launch","d":"state=2 remote=false"}
+{"e":"perform_fetch","t":1794306669799,"p":"app"}
+{"d":"196ms","rev":1005,"t":1794306670105,"p":"app","e":"bridge_fetch_ok"}
+{"p":"app","d":"host-1005","e":"surface_saved","t":1794306670107,"rev":1005}
+{"p":"app","rev":1005,"t":1794306670113,"e":"reload_requested","d":"from silent push"}
+{"p":"ext","e":"get_timeline","d":"systemMedium","rev":1005,"t":1794306670259}
+{"t":1794306670260,"rev":1005,"e":"timeline_built","d":"entries=1","p":"ext"}
+{"d":"systemSmall","p":"ext","rev":1005,"t":1794306670296,"e":"get_timeline"}
+{"d":"entries=1","t":1794306670298,"rev":1005,"e":"timeline_built","p":"ext"}
+{"t":1794306703904,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"8ms","t":1794306703918,"rev":1006,"p":"app"}
+{"rev":1006,"t":1794306703921,"p":"app","d":"host-1006","e":"surface_saved"}
+{"rev":1006,"t":1794306703922,"p":"app","e":"reload_requested","d":"from silent push"}
+{"t":1794306703990,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1006}
+{"t":1794306703990,"d":"entries=1","p":"ext","e":"timeline_built","rev":1006}
+{"t":1794306704008,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1006}
+{"t":1794306704008,"e":"timeline_built","d":"entries=1","p":"ext","rev":1006}
+{"p":"app","t":1794306739683,"d":"state=2 remote=false","e":"app_launch"}
+{"e":"perform_fetch","t":1794306739789,"p":"app"}
+{"p":"app","t":1794306739945,"e":"bridge_fetch_ok","rev":1007,"d":"45ms"}
+{"t":1794306739947,"d":"host-1007","e":"surface_saved","p":"app","rev":1007}
+{"t":1794306739948,"d":"from silent push","e":"reload_requested","p":"app","rev":1007}
+{"t":1794306740009,"e":"get_timeline","d":"systemSmall","rev":1007,"p":"ext"}
+{"t":1794306740010,"e":"timeline_built","d":"entries=1","rev":1007,"p":"ext"}
+{"d":"systemMedium","p":"ext","t":1794306740028,"e":"get_timeline","rev":1007}
+{"d":"entries=1","p":"ext","t":1794306740028,"e":"timeline_built","rev":1007}
+{"t":1794306773624,"p":"app","e":"perform_fetch"}
+{"d":"4ms","p":"app","rev":1008,"t":1794306773632,"e":"bridge_fetch_ok"}
+{"d":"host-1008","p":"app","rev":1008,"t":1794306773635,"e":"surface_saved"}
+{"t":1794306773635,"rev":1008,"d":"from silent push","e":"reload_requested","p":"app"}
+{"t":1794306773688,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1008}
+{"t":1794306773688,"d":"entries=1","p":"ext","e":"timeline_built","rev":1008}
+{"d":"systemSmall","p":"ext","t":1794306773703,"e":"get_timeline","rev":1008}
+{"d":"entries=1","p":"ext","t":1794306773703,"e":"timeline_built","rev":1008}
+{"t":1794306809486,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"p":"app","e":"perform_fetch","t":1794306809564}
+{"p":"app","t":1794306809678,"e":"bridge_fetch_ok","rev":1009,"d":"34ms"}
+{"p":"app","e":"surface_saved","t":1794306809679,"rev":1009,"d":"host-1009"}
+{"e":"reload_requested","p":"app","rev":1009,"d":"from silent push","t":1794306809680}
+{"d":"systemSmall","p":"ext","t":1794306809732,"e":"get_timeline","rev":1009}
+{"d":"entries=1","p":"ext","t":1794306809732,"e":"timeline_built","rev":1009}
+{"t":1794306809748,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1009}
+{"t":1794306809748,"d":"entries=1","p":"ext","e":"timeline_built","rev":1009}
+{"t":1794306843632,"p":"app","e":"perform_fetch"}
+{"d":"4ms","t":1794306843643,"p":"app","rev":1010,"e":"bridge_fetch_ok"}
+{"rev":1010,"d":"host-1010","t":1794306843646,"e":"surface_saved","p":"app"}
+{"p":"app","rev":1010,"t":1794306843646,"e":"reload_requested","d":"from silent push"}
+{"t":1794306843695,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1010}
+{"t":1794306843695,"d":"entries=1","p":"ext","e":"timeline_built","rev":1010}
+{"t":1794306843714,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1010}
+{"d":"entries=1","e":"timeline_built","t":1794306843714,"p":"ext","rev":1010}
+{"p":"app","t":1794306914851,"e":"app_launch","d":"state=2 remote=false"}
+{"p":"app","t":1794306914930,"e":"perform_fetch"}
+{"rev":1011,"t":1794306915054,"e":"bridge_fetch_ok","d":"39ms","p":"app"}
+{"t":1794306915055,"p":"app","d":"host-1011","rev":1011,"e":"surface_saved"}
+{"e":"reload_requested","rev":1011,"t":1794306915056,"d":"from silent push","p":"app"}
+{"e":"get_timeline","t":1794306915122,"rev":1011,"p":"ext","d":"systemSmall"}
+{"e":"timeline_built","rev":1011,"p":"ext","t":1794306915123,"d":"entries=1"}
+{"d":"systemMedium","p":"ext","t":1794306915145,"e":"get_timeline","rev":1011}
+{"d":"entries=1","p":"ext","t":1794306915145,"e":"timeline_built","rev":1011}
+{"e":"perform_fetch","t":1794306919478,"p":"app"}
+{"rev":1012,"d":"5ms","t":1794306919488,"p":"app","e":"bridge_fetch_ok"}
+{"p":"app","e":"surface_saved","rev":1012,"d":"host-1012","t":1794306919491}
+{"p":"app","e":"reload_requested","rev":1012,"d":"from silent push","t":1794306919491}
+{"p":"ext","t":1794306919534,"rev":1012,"e":"get_timeline","d":"systemSmall"}
+{"p":"ext","t":1794306919534,"rev":1012,"e":"timeline_built","d":"entries=1"}
+{"p":"ext","t":1794306919546,"rev":1012,"e":"get_timeline","d":"systemMedium"}
+{"p":"ext","t":1794306919547,"rev":1012,"e":"timeline_built","d":"entries=1"}
+{"t":1794306958433,"d":"state=2 remote=false","e":"app_launch","p":"app"}
+{"e":"perform_fetch","t":1794306958553,"p":"app"}
+{"d":"33ms","t":1794306958689,"rev":1013,"e":"bridge_fetch_ok","p":"app"}
+{"d":"host-1013","t":1794306958690,"rev":1013,"e":"surface_saved","p":"app"}
+{"d":"from silent push","t":1794306958691,"e":"reload_requested","p":"app","rev":1013}
+{"t":1794306958741,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1013}
+{"t":1794306958742,"d":"entries=1","p":"ext","e":"timeline_built","rev":1013}
+{"t":1794306958766,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1013}
+{"rev":1013,"t":1794306958766,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"e":"perform_fetch","t":1794306962929,"p":"app"}
+{"e":"bridge_fetch_ok","t":1794306962939,"p":"app","d":"4ms","rev":1014}
+{"t":1794306962942,"rev":1014,"p":"app","e":"surface_saved","d":"host-1014"}
+{"d":"from silent push","t":1794306962942,"rev":1014,"p":"app","e":"reload_requested"}
+{"t":1794306962985,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1014}
+{"t":1794306962986,"d":"entries=1","p":"ext","e":"timeline_built","rev":1014}
+{"t":1794306962998,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1014}
+{"t":1794306962999,"d":"entries=1","p":"ext","e":"timeline_built","rev":1014}
+{"e":"app_launch","p":"app","d":"state=2 remote=false","t":1794307002027}
+{"t":1794307002213,"e":"perform_fetch","p":"app"}
+{"d":"76ms","e":"bridge_fetch_ok","p":"app","t":1794307002431,"rev":1015}
+{"p":"app","e":"surface_saved","d":"host-1015","rev":1015,"t":1794307002434}
+{"d":"from silent push","t":1794307002437,"p":"app","rev":1015,"e":"reload_requested"}
+{"d":"systemMedium","t":1794307002589,"rev":1015,"e":"get_timeline","p":"ext"}
+{"p":"ext","e":"timeline_built","t":1794307002591,"rev":1015,"d":"entries=1"}
+{"t":1794307002639,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1015}
+{"t":1794307002639,"e":"timeline_built","p":"ext","d":"entries=1","rev":1015}
+{"t":1794307006973,"p":"app","e":"perform_fetch"}
+{"d":"5ms","e":"bridge_fetch_ok","p":"app","rev":1016,"t":1794307006983}
+{"p":"app","e":"surface_saved","d":"host-1016","rev":1016,"t":1794307006987}
+{"p":"app","e":"reload_requested","d":"from silent push","rev":1016,"t":1794307006988}
+{"d":"systemSmall","p":"ext","t":1794307007032,"e":"get_timeline","rev":1016}
+{"d":"entries=1","p":"ext","t":1794307007033,"e":"timeline_built","rev":1016}
+{"t":1794307007045,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1016}
+{"d":"entries=1","p":"ext","rev":1016,"t":1794307007046,"e":"timeline_built"}
+{"e":"perform_fetch","p":"app","t":1794307050350}
+{"p":"app","e":"bridge_fetch_ok","rev":1017,"d":"4ms","t":1794307050356}
+{"p":"app","t":1794307050357,"rev":1017,"d":"host-1017","e":"surface_saved"}
+{"e":"reload_requested","t":1794307050358,"rev":1017,"d":"from silent push","p":"app"}
+{"t":1794307050416,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1017}
+{"rev":1017,"t":1794307050416,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"p":"ext","t":1794307050449,"rev":1017,"e":"get_timeline","d":"systemMedium"}
+{"p":"ext","t":1794307050449,"rev":1017,"e":"timeline_built","d":"entries=1"}
+{"e":"app_launch","p":"app","d":"state=2 remote=false","t":1794307079618}
+{"t":1794307079694,"e":"perform_fetch","p":"app"}
+{"d":"36ms","rev":1018,"p":"app","e":"bridge_fetch_ok","t":1794307079812}
+{"d":"host-1018","rev":1018,"p":"app","e":"surface_saved","t":1794307079813}
+{"t":1794307079815,"p":"app","e":"reload_requested","rev":1018,"d":"from silent push"}
+{"d":"systemSmall","rev":1018,"e":"get_timeline","p":"ext","t":1794307079959}
+{"d":"entries=1","rev":1018,"e":"timeline_built","p":"ext","t":1794307079960}
+{"t":1794307079984,"p":"ext","e":"get_timeline","rev":1018,"d":"systemMedium"}
+{"d":"entries=1","rev":1018,"e":"timeline_built","p":"ext","t":1794307079984}
+{"e":"perform_fetch","t":1794307087175,"p":"app"}
+{"d":"5ms","p":"app","t":1794307087185,"e":"bridge_fetch_ok","rev":1019}
+{"t":1794307087190,"p":"app","e":"surface_saved","rev":1019,"d":"host-1019"}
+{"t":1794307087190,"p":"app","e":"reload_requested","rev":1019,"d":"from silent push"}
+{"d":"systemSmall","p":"ext","rev":1019,"t":1794307087240,"e":"get_timeline"}
+{"d":"entries=1","p":"ext","rev":1019,"t":1794307087240,"e":"timeline_built"}
+{"t":1794307087265,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1019}
+{"p":"ext","e":"timeline_built","t":1794307087266,"rev":1019,"d":"entries=1"}
+{"e":"app_launch","t":1794307099410,"d":"state=2 remote=false","p":"app"}
+{"t":1794307099479,"e":"perform_fetch","p":"app"}
+{"d":"27ms","p":"app","t":1794307099581,"rev":1020,"e":"bridge_fetch_ok"}
+{"d":"host-1020","p":"app","t":1794307099582,"rev":1020,"e":"surface_saved"}
+{"rev":1020,"d":"from silent push","e":"reload_requested","p":"app","t":1794307099583}
+{"d":"systemSmall","p":"ext","t":1794307099632,"e":"get_timeline","rev":1020}
+{"d":"entries=1","p":"ext","t":1794307099632,"e":"timeline_built","rev":1020}
+{"t":1794307099644,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1020}
+{"t":1794307099645,"d":"entries=1","p":"ext","e":"timeline_built","rev":1020}
+{"p":"app","t":1794307106783,"e":"perform_fetch"}
+{"p":"app","rev":1021,"d":"5ms","e":"bridge_fetch_ok","t":1794307106793}
+{"p":"app","d":"host-1021","t":1794307106798,"e":"surface_saved","rev":1021}
+{"p":"app","d":"from silent push","t":1794307106798,"e":"reload_requested","rev":1021}
+{"p":"ext","rev":1021,"t":1794307106839,"d":"systemSmall","e":"get_timeline"}
+{"t":1794307106840,"d":"entries=1","p":"ext","e":"timeline_built","rev":1021}
+{"t":1794307106860,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1021}
+{"rev":1021,"t":1794307106861,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307118911,"e":"app_launch","p":"app","d":"state=2 remote=false"}
+{"t":1794307118974,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","t":1794307119076,"rev":1022,"p":"app","d":"27ms"}
+{"d":"host-1022","t":1794307119077,"e":"surface_saved","rev":1022,"p":"app"}
+{"p":"app","t":1794307119078,"e":"reload_requested","rev":1022,"d":"from silent push"}
+{"t":1794307119119,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1022}
+{"rev":1022,"t":1794307119120,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307119132,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1022}
+{"t":1794307119132,"d":"entries=1","p":"ext","e":"timeline_built","rev":1022}
+{"p":"app","e":"perform_fetch","t":1794307126317}
+{"p":"app","t":1794307126327,"rev":1023,"d":"5ms","e":"bridge_fetch_ok"}
+{"p":"app","e":"surface_saved","d":"host-1023","t":1794307126332,"rev":1023}
+{"p":"app","e":"reload_requested","d":"from silent push","t":1794307126333,"rev":1023}
+{"rev":1023,"d":"systemSmall","e":"get_timeline","p":"ext","t":1794307126372}
+{"rev":1023,"e":"timeline_built","p":"ext","t":1794307126373,"d":"entries=1"}
+{"t":1794307126397,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"e":"timeline_built","t":1794307126397,"rev":1023,"d":"entries=1","p":"ext"}
+{"e":"app_launch","d":"state=2 remote=false","t":1794307141760,"p":"app"}
+{"p":"app","e":"perform_fetch","t":1794307141819}
+{"e":"bridge_fetch_ok","p":"app","rev":1023,"t":1794307141918,"d":"27ms"}
+{"e":"surface_saved","p":"app","rev":1023,"t":1794307141919,"d":"host-1023"}
+{"e":"reload_requested","p":"app","d":"from silent push","t":1794307141920,"rev":1023}
+{"p":"ext","t":1794307141968,"rev":1023,"e":"get_timeline","d":"systemMedium"}
+{"p":"ext","t":1794307141969,"rev":1023,"e":"timeline_built","d":"entries=1"}
+{"t":1794307141982,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307141982,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"t":1794307142955,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"5ms","t":1794307142966,"rev":1023,"p":"app"}
+{"e":"surface_saved","d":"host-1023","t":1794307142970,"rev":1023,"p":"app"}
+{"e":"reload_requested","d":"from silent push","t":1794307142970,"rev":1023,"p":"app"}
+{"d":"systemSmall","rev":1023,"p":"ext","t":1794307143012,"e":"get_timeline"}
+{"d":"entries=1","rev":1023,"p":"ext","t":1794307143012,"e":"timeline_built"}
+{"t":1794307143026,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1023}
+{"rev":1023,"t":1794307143027,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307144295,"p":"app","e":"perform_fetch"}
+{"p":"app","e":"bridge_fetch_ok","rev":1023,"d":"4ms","t":1794307144301}
+{"e":"surface_saved","d":"host-1023","p":"app","rev":1023,"t":1794307144303}
+{"t":1794307144303,"rev":1023,"p":"app","d":"from silent push","e":"reload_requested"}
+{"t":1794307144344,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307144345,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"rev":1023,"d":"systemMedium","p":"ext","e":"get_timeline","t":1794307144356}
+{"rev":1023,"d":"entries=1","p":"ext","e":"timeline_built","t":1794307144356}
+{"p":"app","t":1794307145658,"e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"4ms","t":1794307145665,"rev":1023,"p":"app"}
+{"d":"host-1023","t":1794307145666,"rev":1023,"p":"app","e":"surface_saved"}
+{"d":"from silent push","t":1794307145666,"rev":1023,"p":"app","e":"reload_requested"}
+{"d":"systemMedium","rev":1023,"e":"get_timeline","p":"ext","t":1794307145706}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307145706}
+{"t":1794307145718,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1023}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307145718}
+{"p":"app","t":1794307147013,"e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"5ms","t":1794307147019,"rev":1023,"p":"app"}
+{"e":"surface_saved","d":"host-1023","t":1794307147021,"rev":1023,"p":"app"}
+{"e":"reload_requested","d":"from silent push","t":1794307147021,"rev":1023,"p":"app"}
+{"e":"get_timeline","p":"ext","rev":1023,"t":1794307147064,"d":"systemSmall"}
+{"e":"timeline_built","p":"ext","rev":1023,"t":1794307147064,"d":"entries=1"}
+{"t":1794307147076,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307147076,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"p":"app","t":1794307148425,"e":"perform_fetch"}
+{"p":"app","e":"bridge_fetch_ok","rev":1023,"d":"6ms","t":1794307148434}
+{"rev":1023,"p":"app","e":"surface_saved","d":"host-1023","t":1794307148435}
+{"d":"from silent push","e":"reload_requested","p":"app","rev":1023,"t":1794307148436}
+{"p":"ext","t":1794307148493,"rev":1023,"e":"get_timeline","d":"systemSmall"}
+{"rev":1023,"t":1794307148494,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307148514,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1023}
+{"t":1794307148515,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"t":1794307149780,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"3ms","t":1794307149784,"rev":1023,"p":"app"}
+{"t":1794307149785,"p":"app","d":"host-1023","e":"surface_saved","rev":1023}
+{"t":1794307149785,"p":"app","d":"from silent push","e":"reload_requested","rev":1023}
+{"d":"systemSmall","rev":1023,"e":"get_timeline","p":"ext","t":1794307149826}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307149826}
+{"d":"systemMedium","rev":1023,"e":"get_timeline","p":"ext","t":1794307149838}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307149839}
+{"t":1794307151118,"p":"app","e":"perform_fetch"}
+{"p":"app","d":"5ms","rev":1023,"t":1794307151125,"e":"bridge_fetch_ok"}
+{"p":"app","e":"surface_saved","rev":1023,"d":"host-1023","t":1794307151127}
+{"p":"app","e":"reload_requested","rev":1023,"d":"from silent push","t":1794307151127}
+{"t":1794307151166,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"rev":1023,"t":1794307151167,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307151178,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1023}
+{"rev":1023,"d":"entries=1","t":1794307151178,"e":"timeline_built","p":"ext"}
+{"t":1794307152461,"p":"app","e":"perform_fetch"}
+{"t":1794307152468,"rev":1023,"p":"app","d":"5ms","e":"bridge_fetch_ok"}
+{"e":"surface_saved","d":"host-1023","t":1794307152469,"rev":1023,"p":"app"}
+{"t":1794307152470,"p":"app","d":"from silent push","e":"reload_requested","rev":1023}
+{"p":"ext","t":1794307152510,"d":"systemSmall","rev":1023,"e":"get_timeline"}
+{"p":"ext","t":1794307152510,"d":"entries=1","rev":1023,"e":"timeline_built"}
+{"t":1794307152522,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307152522,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"p":"app","t":1794307153799,"e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"6ms","t":1794307153807,"rev":1023,"p":"app"}
+{"d":"host-1023","p":"app","rev":1023,"t":1794307153808,"e":"surface_saved"}
+{"d":"from silent push","p":"app","rev":1023,"t":1794307153808,"e":"reload_requested"}
+{"d":"systemSmall","rev":1023,"e":"get_timeline","p":"ext","t":1794307153847}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307153848}
+{"t":1794307153859,"e":"get_timeline","p":"ext","d":"systemMedium","rev":1023}
+{"t":1794307153860,"e":"timeline_built","p":"ext","d":"entries=1","rev":1023}
+{"t":1794307155151,"p":"app","e":"perform_fetch"}
+{"d":"5ms","e":"bridge_fetch_ok","p":"app","t":1794307155157,"rev":1023}
+{"e":"surface_saved","d":"host-1023","t":1794307155158,"rev":1023,"p":"app"}
+{"e":"reload_requested","d":"from silent push","t":1794307155159,"rev":1023,"p":"app"}
+{"p":"ext","d":"systemSmall","e":"get_timeline","t":1794307155198,"rev":1023}
+{"p":"ext","d":"entries=1","e":"timeline_built","t":1794307155198,"rev":1023}
+{"d":"systemMedium","rev":1023,"e":"get_timeline","p":"ext","t":1794307155210}
+{"d":"entries=1","p":"ext","rev":1023,"t":1794307155211,"e":"timeline_built"}
+{"t":1794307156497,"p":"app","e":"perform_fetch"}
+{"d":"6ms","t":1794307156504,"rev":1023,"p":"app","e":"bridge_fetch_ok"}
+{"t":1794307156506,"p":"app","d":"host-1023","e":"surface_saved","rev":1023}
+{"t":1794307156506,"p":"app","d":"from silent push","e":"reload_requested","rev":1023}
+{"t":1794307156546,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307156547,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"t":1794307156557,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"t":1794307156557,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"t":1794307157862,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"4ms","t":1794307157870,"rev":1023,"p":"app"}
+{"d":"host-1023","p":"app","rev":1023,"t":1794307157871,"e":"surface_saved"}
+{"d":"from silent push","p":"app","rev":1023,"t":1794307157871,"e":"reload_requested"}
+{"t":1794307157913,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"rev":1023,"t":1794307157913,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"t":1794307157925,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307157925,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"t":1794307159239,"p":"app","e":"perform_fetch"}
+{"d":"5ms","e":"bridge_fetch_ok","p":"app","rev":1023,"t":1794307159245}
+{"e":"surface_saved","d":"host-1023","t":1794307159246,"rev":1023,"p":"app"}
+{"e":"reload_requested","d":"from silent push","t":1794307159247,"rev":1023,"p":"app"}
+{"rev":1023,"t":1794307159281,"p":"ext","e":"get_timeline","d":"systemMedium"}
+{"d":"entries=1","p":"ext","t":1794307159282,"e":"timeline_built","rev":1023}
+{"t":1794307159294,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"t":1794307159294,"p":"ext","e":"timeline_built","d":"entries=1","rev":1023}
+{"t":1794307160605,"e":"perform_fetch","p":"app"}
+{"e":"bridge_fetch_ok","d":"3ms","t":1794307160610,"p":"app","rev":1023}
+{"d":"host-1023","t":1794307160611,"rev":1023,"p":"app","e":"surface_saved"}
+{"d":"from silent push","t":1794307160612,"rev":1023,"p":"app","e":"reload_requested"}
+{"d":"systemSmall","rev":1023,"e":"get_timeline","p":"ext","t":1794307160655}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307160655}
+{"t":1794307160668,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1023}
+{"e":"timeline_built","t":1794307160669,"rev":1023,"d":"entries=1","p":"ext"}
+{"t":1794307162008,"p":"app","e":"perform_fetch"}
+{"p":"app","t":1794307162014,"e":"bridge_fetch_ok","d":"4ms","rev":1023}
+{"d":"host-1023","p":"app","rev":1023,"t":1794307162016,"e":"surface_saved"}
+{"e":"reload_requested","d":"from silent push","t":1794307162016,"p":"app","rev":1023}
+{"t":1794307162078,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"t":1794307162078,"p":"ext","e":"timeline_built","d":"entries=1","rev":1023}
+{"p":"ext","rev":1023,"t":1794307162099,"d":"systemMedium","e":"get_timeline"}
+{"t":1794307162100,"e":"timeline_built","rev":1023,"d":"entries=1","p":"ext"}
+{"t":1794307163397,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"5ms","t":1794307163405,"rev":1023,"p":"app"}
+{"e":"surface_saved","d":"host-1023","t":1794307163406,"rev":1023,"p":"app"}
+{"t":1794307163406,"p":"app","rev":1023,"d":"from silent push","e":"reload_requested"}
+{"t":1794307163455,"e":"get_timeline","rev":1023,"d":"systemMedium","p":"ext"}
+{"t":1794307163455,"e":"timeline_built","rev":1023,"d":"entries=1","p":"ext"}
+{"t":1794307163466,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"t":1794307163467,"e":"timeline_built","rev":1023,"d":"entries=1","p":"ext"}
+{"t":1794307164760,"p":"app","e":"perform_fetch"}
+{"d":"6ms","t":1794307164768,"rev":1023,"p":"app","e":"bridge_fetch_ok"}
+{"p":"app","t":1794307164770,"e":"surface_saved","d":"host-1023","rev":1023}
+{"p":"app","t":1794307164770,"e":"reload_requested","d":"from silent push","rev":1023}
+{"t":1794307164811,"p":"ext","e":"get_timeline","d":"systemMedium","rev":1023}
+{"t":1794307164812,"p":"ext","e":"timeline_built","d":"entries=1","rev":1023}
+{"t":1794307164823,"p":"ext","e":"get_timeline","d":"systemSmall","rev":1023}
+{"t":1794307164824,"p":"ext","e":"timeline_built","d":"entries=1","rev":1023}
+{"t":1794307166107,"p":"app","e":"perform_fetch"}
+{"e":"bridge_fetch_ok","d":"5ms","t":1794307166114,"rev":1023,"p":"app"}
+{"p":"app","t":1794307166115,"e":"surface_saved","d":"host-1023","rev":1023}
+{"d":"from silent push","t":1794307166115,"rev":1023,"p":"app","e":"reload_requested"}
+{"d":"systemSmall","rev":1023,"e":"get_timeline","p":"ext","t":1794307166157}
+{"d":"entries=1","rev":1023,"e":"timeline_built","p":"ext","t":1794307166157}
+{"t":1794307166171,"d":"systemMedium","p":"ext","e":"get_timeline","rev":1023}
+{"rev":1023,"t":1794307166172,"e":"timeline_built","d":"entries=1","p":"ext"}
+{"t":1794307167463,"p":"app","e":"perform_fetch"}
+{"p":"app","e":"bridge_fetch_ok","rev":1023,"d":"4ms","t":1794307167469}
+{"p":"app","t":1794307167470,"e":"surface_saved","d":"host-1023","rev":1023}
+{"t":1794307167471,"p":"app","d":"from silent push","e":"reload_requested","rev":1023}
+{"p":"ext","t":1794307167510,"rev":1023,"e":"get_timeline","d":"systemMedium"}
+{"p":"ext","t":1794307167511,"rev":1023,"e":"timeline_built","d":"entries=1"}
+{"t":1794307167521,"d":"systemSmall","p":"ext","e":"get_timeline","rev":1023}
+{"t":1794307167521,"d":"entries=1","p":"ext","e":"timeline_built","rev":1023}
+{"p":"app","e":"app_launch","t":1794307178797,"d":"state=2 remote=false"}
+{"e":"perform_fetch","t":1794307178869,"p":"app"}
+{"rev":1023,"d":"36ms","e":"bridge_fetch_ok","t":1794307178986,"p":"app"}
+{"rev":1023,"p":"app","t":1794307178986,"d":"current 1024","e":"save_rejected_stale"}
+{"rev":1023,"d":"from silent push","e":"reload_requested","t":1794307178988,"p":"app"}
+{"p":"ext","t":1794307179029,"rev":1024,"e":"get_timeline","d":"systemSmall"}
+{"p":"ext","t":1794307179032,"rev":1024,"e":"timeline_built","d":"entries=6"}
+{"d":"systemMedium","p":"ext","t":1794307179083,"e":"get_timeline","rev":1024}
+{"d":"entries=6","t":1794307179085,"e":"timeline_built","rev":1024,"p":"ext"}
+{"e":"get_timeline","d":"systemMedium","rev":1025,"p":"ext","t":1794307596013}
+{"rev":1025,"d":"entries=1","p":"ext","e":"timeline_built","t":1794307596015}
+{"p":"ext","e":"get_timeline","rev":1025,"t":1794307596052,"d":"systemSmall"}
+{"p":"ext","e":"timeline_built","rev":1025,"t":1794307596052,"d":"entries=1"}
+{"d":"state=2 remote=false","t":1794307597623,"p":"app","e":"app_launch"}
+{"d":"simPayload=true","e":"perform_fetch","t":1794307597760,"p":"app"}
+{"d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","e":"surface_invalid","t":1794307597793,"p":"app"}
+{"t":1794307597887,"e":"surface_invalid","d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","p":"app"}
+{"t":1794307597903,"d":"reloadOnly silent push","p":"app","e":"reload_requested"}
+{"e":"surface_invalid","t":1794307597949,"d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","p":"ext"}
+{"rev":0,"e":"get_timeline","t":1794307597949,"d":"systemSmall","p":"ext"}
+{"rev":0,"e":"timeline_built","t":1794307597949,"d":"entries=1","p":"ext"}
+{"d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","p":"ext","e":"surface_invalid","t":1794307598003}
+{"rev":0,"d":"systemMedium","p":"ext","e":"get_timeline","t":1794307598003}
+{"rev":0,"t":1794307598003,"d":"entries=1","p":"ext","e":"timeline_built"}
+{"e":"perform_fetch","p":"app","t":1794307605081,"d":"simPayload=true"}
+{"p":"app","d":"reloadOnly silent push","t":1794307605081,"e":"reload_requested"}
+{"e":"surface_invalid","t":1794307605139,"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni","p":"ext"}
+{"rev":0,"d":"systemMedium","p":"ext","t":1794307605140,"e":"get_timeline"}
+{"rev":0,"e":"timeline_built","t":1794307605142,"d":"entries=1","p":"ext"}
+{"p":"ext","e":"surface_invalid","t":1794307605182,"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni"}
+{"p":"ext","e":"get_timeline","rev":0,"t":1794307605182,"d":"systemSmall"}
+{"t":1794307605183,"e":"timeline_built","p":"ext","rev":0,"d":"entries=1"}
+{"t":1794307612613,"p":"app","e":"perform_fetch","d":"simPayload=true"}
+{"p":"app","e":"reload_requested","t":1794307612614,"d":"reloadOnly silent push"}
+{"t":1794307612660,"e":"surface_invalid","p":"ext","d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni"}
+{"p":"ext","e":"get_timeline","rev":0,"t":1794307612660,"d":"systemSmall"}
+{"d":"entries=1","p":"ext","t":1794307612661,"e":"timeline_built","rev":0}
+{"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni","e":"surface_invalid","p":"ext","t":1794307612679}
+{"rev":0,"d":"systemMedium","t":1794307612679,"p":"ext","e":"get_timeline"}
+{"d":"entries=1","t":1794307612680,"p":"ext","e":"timeline_built","rev":0}
+{"t":1794307620155,"e":"perform_fetch","p":"app","d":"simPayload=true"}
+{"t":1794307620156,"d":"reloadOnly silent push","p":"app","e":"reload_requested"}
+{"p":"ext","t":1794307620208,"e":"surface_invalid","d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni"}
+{"rev":0,"p":"ext","t":1794307620208,"e":"get_timeline","d":"systemSmall"}
+{"rev":0,"d":"entries=1","p":"ext","e":"timeline_built","t":1794307620209}
+{"e":"surface_invalid","t":1794307620259,"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni","p":"ext"}
+{"e":"get_timeline","p":"ext","d":"systemMedium","t":1794307620260,"rev":0}
+{"rev":0,"e":"timeline_built","t":1794307620262,"d":"entries=1","p":"ext"}
+{"p":"app","t":1794307627691,"e":"perform_fetch","d":"simPayload=true"}
+{"d":"reloadOnly silent push","p":"app","e":"reload_requested","t":1794307627691}
+{"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni","e":"surface_invalid","p":"ext","t":1794307627747}
+{"p":"ext","e":"get_timeline","t":1794307627747,"d":"systemSmall","rev":0}
+{"t":1794307627747,"rev":0,"p":"ext","e":"timeline_built","d":"entries=1"}
+{"d":"decode: keyNotFound(CodingKeys(stringValue: \"schema\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"schema\\\", intValue: nil) (\\\"schema\\\").\", underlyingError: ni","p":"ext","e":"surface_invalid","t":1794307627789}
+{"rev":0,"d":"systemMedium","p":"ext","e":"get_timeline","t":1794307627789}
+{"rev":0,"p":"ext","e":"timeline_built","d":"entries=1","t":1794307627789}
+{"t":1794307640234,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"d":"simPayload=true","p":"app","e":"perform_fetch","t":1794307640308}
+{"t":1794307640390,"p":"app","d":"reloadOnly silent push","e":"reload_requested"}
+{"rev":1000,"e":"get_timeline","t":1794307640440,"d":"systemSmall","p":"ext"}
+{"rev":1000,"p":"ext","t":1794307640443,"e":"timeline_built","d":"entries=6"}
+{"p":"ext","e":"get_timeline","rev":1000,"t":1794307640490,"d":"systemMedium"}
+{"p":"ext","e":"timeline_built","rev":1000,"t":1794307640492,"d":"entries=6"}
+{"p":"ext","t":1794307815293,"rev":1000,"d":"systemMedium","e":"get_timeline"}
+{"e":"timeline_built","rev":1000,"p":"ext","d":"entries=1","t":1794307815297}
+{"t":1794307815321,"rev":1000,"p":"ext","d":"systemSmall","e":"get_timeline"}
+{"d":"entries=1","e":"timeline_built","rev":1000,"t":1794307815323,"p":"ext"}
+{"p":"app","e":"app_launch","t":1794307817349,"d":"state=2 remote=false"}
+{"p":"app","t":1794307817465,"d":"simPayload=true","e":"perform_fetch"}
+{"t":1794307817494,"e":"surface_invalid","p":"app","d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn"}
+{"e":"surface_invalid","d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","t":1794307817574,"p":"app"}
+{"p":"app","e":"reload_requested","t":1794307817589,"d":"reloadOnly silent push"}
+{"t":1794307817633,"p":"ext","e":"surface_invalid","d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn"}
+{"d":"systemSmall","e":"get_timeline","t":1794307817634,"p":"ext","rev":0}
+{"d":"entries=1","t":1794307817634,"rev":0,"p":"ext","e":"timeline_built"}
+{"e":"surface_invalid","p":"ext","d":"decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn","t":1794307817679}
+{"p":"ext","rev":0,"t":1794307817680,"e":"get_timeline","d":"systemMedium"}
+{"e":"timeline_built","t":1794307817680,"p":"ext","rev":0,"d":"entries=1"}
+{"p":"app","e":"perform_fetch","t":1794307825264,"d":"simPayload=true"}
+{"e":"reload_requested","p":"app","t":1794307825265,"d":"reloadOnly silent push"}
+{"t":1794307825313,"d":"decode: keyNotFound(CodingKeys(stringValue: \"root\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"root\\\", intValue: nil) (\\\"root\\\").\", underlyingError: nil))","p":"ext","e":"surface_invalid"}
+{"t":1794307825313,"rev":0,"p":"ext","d":"systemMedium","e":"get_timeline"}
+{"t":1794307825313,"rev":0,"p":"ext","d":"entries=1","e":"timeline_built"}
+{"t":1794307825363,"e":"surface_invalid","p":"ext","d":"decode: keyNotFound(CodingKeys(stringValue: \"root\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"root\\\", intValue: nil) (\\\"root\\\").\", underlyingError: nil))"}
+{"t":1794307825363,"e":"get_timeline","p":"ext","rev":0,"d":"systemSmall"}
+{"t":1794307825364,"e":"timeline_built","p":"ext","rev":0,"d":"entries=1"}
+{"t":1794307832824,"p":"app","d":"simPayload=true","e":"perform_fetch"}
+{"t":1794307832824,"d":"reloadOnly silent push","e":"reload_requested","p":"app"}
+{"t":1794307832862,"d":"tree deeper than 8","e":"surface_invalid","p":"ext"}
+{"t":1794307832863,"rev":0,"d":"systemSmall","e":"get_timeline","p":"ext"}
+{"t":1794307832863,"e":"timeline_built","rev":0,"d":"entries=1","p":"ext"}
+{"e":"surface_invalid","d":"tree deeper than 8","p":"ext","t":1794307832872}
+{"e":"get_timeline","rev":0,"p":"ext","d":"systemMedium","t":1794307832872}
+{"e":"timeline_built","rev":0,"p":"ext","d":"entries=1","t":1794307832872}
+{"p":"app","t":1794307840362,"d":"simPayload=true","e":"perform_fetch"}
+{"p":"app","t":1794307840362,"d":"reloadOnly silent push","e":"reload_requested"}
+{"e":"surface_invalid","d":"201 nodes > 80","t":1794307840404,"p":"ext"}
+{"e":"get_timeline","rev":0,"t":1794307840404,"d":"systemMedium","p":"ext"}
+{"t":1794307840404,"d":"entries=1","rev":0,"e":"timeline_built","p":"ext"}
+{"e":"surface_invalid","t":1794307840426,"d":"201 nodes > 80","p":"ext"}
+{"e":"get_timeline","rev":0,"t":1794307840426,"d":"systemSmall","p":"ext"}
+{"d":"entries=1","p":"ext","rev":0,"t":1794307840427,"e":"timeline_built"}
+{"d":"simPayload=true","e":"perform_fetch","p":"app","t":1794307847919}
+{"p":"app","t":1794307847920,"e":"reload_requested","d":"reloadOnly silent push"}
+{"e":"get_timeline","rev":999,"p":"ext","t":1794307848017,"d":"systemSmall"}
+{"rev":999,"d":"entries=1","e":"timeline_built","t":1794307848017,"p":"ext"}
+{"e":"get_timeline","rev":999,"t":1794307848026,"d":"systemMedium","p":"ext"}
+{"e":"timeline_built","rev":999,"t":1794307848026,"d":"entries=1","p":"ext"}
+{"e":"get_timeline","d":"systemSmall","p":"ext","rev":999,"t":1794307887387}
+{"e":"timeline_built","d":"entries=1","p":"ext","rev":999,"t":1794307887389}
+{"t":1794307887429,"p":"ext","rev":999,"d":"systemMedium","e":"get_timeline"}
+{"t":1794307887429,"p":"ext","rev":999,"d":"entries=1","e":"timeline_built"}
+{"e":"app_launch","t":1794307887759,"p":"app","d":"state=2 remote=false"}
+{"p":"app","t":1794307888658,"d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command"}
+{"e":"publish","t":1794307888662,"p":"app","d":"url decision-1 reload=true","rev":1000}
+{"e":"surface_saved","t":1794307888666,"p":"app","d":"decision-1","rev":1000}
+{"e":"reload_requested","rev":1000,"t":1794307888670,"p":"app"}
+{"t":1794307888698,"e":"scene_active","p":"app"}
+{"p":"ext","rev":1000,"d":"systemSmall","e":"get_timeline","t":1794307888779}
+{"t":1794307888785,"p":"ext","rev":1000,"d":"entries=2","e":"timeline_built"}
+{"rev":1000,"p":"ext","d":"systemMedium","t":1794307888972,"e":"get_timeline"}
+{"rev":1000,"p":"ext","d":"entries=2","t":1794307888973,"e":"timeline_built"}
+{"t":1794307890173,"p":"app","e":"scene_inactive"}
+{"t":1794307890842,"p":"app","e":"scene_background"}
+{"e":"action_received","p":"ext","t":1794307894704,"rev":1000,"d":"widget decision-1\/investigate"}
+{"p":"ext","d":"decision-1","e":"surface_saved","t":1794307894717,"rev":1001}
+{"t":1794307894807,"d":"83ms next=false","p":"ext","e":"bridge_post_ok"}
+{"t":1794307894808,"rev":1001,"d":"delivered=true","p":"ext","e":"action_done"}
+{"rev":1001,"d":"systemSmall","p":"ext","t":1794307894847,"e":"get_timeline"}
+{"p":"ext","d":"entries=2","rev":1001,"e":"timeline_built","t":1794307894848}
+{"rev":1001,"d":"systemMedium","e":"get_timeline","p":"ext","t":1794307894968}
+{"rev":1001,"e":"timeline_built","t":1794307894968,"p":"ext","d":"entries=2"}
+{"p":"app","e":"scene_inactive","t":1794307895379}
+{"e":"scene_active","t":1794307895577,"p":"app"}
+{"t":1794307901729,"e":"app_launch","d":"state=2 remote=false","p":"app"}
+{"p":"app","d":"agentlab:\/\/preset\/decision4?reload=1","t":1794307902586,"e":"url_command"}
+{"rev":1002,"p":"app","d":"url decision4-1 reload=true","t":1794307902588,"e":"publish"}
+{"d":"decision4-1","p":"app","t":1794307902589,"e":"surface_saved","rev":1002}
+{"rev":1002,"p":"app","t":1794307902593,"e":"reload_requested"}
+{"t":1794307902619,"e":"scene_active","p":"app"}
+{"t":1794307902681,"rev":1002,"p":"ext","e":"get_timeline","d":"systemSmall"}
+{"p":"ext","rev":1002,"e":"timeline_built","t":1794307902683,"d":"entries=1"}
+{"rev":1002,"d":"systemMedium","p":"ext","e":"get_timeline","t":1794307902772}
+{"rev":1002,"d":"entries=1","p":"ext","e":"timeline_built","t":1794307902773}
+{"p":"app","t":1794307903956,"e":"scene_inactive"}
+{"p":"app","e":"scene_background","t":1794307904603}
+{"t":1794307912664,"e":"app_launch","p":"app","d":"state=2 remote=false"}
+{"p":"app","t":1794307913210,"d":"agentlab:\/\/preset\/grid8?reload=1","e":"url_command"}
+{"p":"app","e":"publish","d":"url grid8-1 reload=true","rev":1003,"t":1794307913212}
+{"p":"app","e":"surface_saved","d":"grid8-1","rev":1003,"t":1794307913213}
+{"rev":1003,"p":"app","t":1794307913216,"e":"reload_requested"}
+{"e":"scene_active","t":1794307913231,"p":"app"}
+{"t":1794307913260,"rev":1003,"d":"systemMedium","e":"get_timeline","p":"ext"}
+{"p":"ext","rev":1003,"e":"timeline_built","d":"entries=1","t":1794307913261}
+{"t":1794307913324,"rev":1003,"d":"systemSmall","e":"get_timeline","p":"ext"}
+{"t":1794307913325,"rev":1003,"d":"entries=1","e":"timeline_built","p":"ext"}
+{"t":1794307914556,"p":"app","e":"scene_inactive"}
+{"p":"app","e":"scene_background","t":1794307915202}
+{"t":1794307926271,"d":"state=2 remote=false","e":"app_launch","p":"app"}
+{"t":1794307927127,"p":"app","e":"url_command","d":"agentlab:\/\/preset\/list?reload=1"}
+{"d":"url list-1 reload=true","t":1794307927135,"p":"app","e":"publish","rev":1004}
+{"rev":1004,"t":1794307927138,"p":"app","e":"surface_saved","d":"list-1"}
+{"t":1794307927147,"e":"reload_requested","p":"app","rev":1004}
+{"p":"app","e":"scene_active","t":1794307927175}
+{"rev":1004,"d":"systemSmall","p":"ext","e":"get_timeline","t":1794307927488}
+{"t":1794307927490,"rev":1004,"d":"entries=1","e":"timeline_built","p":"ext"}
+{"p":"ext","rev":1004,"t":1794307927659,"d":"systemMedium","e":"get_timeline"}
+{"p":"ext","rev":1004,"t":1794307927660,"d":"entries=1","e":"timeline_built"}
+{"p":"app","e":"scene_inactive","t":1794307928759}
+{"t":1794307929418,"e":"scene_background","p":"app"}
+{"p":"app","d":"state=2 remote=false","t":1794307938192,"e":"app_launch"}
+{"e":"url_command","t":1794307938782,"p":"app","d":"agentlab:\/\/la\/end"}
+{"t":1794307938786,"p":"app","e":"activity_ended"}
+{"t":1794307938795,"p":"app","e":"scene_active"}
+{"p":"app","t":1794307942755,"e":"app_launch","d":"state=2 remote=false"}
+{"p":"app","e":"url_command","d":"agentlab:\/\/preset\/decision?reload=1","t":1794307943571}
+{"t":1794307943576,"rev":1005,"p":"app","d":"url decision-1 reload=true","e":"publish"}
+{"t":1794307943581,"e":"surface_saved","p":"app","d":"decision-1","rev":1005}
+{"t":1794307943586,"p":"app","rev":1005,"e":"reload_requested"}
+{"e":"scene_active","p":"app","t":1794307943612}
+{"rev":1005,"d":"systemSmall","p":"ext","e":"get_timeline","t":1794307943800}
+{"t":1794307943802,"p":"ext","rev":1005,"d":"entries=2","e":"timeline_built"}
+{"e":"get_timeline","p":"ext","rev":1005,"t":1794307943879,"d":"systemMedium"}
+{"p":"ext","e":"timeline_built","rev":1005,"d":"entries=2","t":1794307943880}
+{"t":1794307946921,"d":"state=2 remote=false","p":"app","e":"app_launch"}
+{"e":"url_command","t":1794307947716,"p":"app","d":"agentlab:\/\/la\/start"}
+{"t":1794307947756,"p":"app","e":"scene_active"}
+{"t":1794307947783,"d":"enabled=true frequent=true","p":"app","e":"activity_auth"}
+{"t":1794307948166,"p":"app","e":"activity_seen","d":"6B285515-3992-4599-A746-67C483A124A6"}
+{"rev":1005,"p":"app","e":"activity_started","d":"6B285515-3992-4599-A746-67C483A124A6","t":1794307948165}
+{"t":1794307951130,"p":"app","e":"scene_inactive"}
+{"p":"app","e":"scene_background","t":1794307952518}
+{"p":"app","e":"action_received","d":"activity decision-1\/investigate","t":1794307961676,"rev":1005}
+{"p":"app","t":1794307961696,"d":"decision-1","e":"surface_saved","rev":1006}
+{"t":1794307961783,"p":"app","e":"bridge_post_ok","d":"78ms next=false"}
+{"e":"action_done","rev":1006,"d":"delivered=true","p":"app","t":1794307961784}
+{"t":1794307961799,"p":"app","e":"activity_updated_from_intent","rev":1006}
+{"p":"ext","rev":1006,"t":1794307961932,"e":"get_timeline","d":"systemSmall"}
+{"e":"timeline_built","rev":1006,"d":"entries=2","p":"ext","t":1794307961935}
+{"e":"get_timeline","rev":1006,"d":"systemMedium","t":1794307962131,"p":"ext"}
+{"p":"ext","d":"entries=2","rev":1006,"t":1794307962133,"e":"timeline_built"}
+{"p":"app","t":1794307967056,"d":"state=2 remote=false","e":"app_launch"}
+{"p":"app","d":"6B285515-3992-4599-A746-67C483A124A6","t":1794307967169,"e":"activity_seen"}
+{"p":"app","d":"agentlab:\/\/perm","t":1794307967838,"e":"url_command"}
+{"p":"app","t":1794307967883,"e":"scene_active"}
+{"t":1794307968025,"p":"app","e":"scene_inactive"}
+{"d":"true","e":"notification_permission","t":1794307970302,"p":"app"}
+{"t":1794307970720,"e":"scene_active","p":"app"}
+{"p":"app","t":1794307973334,"d":"state=2 remote=false","e":"app_launch"}
+{"e":"activity_seen","p":"app","d":"6B285515-3992-4599-A746-67C483A124A6","t":1794307973427}
+{"e":"url_command","p":"app","d":"agentlab:\/\/preset\/decision?reload=1","t":1794307973962}
+{"e":"publish","p":"app","d":"url decision-1 reload=true","rev":1007,"t":1794307973964}
+{"e":"surface_saved","p":"app","d":"decision-1","rev":1007,"t":1794307973965}
+{"t":1794307973967,"p":"app","rev":1007,"e":"reload_requested"}
+{"t":1794307973992,"p":"app","e":"scene_active"}
+{"e":"get_timeline","t":1794307974012,"rev":1007,"d":"systemMedium","p":"ext"}
+{"rev":1007,"d":"entries=2","t":1794307974013,"p":"ext","e":"timeline_built"}
+{"e":"get_timeline","p":"ext","t":1794307974063,"rev":1007,"d":"systemSmall"}
+{"rev":1007,"p":"ext","d":"entries=2","t":1794307974064,"e":"timeline_built"}
+{"p":"app","e":"app_launch","d":"state=2 remote=false","t":1794307976585}
+{"p":"app","t":1794307976737,"e":"activity_seen","d":"6B285515-3992-4599-A746-67C483A124A6"}
+{"p":"app","t":1794307977648,"d":"agentlab:\/\/notify\/text?delay=2","e":"url_command"}
+{"rev":1007,"t":1794307977649,"p":"app","d":"text","e":"notification_scheduled"}
+{"e":"scene_active","p":"app","t":1794307977700}
+{"e":"scene_inactive","t":1794307979326,"p":"app"}
+{"p":"app","d":"AGENT_TEXT","e":"notification_will_present","t":1794307979695}
+{"t":1794307980952,"p":"app","e":"scene_background"}
+{"t":1794308070941,"p":"app","e":"app_launch","d":"state=2 remote=false"}
+{"d":"agentlab:\/\/perm","p":"app","e":"url_command","t":1794308072723}
+{"e":"scene_active","t":1794308072782,"p":"app"}
+{"t":1794308072788,"e":"notification_permission","d":"true","p":"app"}
+{"t":1794308074092,"d":"systemMedium","e":"get_timeline","p":"ext","rev":1007}
+{"t":1794308074104,"d":"entries=2","rev":1007,"p":"ext","e":"timeline_built"}
+{"p":"ext","e":"get_timeline","t":1794308074289,"rev":1007,"d":"systemSmall"}
+{"t":1794308074291,"e":"timeline_built","p":"ext","rev":1007,"d":"entries=2"}
+{"e":"app_launch","d":"state=2 remote=false","t":1794308080492,"p":"app"}
+{"t":1794308081113,"p":"app","d":"agentlab:\/\/preset\/decision?reload=1","e":"url_command"}
+{"t":1794308081115,"e":"publish","rev":1008,"d":"url decision-1 reload=true","p":"app"}
+{"p":"app","t":1794308081116,"rev":1008,"e":"surface_saved","d":"decision-1"}
+{"p":"app","t":1794308081119,"e":"reload_requested","rev":1008}
+{"p":"app","e":"scene_active","t":1794308081137}
+{"p":"ext","e":"get_timeline","rev":1008,"d":"systemSmall","t":1794308081176}
+{"p":"ext","e":"timeline_built","t":1794308081177,"rev":1008,"d":"entries=2"}
+{"e":"get_timeline","p":"ext","rev":1008,"d":"systemMedium","t":1794308081223}
+{"e":"timeline_built","p":"ext","rev":1008,"d":"entries=2","t":1794308081224}
+{"t":1794308083813,"d":"state=2 remote=false","p":"app","e":"app_launch"}
+{"t":1794308084424,"d":"agentlab:\/\/notify\/text?delay=6","e":"url_command","p":"app"}
+{"t":1794308084425,"d":"text","e":"notification_scheduled","p":"app","rev":1008}
+{"e":"scene_active","t":1794308084438,"p":"app"}
+{"e":"scene_inactive","p":"app","t":1794308085776}
+{"t":1794308086430,"p":"app","e":"scene_background"}
+{"rev":1008,"d":"reply text=ship it after lunch appState=2","e":"notification_action","t":1794308104898,"p":"app"}
+{"t":1794308104899,"e":"action_received","rev":1008,"p":"app","d":"notification decision-1\/reply"}
+{"p":"app","d":"decision-1","e":"surface_saved","rev":1009,"t":1794308104943}
+{"d":"105ms next=false","e":"bridge_post_ok","p":"app","t":1794308105054}
+{"d":"delivered=true","rev":1009,"e":"action_done","p":"app","t":1794308105056}
+{"p":"app","d":"after notification action","t":1794308105063,"e":"reload_requested"}
+{"p":"ext","e":"get_timeline","t":1794308105548,"rev":1009,"d":"systemMedium"}
+{"rev":1009,"t":1794308105556,"e":"timeline_built","p":"ext","d":"entries=2"}
+{"t":1794308105647,"e":"get_timeline","d":"systemSmall","p":"ext","rev":1009}
+{"e":"timeline_built","d":"entries=2","p":"ext","rev":1009,"t":1794308105648}
+{"e":"app_launch","t":1794308120624,"p":"app","d":"state=2 remote=false"}
+{"d":"simPayload=false","t":1794308120699,"e":"perform_fetch","p":"app"}
+{"rev":81200,"p":"app","t":1794308120879,"d":"38ms","e":"bridge_fetch_ok"}
+{"rev":81200,"p":"app","t":1794308120880,"d":"demo-status-81200","e":"surface_saved"}
+{"d":"from silent push","e":"reload_requested","p":"app","t":1794308120881,"rev":81200}
+{"e":"get_timeline","d":"systemSmall","t":1794308120946,"p":"ext","rev":81200}
+{"t":1794308120946,"p":"ext","d":"entries=1","e":"timeline_built","rev":81200}
+{"t":1794308120973,"d":"systemMedium","p":"ext","rev":81200,"e":"get_timeline"}
+{"rev":81200,"d":"entries=1","e":"timeline_built","p":"ext","t":1794308120974}
+{"t":1794308126737,"p":"app","e":"perform_fetch","d":"simPayload=false"}
+{"p":"app","t":1794308126749,"e":"bridge_fetch_ok","rev":81210,"d":"6ms"}
+{"e":"surface_saved","p":"app","t":1794308126754,"d":"demo-decision-81210","rev":81210}
+{"d":"from silent push","e":"reload_requested","t":1794308126754,"p":"app","rev":81210}
+{"t":1794308126819,"d":"systemSmall","p":"ext","rev":81210,"e":"get_timeline"}
+{"t":1794308126820,"d":"entries=2","p":"ext","rev":81210,"e":"timeline_built"}
+{"t":1794308126913,"e":"get_timeline","rev":81210,"d":"systemMedium","p":"ext"}
+{"t":1794308126914,"d":"entries=2","p":"ext","rev":81210,"e":"timeline_built"}
+{"p":"ext","rev":81210,"d":"widget demo-decision-81210\/fix","e":"action_received","t":1794308135186}
+{"d":"demo-decision-81210","p":"ext","e":"surface_saved","t":1794308135196,"rev":81211}
+{"p":"ext","e":"bridge_post_ok","t":1794308135239,"d":"39ms next=true","rev":81214}
+{"e":"surface_saved","p":"ext","d":"demo-after-fix","rev":81214,"t":1794308135240}
+{"p":"ext","rev":81214,"d":"delivered=true","e":"action_done","t":1794308135240}
+{"d":"systemSmall","e":"get_timeline","t":1794308135301,"p":"ext","rev":81214}
+{"e":"timeline_built","rev":81214,"p":"ext","t":1794308135302,"d":"entries=1"}
+{"e":"get_timeline","d":"systemMedium","p":"ext","rev":81214,"t":1794308135612}
+{"e":"timeline_built","d":"entries=1","p":"ext","rev":81214,"t":1794308135612}

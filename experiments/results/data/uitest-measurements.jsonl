@@ -1,0 +1,62 @@
+{"log": "uitest-A.log", "t": 1794305427085, "key": "widgets_added"}
+{"log": "uitest-BC.log", "t": 1794306059865, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306063445, "key": "E01_visible", "iter": 0, "secondsAfterPublish": 3.5801589488983154, "secondsAfterHome": 1.2861480712890625, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306068052, "key": "published", "reload": true, "preset": "status"}
+{"log": "uitest-BC.log", "t": 1794306070342, "key": "E01_visible", "iter": 1, "preset": "status", "secondsAfterPublish": 2.2904813289642334, "secondsAfterHome": 0.1423511505126953}
+{"log": "uitest-BC.log", "t": 1794306073566, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306076880, "key": "E01_visible", "iter": 2, "secondsAfterPublish": 3.313538074493408, "secondsAfterHome": 1.1792540550231934, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306080214, "key": "published", "preset": "status", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306082500, "key": "E01_visible", "secondsAfterPublish": 2.286123752593994, "preset": "status", "secondsAfterHome": 0.1493687629699707, "iter": 3}
+{"log": "uitest-BC.log", "t": 1794306086429, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306089852, "key": "E01_visible", "secondsAfterPublish": 3.423112392425537, "iter": 4, "secondsAfterHome": 1.2865571975708008, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306092934, "key": "published", "preset": "status", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306095212, "key": "E01_visible", "iter": 5, "preset": "status", "secondsAfterPublish": 2.277895212173462, "secondsAfterHome": 0.13844895362854004}
+{"log": "uitest-BC.log", "t": 1794306098179, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306101502, "key": "E01_visible", "secondsAfterPublish": 3.3232789039611816, "iter": 6, "secondsAfterHome": 1.1863641738891602, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306104552, "key": "published", "preset": "status", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306106825, "key": "E01_visible", "iter": 7, "preset": "status", "secondsAfterPublish": 2.272706985473633, "secondsAfterHome": 0.13821196556091309}
+{"log": "uitest-BC.log", "t": 1794306110448, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306114780, "key": "E03_tap", "appState": 1, "tapStart": 1794306113.803148, "visibleSecondsAfterTapStart": 0.976876974105835, "tapCallSeconds": 0.5429069995880127, "iter": 0}
+{"log": "uitest-BC.log", "t": 1794306118884, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306122924, "key": "E03_tap", "appState": 1, "iter": 1, "tapStart": 1794306122.24664, "tapCallSeconds": 0.502331018447876, "visibleSecondsAfterTapStart": 0.677844762802124}
+{"log": "uitest-BC.log", "t": 1794306126932, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306131760, "key": "E03_tap", "visibleSecondsAfterTapStart": 1.4734642505645752, "tapStart": 1794306130.287099, "tapCallSeconds": 0.5273241996765137, "appState": 1, "iter": 2}
+{"log": "uitest-BC.log", "t": 1794306136714, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306140771, "key": "E03_tap", "tapCallSeconds": 0.5059311389923096, "appState": 1, "tapStart": 1794306140.07541, "iter": 3, "visibleSecondsAfterTapStart": 0.6964309215545654}
+{"log": "uitest-BC.log", "t": 1794306144845, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306148856, "key": "E03_tap", "tapCallSeconds": 0.4934401512145996, "visibleSecondsAfterTapStart": 0.6685271263122559, "appState": 1, "iter": 4, "tapStart": 1794306148.188295}
+{"log": "uitest-BC.log", "t": 1794306152865, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306156867, "key": "E03_tap", "appState": 1, "tapStart": 1794306156.194593, "visibleSecondsAfterTapStart": 0.6728382110595703, "tapCallSeconds": 0.5035099983215332, "iter": 5}
+{"log": "uitest-BC.log", "t": 1794306160991, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306165676, "key": "E03_tap", "visibleSecondsAfterTapStart": 1.3347368240356445, "tapCallSeconds": 0.49750494956970215, "iter": 6, "tapStart": 1794306164.342056, "appState": 1}
+{"log": "uitest-BC.log", "t": 1794306169725, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306174089, "key": "E03_tap", "tapCallSeconds": 0.5031421184539795, "appState": 1, "visibleSecondsAfterTapStart": 1.0087871551513672, "tapStart": 1794306173.08001, "iter": 7}
+{"log": "uitest-BC.log", "t": 1794306178627, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-BC.log", "t": 1794306182647, "key": "E03_tap", "tapStart": 1794306181.981738, "tapCallSeconds": 0.5024459362030029, "visibleSecondsAfterTapStart": 0.6657359600067139, "appState": 1, "iter": 8}
+{"log": "uitest-BC.log", "t": 1794306186758, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-BC.log", "t": 1794306190840, "key": "E03_tap", "appState": 1, "iter": 9, "tapStart": 1794306190.152004, "tapCallSeconds": 0.5032861232757568, "visibleSecondsAfterTapStart": 0.6880524158477783}
+{"log": "uitest-DEGI.log", "t": 1794307889789, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-DEGI.log", "t": 1794307899481, "key": "E06_double_tap_done"}
+{"log": "uitest-DEGI.log", "t": 1794307903691, "key": "published", "reload": true, "preset": "decision4"}
+{"log": "uitest-DEGI.log", "t": 1794307911232, "key": "capacity", "preset": "decision4", "buttons": [{"label": "07:05", "hittable": true, "h": 29.99999999999997, "w": 61.33333206176758}, {"label": "09:40", "h": 29.99999999999997, "hittable": true, "w": 61.00000000000003}, {"label": "13:15", "hittable": true, "w": 61.33333206176758, "h": 30}, {"h": 30, "hittable": true, "label": "18:50", "w": 61.00000000000003}, {"h": 30, "hittable": true, "label": "07:05", "w": 154}, {"hittable": true, "h": 30, "label": "09:40", "w": 153.66667175292963}, {"label": "13:15", "h": 30, "hittable": true, "w": 154}, {"h": 30, "label": "18:50", "hittable": true, "w": 153.66667175292963}]}
+{"log": "uitest-DEGI.log", "t": 1794307914270, "key": "published", "reload": true, "preset": "grid8"}
+{"log": "uitest-DEGI.log", "t": 1794307924351, "key": "capacity", "buttons": [{"h": 30, "hittable": true, "label": "1", "w": 29}, {"hittable": true, "label": "2", "h": 30, "w": 29.33333396911621}, {"w": 29, "h": 30, "label": "3", "hittable": true}, {"hittable": true, "h": 30, "label": "4", "w": 29.00000000000003}, {"hittable": true, "w": 29, "h": 30, "label": "5"}, {"w": 29.33333396911621, "h": 30, "hittable": true, "label": "6"}, {"label": "7", "hittable": true, "h": 30, "w": 29}, {"label": "8", "hittable": true, "w": 29.00000000000003, "h": 30}, {"hittable": true, "label": "1", "w": 75.33333587646484, "h": 30}, {"w": 75.66666412353516, "label": "2", "h": 30, "hittable": true}, {"h": 30, "label": "3", "hittable": true, "w": 75.33333587646484}, {"w": 75.33333587646479, "hittable": true, "label": "4", "h": 30}, {"label": "5", "w": 75.33333587646484, "hittable": true, "h": 30}, {"label": "6", "h": 30, "w": 75.66666412353516, "hittable": true}, {"w": 75.33333587646484, "label": "7", "hittable": true, "h": 30}, {"label": "8", "w": 75.33333587646479, "hittable": true, "h": 30}], "preset": "grid8"}
+{"log": "uitest-DEGI.log", "t": 1794307928468, "key": "published", "preset": "list", "reload": true}
+{"log": "uitest-DEGI.log", "t": 1794307936207, "key": "capacity", "preset": "list", "buttons": [{"label": "Approve", "h": 30.000000000000014, "w": 39.00000000000003, "hittable": true}, {"label": "Open", "w": 39.00000000000003, "h": 29.99999999999997, "hittable": true}, {"label": "Do", "w": 42.33333206176761, "h": 30, "hittable": true}, {"hittable": true, "w": 61.00000000000003, "label": "Refresh", "h": 30}, {"h": 30, "w": 100.33333587646479, "hittable": true, "label": "Approve"}, {"w": 100.99999999999994, "label": "Open", "hittable": true, "h": 30}, {"w": 100.6666641235351, "label": "Do", "hittable": true, "h": 30}, {"w": 153.66667175292963, "hittable": true, "label": "Refresh", "h": 30}]}
+{"log": "uitest-DEGI.log", "t": 1794307944772, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-DEGI.log", "t": 1794307955762, "key": "LA_home_tree"}
+{"log": "uitest-DEGI.log", "t": 1794307959525, "key": "LA_expanded", "buttonFound": true}
+{"log": "uitest-DEGI.log", "t": 1794307964458, "key": "LA_tap", "appState": 3, "tapStart": 1794307959.671846, "goneSeconds": 4.235250949859619}
+{"log": "uitest-DEGI.log", "t": 1794307975040, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-DEGI.log", "t": 1794307992867, "key": "NT_no_banner"}
+{"log": "uitest-H.log", "t": 1794308134470, "key": "RT_decision_visible", "waitedSeconds": 0.256289005279541}
+{"log": "uitest-H.log", "t": 1794308136416, "key": "RT_tap", "tapStart": 1794308134.470465, "layoutChangedSecondsAfterTapStart": 1.1849780082702637, "appState": 2}
+{"log": "uitest-H.log", "t": 1794308140240, "key": "RT_after_tree"}
+{"log": "uitest-I.log", "t": 1794308082186, "key": "published", "reload": true, "preset": "decision"}
+{"log": "uitest-I.log", "t": 1794308094693, "key": "NT_banner_tree"}
+{"log": "uitest-I.log", "t": 1794308099466, "key": "NT_expanded"}
+{"log": "uitest-I.log", "t": 1794308109345, "key": "NT_sent", "tapStart": 1794308104.3853688, "appState": 3}
+{"log": "uitest-J.log", "t": 1794308329757, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-J.log", "t": 1794308344299, "key": "E06b_stale_tap", "buttonsStillThere": true, "tapStart": 1794308339.546523}
+{"log": "uitest-Z.log", "t": 1794306004699, "key": "published", "preset": "decision", "reload": true}
+{"log": "uitest-Z.log", "t": 1794306011357, "key": "home_tree"}

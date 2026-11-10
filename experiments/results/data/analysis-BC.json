@@ -1,0 +1,163 @@
+{
+ "rows": {
+  "E01": [
+   {
+    "iter": 0,
+    "secondsAfterPublish": 3.5801589488983154,
+    "secondsAfterHome": 1.2861480712890625,
+    "preset": "decision"
+   },
+   {
+    "iter": 1,
+    "preset": "status",
+    "secondsAfterPublish": 2.2904813289642334,
+    "secondsAfterHome": 0.1423511505126953
+   },
+   {
+    "iter": 2,
+    "secondsAfterPublish": 3.313538074493408,
+    "secondsAfterHome": 1.1792540550231934,
+    "preset": "decision"
+   },
+   {
+    "secondsAfterPublish": 2.286123752593994,
+    "preset": "status",
+    "secondsAfterHome": 0.1493687629699707,
+    "iter": 3
+   },
+   {
+    "secondsAfterPublish": 3.423112392425537,
+    "iter": 4,
+    "secondsAfterHome": 1.2865571975708008,
+    "preset": "decision"
+   },
+   {
+    "iter": 5,
+    "preset": "status",
+    "secondsAfterPublish": 2.277895212173462,
+    "secondsAfterHome": 0.13844895362854004
+   },
+   {
+    "secondsAfterPublish": 3.3232789039611816,
+    "iter": 6,
+    "secondsAfterHome": 1.1863641738891602,
+    "preset": "decision"
+   },
+   {
+    "iter": 7,
+    "preset": "status",
+    "secondsAfterPublish": 2.272706985473633,
+    "secondsAfterHome": 0.13821196556091309
+   }
+  ],
+  "E03": [
+   {
+    "tap_to_intent_s": 0.532,
+    "tap_to_getTimeline_s": 0.673,
+    "intent_runtime_s": 0.092,
+    "tap_to_visible_s": 0.976876974105835,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.315,
+    "tap_to_getTimeline_s": 0.358,
+    "intent_runtime_s": 0.009,
+    "tap_to_visible_s": 0.677844762802124,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.315,
+    "tap_to_getTimeline_s": 0.365,
+    "intent_runtime_s": 0.007,
+    "tap_to_visible_s": 1.4734642505645752,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.311,
+    "tap_to_getTimeline_s": 0.347,
+    "intent_runtime_s": 0.007,
+    "tap_to_visible_s": 0.6964309215545654,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.314,
+    "tap_to_getTimeline_s": 0.351,
+    "intent_runtime_s": 0.008,
+    "tap_to_visible_s": 0.6685271263122559,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.307,
+    "tap_to_getTimeline_s": 0.346,
+    "intent_runtime_s": 0.007,
+    "tap_to_visible_s": 0.6728382110595703,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.311,
+    "tap_to_getTimeline_s": 0.348,
+    "intent_runtime_s": 0.006,
+    "tap_to_visible_s": 1.3347368240356445,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.306,
+    "tap_to_getTimeline_s": 0.341,
+    "intent_runtime_s": 0.006,
+    "tap_to_visible_s": 1.0087871551513672,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.304,
+    "tap_to_getTimeline_s": 0.345,
+    "intent_runtime_s": 0.007,
+    "tap_to_visible_s": 0.6657359600067139,
+    "appState": 1
+   },
+   {
+    "tap_to_intent_s": 0.32,
+    "tap_to_getTimeline_s": 0.369,
+    "intent_runtime_s": 0.008,
+    "tap_to_visible_s": 0.6880524158477783,
+    "appState": 1
+   }
+  ]
+ },
+ "summary": {
+  "E01_publish_to_visible_s": {
+   "n": 8,
+   "min": 2.273,
+   "median": 2.802,
+   "p90": 3.423,
+   "max": 3.58
+  },
+  "E03_tap_to_intent_s": {
+   "n": 10,
+   "min": 0.304,
+   "median": 0.312,
+   "p90": 0.32,
+   "max": 0.532
+  },
+  "E03_tap_to_getTimeline_s": {
+   "n": 10,
+   "min": 0.341,
+   "median": 0.349,
+   "p90": 0.369,
+   "max": 0.673
+  },
+  "E03_intent_runtime_s": {
+   "n": 10,
+   "min": 0.006,
+   "median": 0.007,
+   "p90": 0.009,
+   "max": 0.092
+  },
+  "E03_tap_to_visible_s": {
+   "n": 10,
+   "min": 0.666,
+   "median": 0.692,
+   "p90": 1.335,
+   "max": 1.473
+  }
+ }
+}

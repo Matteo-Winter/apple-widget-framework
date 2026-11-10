@@ -1,12 +1,17 @@
 name: AgentWidgetLab
 options:
-  bundleIdPrefix: com.example
   deploymentTarget:
     iOS: "17.0"
+configFiles:
+  Debug: Config/Base.xcconfig
+  Release: Config/Base.xcconfig
 settings:
   base:
     SWIFT_VERSION: "5.9"
     CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1"
+    MARKETING_VERSION: "0.2"
+    CURRENT_PROJECT_VERSION: "2"
 targets:
   AgentWidgetLab:
     type: application
@@ -14,14 +19,30 @@ targets:
     sources:
       - path: App
       - path: Shared
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Agent Lab
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        NSSupportsLiveActivities: true
+        NSSupportsLiveActivitiesFrequentUpdates: true
+        UIBackgroundModes: [remote-notification, fetch, processing]
+        BGTaskSchedulerPermittedIdentifiers: ["$(AWL_APP_BUNDLE_ID).refresh"]
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+          NSAllowsArbitraryLoads: true
+        NSLocalNetworkUsageDescription: Connects to the agent bridge on your Mac to exchange widget schemas and responses.
+        CFBundleURLTypes:
+          - CFBundleURLName: agentlab
+            CFBundleURLSchemes: [agentlab]
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.example.AgentWidgetLab
-        GENERATE_INFOPLIST_FILE: YES
-        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
-        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        PRODUCT_BUNDLE_IDENTIFIER: $(AWL_APP_BUNDLE_ID)
         CODE_SIGN_ENTITLEMENTS: App/AgentWidgetLab.entitlements
-        TARGETED_DEVICE_FAMILY: "1"
     dependencies:
       - target: AgentWidgetExtension
   AgentWidgetExtension:
@@ -29,12 +50,33 @@ targets:
     platform: iOS
     sources:
       - path: Widget
+        excludes: [Info.plist]
       - path: Shared
-    info:
-      path: Widget/Info.plist
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.example.AgentWidgetLab.Widgets
-        GENERATE_INFOPLIST_FILE: NO
+        PRODUCT_BUNDLE_IDENTIFIER: $(AWL_APP_BUNDLE_ID).Widgets
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: Widget/Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: Agent Surface
+        SKIP_INSTALL: YES
         CODE_SIGN_ENTITLEMENTS: Widget/AgentWidgetExtension.entitlements
-        TARGETED_DEVICE_FAMILY: "1"
+  AgentWidgetLabUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: UITests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(AWL_APP_BUNDLE_ID).UITests
+        TEST_TARGET_NAME: AgentWidgetLab
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: AgentWidgetLab
+schemes:
+  AgentWidgetLab:
+    build:
+      targets:
+        AgentWidgetLab: all
+        AgentWidgetLabUITests: [test]
+    test:
+      targets: [AgentWidgetLabUITests]

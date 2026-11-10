@@ -2,6 +2,11 @@
 
 **Status (November 2026): experimental research / prototype. Not a validated startup product.**
 
+> **Latest results (2026-11-10, Simulator only):** [docs/RESULTS.md](docs/RESULTS.md). A generic JSON renderer, in-widget
+> decisions with an agent back-channel, background-push wake-ups, pre-scheduled layouts, Live Activity and notification
+> text replies all work in the iOS 26.3 Simulator. Nothing is verified on a physical iPhone yet (blocked: Apple PLA,
+> no device connection; WidgetKit push additionally needs iOS 26).
+
 ## Why this repository exists
 
 We are investigating whether an iPhone can become a **universal, adaptive interaction surface for independent AI agents**. The phone should show relevant information and decisions where they matter — in an existing Home Screen widget, a Live Activity / Dynamic Island, or a notification — without requiring the user to repeatedly open different agent chats.
@@ -31,6 +36,7 @@ The first experiments measure native behavior — we will not claim a bypass wit
 - [Experiment plan and success criteria](docs/WIDGET_EXPERIMENTS.md)
 - [Questions, market risks and competitor map](docs/OPEN_QUESTIONS.md)
 - [iPhone lab setup](prototype/README.md)
+- [Research results](docs/RESULTS.md) · [Schema](docs/SCHEMA.md) · [Test records](experiments/results/)
 
 ## Build/test order
 

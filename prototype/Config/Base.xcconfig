@@ -1,0 +1,6 @@
+// Committed defaults (placeholders). Override in Config/Local.xcconfig (gitignored):
+//   DEVELOPMENT_TEAM = ABCDE12345
+//   AWL_APP_BUNDLE_ID = com.yourname.agentwidgetlab
+AWL_APP_BUNDLE_ID = com.example.AgentWidgetLab
+DEVELOPMENT_TEAM =
+#include? "Local.xcconfig"

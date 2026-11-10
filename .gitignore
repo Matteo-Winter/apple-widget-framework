@@ -1,0 +1,18 @@
+# Xcode / generated
+prototype/AgentWidgetLab.xcodeproj/
+prototype/App/Info.plist
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+# Local signing (team id, bundle ids) — never commit
+prototype/Config/Local.xcconfig
+# Secrets
+*.p8
+*.p12
+*.mobileprovision
+.env
+# Tool output
+tools/__pycache__/
+tools/runtime/
+experiments/raw/

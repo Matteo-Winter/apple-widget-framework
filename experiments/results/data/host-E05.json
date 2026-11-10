@@ -1,0 +1,66 @@
+{
+ "rows": [
+  {
+   "case": "not_json",
+   "getTimeline": true,
+   "invalidLogged": "decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn",
+   "screenshot": "E05-not_json.png"
+  },
+  {
+   "case": "missing_root",
+   "getTimeline": true,
+   "invalidLogged": "decode: keyNotFound(CodingKeys(stringValue: \"root\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"root\\\", intValue: nil) (\\\"root\\\").\", underlyingError: nil))",
+   "screenshot": "E05-missing_root.png"
+  },
+  {
+   "case": "too_deep",
+   "getTimeline": true,
+   "invalidLogged": "tree deeper than 8",
+   "screenshot": "E05-too_deep.png"
+  },
+  {
+   "case": "too_many_nodes",
+   "getTimeline": true,
+   "invalidLogged": "201 nodes > 80",
+   "screenshot": "E05-too_many_nodes.png"
+  },
+  {
+   "case": "unknown_type",
+   "getTimeline": true,
+   "invalidLogged": null,
+   "screenshot": "E05-unknown_type.png"
+  }
+ ],
+ "summary": [
+  {
+   "case": "not_json",
+   "getTimeline": true,
+   "invalidLogged": "decode: dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: \"The given data was not valid JSON.\", underlyingError: Optional(Error Domain=NSCocoaErrorDomain Code=3840 \"Unexpected character 't' around line 1, column 3.\" UserIn",
+   "screenshot": "E05-not_json.png"
+  },
+  {
+   "case": "missing_root",
+   "getTimeline": true,
+   "invalidLogged": "decode: keyNotFound(CodingKeys(stringValue: \"root\", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: \"No value associated with key CodingKeys(stringValue: \\\"root\\\", intValue: nil) (\\\"root\\\").\", underlyingError: nil))",
+   "screenshot": "E05-missing_root.png"
+  },
+  {
+   "case": "too_deep",
+   "getTimeline": true,
+   "invalidLogged": "tree deeper than 8",
+   "screenshot": "E05-too_deep.png"
+  },
+  {
+   "case": "too_many_nodes",
+   "getTimeline": true,
+   "invalidLogged": "201 nodes > 80",
+   "screenshot": "E05-too_many_nodes.png"
+  },
+  {
+   "case": "unknown_type",
+   "getTimeline": true,
+   "invalidLogged": null,
+   "screenshot": "E05-unknown_type.png"
+  }
+ ]
+}

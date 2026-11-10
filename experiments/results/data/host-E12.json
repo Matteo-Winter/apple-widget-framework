@@ -1,0 +1,12 @@
+{
+ "summary": {
+  "pushes": 20,
+  "gapSeconds": 1.0,
+  "silentPushHandled": 0,
+  "getTimelineCalls": 40,
+  "families": [
+   "systemMedium",
+   "systemSmall"
+  ]
+ }
+}

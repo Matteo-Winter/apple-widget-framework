@@ -1,0 +1,76 @@
+{
+ "rows": [
+  {
+   "step": "Queued",
+   "planned": "2026-11-10T10:47:49.162Z",
+   "drift_s": 1.71,
+   "frameMs": 374,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Compiling",
+   "planned": "2026-11-10T10:48:19.162Z",
+   "drift_s": 2.878,
+   "frameMs": 494,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Testing",
+   "planned": "2026-11-10T10:48:49.162Z",
+   "drift_s": 1.818,
+   "frameMs": 530,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Uploading",
+   "planned": "2026-11-10T10:49:19.162Z",
+   "drift_s": 1.852,
+   "frameMs": 414,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Done",
+   "planned": "2026-11-10T10:49:49.162Z",
+   "drift_s": 1.934,
+   "frameMs": 395,
+   "getTimelineNear": false
+  }
+ ],
+ "summary": [
+  {
+   "step": "Queued",
+   "planned": "2026-11-10T10:47:49.162Z",
+   "drift_s": 1.71,
+   "frameMs": 374,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Compiling",
+   "planned": "2026-11-10T10:48:19.162Z",
+   "drift_s": 2.878,
+   "frameMs": 494,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Testing",
+   "planned": "2026-11-10T10:48:49.162Z",
+   "drift_s": 1.818,
+   "frameMs": 530,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Uploading",
+   "planned": "2026-11-10T10:49:19.162Z",
+   "drift_s": 1.852,
+   "frameMs": 414,
+   "getTimelineNear": false
+  },
+  {
+   "step": "Done",
+   "planned": "2026-11-10T10:49:49.162Z",
+   "drift_s": 1.934,
+   "frameMs": 395,
+   "getTimelineNear": false
+  }
+ ]
+}

@@ -53,7 +53,10 @@ Record event created time, shared storage write time, reload request time, scree
 
 No assumption that `WidgetCenter.reloadTimelines` forces instant refresh. Record failure, delay and stale-render cases.
 
-## Not yet validated
+## Validation status (2026-11-10)
+Simulator results for dynamic layout switching, App Intent behavior, scheduled entries, background-push wake-ups, Live Activity intents and notification text input are in [RESULTS.md](RESULTS.md). The list below is still open **on device**.
+
+## Not yet validated on device
 - Real device iOS refresh rates / percentiles
 - Dynamic layout switching in compiled widget
 - App Intent response behavior while locked

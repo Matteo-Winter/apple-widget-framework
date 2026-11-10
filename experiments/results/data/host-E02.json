@@ -1,0 +1,11 @@
+{
+ "summary": {
+  "observeSeconds": 180,
+  "visibleChange": false,
+  "write_to_visible_s": null,
+  "getTimelineAfterWrite": false,
+  "write_to_getTimeline_s": null,
+  "frames": 486,
+  "frameMs": 367
+ }
+}

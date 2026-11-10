@@ -1,0 +1,32 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "rc": 0,
+   "out": "Notification sent to '<bundle-id>.push-type.liveactivity'",
+   "push_to_visible_s": null,
+   "frameMs": 388
+  },
+  {
+   "i": 1,
+   "rc": 0,
+   "out": "Notification sent to '<bundle-id>.push-type.liveactivity'",
+   "push_to_visible_s": null,
+   "frameMs": 400
+  },
+  {
+   "i": 2,
+   "rc": 0,
+   "out": "Notification sent to '<bundle-id>.push-type.liveactivity'",
+   "push_to_visible_s": null,
+   "frameMs": 373
+  },
+  {
+   "i": 3,
+   "rc": 0,
+   "out": "Notification sent to '<bundle-id>.push-type.liveactivity'",
+   "push_to_visible_s": null,
+   "frameMs": 368
+  }
+ ]
+}

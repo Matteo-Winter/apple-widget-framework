@@ -3,8 +3,8 @@
 **Goal:** measure whether a single existing home-screen widget can represent many agent-defined UIs with useful refresh and response times, using supported iOS capabilities.
 
 ## Experimental environment
-- Physical iPhone + exact iOS version: **TBD**
-- Mac / Xcode version: **TBD**
+- Physical iPhone + exact iOS version: iPhone 13, iOS 18.7.8 (**not yet reachable**, see docs/RESULTS.md)
+- Mac / Xcode version: macOS 15.7.3, Xcode 26.3 (17C529), iOS SDK 26.2; Simulator iOS 26.3.1
 - Developer Mode (on/off): **record**
 - Widget size: **small and medium, start with medium**
 - App bundle and App Group: **replace example IDs for own signing team**
@@ -47,3 +47,7 @@ Create one markdown test record per real run under `experiments/results/YYYY-MM-
 **G4:** No unsafe code execution / unsupported background modes needed.
 
 **Stop / rethink:** if the essential UX requires persistent sub-second arbitrary content streaming with the phone locked, WidgetKit alone should not be used for that requirement.
+
+## Run log
+- 2026-11-10: full suite in the Simulator. Results: [docs/RESULTS.md](RESULTS.md), records: [experiments/results/2026-11-10-simulator-run.md](../experiments/results/2026-11-10-simulator-run.md).
+  Gates: G0 Simulator ✔ / device blocked · G1 ✔ (Simulator) · G2 ✔ (Simulator) · G3 open (needs device + APNs) · G4 ✔ (only public APIs, no unsupported background modes).

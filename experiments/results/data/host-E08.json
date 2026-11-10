@@ -1,0 +1,86 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 412
+  },
+  {
+   "i": 1,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 414
+  },
+  {
+   "i": 2,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 429
+  },
+  {
+   "i": 3,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 410
+  },
+  {
+   "i": 4,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 409
+  }
+ ],
+ "summary": [
+  {
+   "i": 0,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 412
+  },
+  {
+   "i": 1,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 414
+  },
+  {
+   "i": 2,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 429
+  },
+  {
+   "i": 3,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 410
+  },
+  {
+   "i": 4,
+   "simctl_rc": 0,
+   "simctl_out": "Notification sent to '<bundle-id>.push-type.widgets'",
+   "push_to_getTimeline_s": null,
+   "push_to_visible_s": null,
+   "frameMs": 409
+  }
+ ]
+}

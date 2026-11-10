@@ -1,0 +1,79 @@
+{"t": 1794306255234, "e": "bridge_start", "port": 8787}
+{"t": 1794306256048, "e": "get_surface", "rev": null, "peer": "127.0.0.1"}
+{"t": 1794306317946, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:21:54.338Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317956, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:02.563Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317963, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:10.604Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317968, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:20.388Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317971, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:28.503Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317975, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:36.503Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317978, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:44.655Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317982, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:22:53.388Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317986, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:23:02.287Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306317991, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:23:10.474Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794306668717, "e": "publish_surface", "rev": 1005, "id": "host-1005"}
+{"t": 1794306670092, "e": "get_surface", "rev": 1005, "peer": "127.0.0.1"}
+{"t": 1794306703320, "e": "publish_surface", "rev": 1006, "id": "host-1006"}
+{"t": 1794306703915, "e": "get_surface", "rev": 1006, "peer": "127.0.0.1"}
+{"t": 1794306738762, "e": "publish_surface", "rev": 1007, "id": "host-1007"}
+{"t": 1794306739944, "e": "get_surface", "rev": 1007, "peer": "127.0.0.1"}
+{"t": 1794306773061, "e": "publish_surface", "rev": 1008, "id": "host-1008"}
+{"t": 1794306773629, "e": "get_surface", "rev": 1008, "peer": "127.0.0.1"}
+{"t": 1794306808563, "e": "publish_surface", "rev": 1009, "id": "host-1009"}
+{"t": 1794306809677, "e": "get_surface", "rev": 1009, "peer": "127.0.0.1"}
+{"t": 1794306843079, "e": "publish_surface", "rev": 1010, "id": "host-1010"}
+{"t": 1794306843640, "e": "get_surface", "rev": 1010, "peer": "127.0.0.1"}
+{"t": 1794306913852, "e": "publish_surface", "rev": 1011, "id": "host-1011"}
+{"t": 1794306915052, "e": "get_surface", "rev": 1011, "peer": "127.0.0.1"}
+{"t": 1794306918931, "e": "publish_surface", "rev": 1012, "id": "host-1012"}
+{"t": 1794306919485, "e": "get_surface", "rev": 1012, "peer": "127.0.0.1"}
+{"t": 1794306957368, "e": "publish_surface", "rev": 1013, "id": "host-1013"}
+{"t": 1794306958688, "e": "get_surface", "rev": 1013, "peer": "127.0.0.1"}
+{"t": 1794306962383, "e": "publish_surface", "rev": 1014, "id": "host-1014"}
+{"t": 1794306962935, "e": "get_surface", "rev": 1014, "peer": "127.0.0.1"}
+{"t": 1794307001026, "e": "publish_surface", "rev": 1015, "id": "host-1015"}
+{"t": 1794307002428, "e": "get_surface", "rev": 1015, "peer": "127.0.0.1"}
+{"t": 1794307006400, "e": "publish_surface", "rev": 1016, "id": "host-1016"}
+{"t": 1794307006981, "e": "get_surface", "rev": 1016, "peer": "127.0.0.1"}
+{"t": 1794307049855, "e": "publish_surface", "rev": 1017, "id": "host-1017"}
+{"t": 1794307050355, "e": "get_surface", "rev": 1017, "peer": "127.0.0.1"}
+{"t": 1794307075538, "e": "publish_surface", "rev": 1018, "id": "host-1018"}
+{"t": 1794307079811, "e": "get_surface", "rev": 1018, "peer": "127.0.0.1"}
+{"t": 1794307083459, "e": "publish_surface", "rev": 1019, "id": "host-1019"}
+{"t": 1794307087181, "e": "get_surface", "rev": 1019, "peer": "127.0.0.1"}
+{"t": 1794307095414, "e": "publish_surface", "rev": 1020, "id": "host-1020"}
+{"t": 1794307099580, "e": "get_surface", "rev": 1020, "peer": "127.0.0.1"}
+{"t": 1794307103062, "e": "publish_surface", "rev": 1021, "id": "host-1021"}
+{"t": 1794307106789, "e": "get_surface", "rev": 1021, "peer": "127.0.0.1"}
+{"t": 1794307114914, "e": "publish_surface", "rev": 1022, "id": "host-1022"}
+{"t": 1794307119075, "e": "get_surface", "rev": 1022, "peer": "127.0.0.1"}
+{"t": 1794307122648, "e": "publish_surface", "rev": 1023, "id": "host-1023"}
+{"t": 1794307126323, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307141916, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307142964, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307144299, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307145664, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307147018, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307148432, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307149783, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307151124, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307152466, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307153806, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307155156, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307156502, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307157868, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307159244, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307160609, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307162012, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307163403, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307164767, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307166113, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307167467, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307178984, "e": "get_surface", "rev": 1023, "peer": "127.0.0.1"}
+{"t": 1794307894801, "e": "response", "action": "investigate", "text": null, "channel": "widget", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:51:34.708Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794307961777, "e": "response", "action": "investigate", "text": null, "channel": "activity", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:52:41.682Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794308105046, "e": "response", "action": "reply", "text": "ship it after lunch", "channel": "notification", "surface": "decision-1", "duplicate": false, "createdAt": "2026-11-10T10:55:04.914Z", "next": false, "peer": "127.0.0.1"}
+{"t": 1794308120079, "e": "publish_surface", "rev": 81200, "id": "demo-status-81200"}
+{"t": 1794308120877, "e": "get_surface", "rev": 81200, "peer": "127.0.0.1"}
+{"t": 1794308126450, "e": "publish_surface", "rev": 81210, "id": "demo-decision-81210"}
+{"t": 1794308126745, "e": "get_surface", "rev": 81210, "peer": "127.0.0.1"}
+{"t": 1794308135235, "e": "response", "action": "fix", "text": null, "channel": "widget", "surface": "demo-decision-81210", "duplicate": false, "createdAt": "2026-11-10T10:55:35.190Z", "next": true, "peer": "127.0.0.1"}

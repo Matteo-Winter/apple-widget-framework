@@ -1,0 +1,114 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "appState": "terminated",
+   "push_to_wake_s": 0.612,
+   "push_to_fetchDone_s": 0.73,
+   "push_to_getTimeline_s": 0.877,
+   "push_to_visible_s": 0.793,
+   "frameMs": 434
+  },
+  {
+   "i": 1,
+   "appState": "suspended",
+   "push_to_wake_s": 0.199,
+   "push_to_fetchDone_s": 0.209,
+   "push_to_getTimeline_s": 0.264,
+   "push_to_visible_s": 0.743,
+   "frameMs": 533
+  },
+  {
+   "i": 2,
+   "appState": "terminated",
+   "push_to_wake_s": 0.59,
+   "push_to_fetchDone_s": 0.692,
+   "push_to_getTimeline_s": 0.743,
+   "push_to_visible_s": 0.773,
+   "frameMs": 434
+  },
+  {
+   "i": 3,
+   "appState": "suspended",
+   "push_to_wake_s": 0.196,
+   "push_to_fetchDone_s": 0.206,
+   "push_to_getTimeline_s": 0.252,
+   "push_to_visible_s": 0.693,
+   "frameMs": 487
+  },
+  {
+   "i": 4,
+   "appState": "terminated",
+   "push_to_wake_s": 0.572,
+   "push_to_fetchDone_s": 0.674,
+   "push_to_getTimeline_s": 0.717,
+   "push_to_visible_s": 0.77,
+   "frameMs": 444
+  },
+  {
+   "i": 5,
+   "appState": "suspended",
+   "push_to_wake_s": 0.198,
+   "push_to_fetchDone_s": 0.208,
+   "push_to_getTimeline_s": 0.253,
+   "push_to_visible_s": 0.716,
+   "frameMs": 508
+  }
+ ],
+ "summary": [
+  {
+   "i": 0,
+   "appState": "terminated",
+   "push_to_wake_s": 0.612,
+   "push_to_fetchDone_s": 0.73,
+   "push_to_getTimeline_s": 0.877,
+   "push_to_visible_s": 0.793,
+   "frameMs": 434
+  },
+  {
+   "i": 1,
+   "appState": "suspended",
+   "push_to_wake_s": 0.199,
+   "push_to_fetchDone_s": 0.209,
+   "push_to_getTimeline_s": 0.264,
+   "push_to_visible_s": 0.743,
+   "frameMs": 533
+  },
+  {
+   "i": 2,
+   "appState": "terminated",
+   "push_to_wake_s": 0.59,
+   "push_to_fetchDone_s": 0.692,
+   "push_to_getTimeline_s": 0.743,
+   "push_to_visible_s": 0.773,
+   "frameMs": 434
+  },
+  {
+   "i": 3,
+   "appState": "suspended",
+   "push_to_wake_s": 0.196,
+   "push_to_fetchDone_s": 0.206,
+   "push_to_getTimeline_s": 0.252,
+   "push_to_visible_s": 0.693,
+   "frameMs": 487
+  },
+  {
+   "i": 4,
+   "appState": "terminated",
+   "push_to_wake_s": 0.572,
+   "push_to_fetchDone_s": 0.674,
+   "push_to_getTimeline_s": 0.717,
+   "push_to_visible_s": 0.77,
+   "frameMs": 444
+  },
+  {
+   "i": 5,
+   "appState": "suspended",
+   "push_to_wake_s": 0.198,
+   "push_to_fetchDone_s": 0.208,
+   "push_to_getTimeline_s": 0.253,
+   "push_to_visible_s": 0.716,
+   "frameMs": 508
+  }
+ ]
+}
