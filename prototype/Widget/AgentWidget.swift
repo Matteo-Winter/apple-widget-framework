@@ -17,8 +17,8 @@ struct AgentProvider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<AgentEntry>) -> Void) {
         let current = AgentEntry(date: .now, payload: WidgetStore.load())
-        // A *requested* refresh in a minute is a test, not an update guarantee.
-        completion(Timeline(entries: [current], policy: .after(Date().addingTimeInterval(60))))
+        // A *requested* five-minute refresh is only a hint, not an update guarantee.
+        completion(Timeline(entries: [current], policy: .after(Date().addingTimeInterval(300))))
     }
 }
 
