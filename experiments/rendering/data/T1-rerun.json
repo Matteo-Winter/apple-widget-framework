@@ -1,0 +1,160 @@
+[
+ {
+  "run": "t1-views",
+  "technique": "views",
+  "trigger_ms": 1794310506468,
+  "push_to_app_ms": 1263,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.2,
+   "memBefore": 32.2,
+   "memAfter": 32.2,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.2,
+    "memBefore": 32.2,
+    "memAfter": 32.2,
+    "appState": 2,
+    "at_ms": 1263
+   }
+  ],
+  "prerender_done_ms": 1263,
+  "reload_requested_ms": 1265,
+  "timeline": [
+   {
+    "run": "t1-views",
+    "tech": "views",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 5.8,
+    "memBefore": 33.4,
+    "memAfter": 33.4,
+    "ops": 19,
+    "at_ms": 1313
+   },
+   {
+    "run": "t1-views",
+    "tech": "views",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 5.6,
+    "memBefore": 22.8,
+    "memAfter": 22.9,
+    "ops": 50,
+    "at_ms": 1435
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 1314,
+  "canvas_draws": [],
+  "visible_ms": 2280,
+  "screenshot_frame_ms": 419,
+  "screenshot": "experiments/rendering/raw/t1-views.png"
+ },
+ {
+  "run": "t1-bitmap-app-html-bg",
+  "technique": "bitmap",
+  "trigger_ms": 1794310588799,
+  "push_to_app_ms": 1141,
+  "prerender": null,
+  "prerender_all": [],
+  "prerender_done_ms": null,
+  "reload_requested_ms": null,
+  "timeline": [],
+  "view_evals": 0,
+  "first_view_ms": null,
+  "canvas_draws": [],
+  "visible_ms": 43036,
+  "screenshot_frame_ms": 585,
+  "screenshot": "experiments/rendering/raw/t1-bitmap-app-html-bg.png"
+ },
+ {
+  "run": "t1-bitmap-app-html-fg",
+  "technique": "bitmap",
+  "trigger_ms": 1794310636396,
+  "push_to_app_ms": null,
+  "prerender": {
+   "op": "html",
+   "out": "t1-apphtml-systemLarge.png",
+   "totalMs": 2515.5,
+   "memBefore": 41.1,
+   "memAfter": 39.8,
+   "appState": 0,
+   "snapshotMs": 2515,
+   "encodeMs": 89.0,
+   "bytes": 1308722,
+   "px": "1047x1095"
+  },
+  "prerender_all": [
+   {
+    "op": "html",
+    "out": "t1-apphtml-systemLarge.png",
+    "totalMs": 2515.5,
+    "memBefore": 41.1,
+    "memAfter": 39.8,
+    "appState": 0,
+    "snapshotMs": 2515,
+    "encodeMs": 89.0,
+    "bytes": 1308722,
+    "px": "1047x1095",
+    "at_ms": 5174
+   },
+   {
+    "op": "html",
+    "out": "t1-apphtml-systemMedium.png",
+    "totalMs": 776.9,
+    "memBefore": 39.8,
+    "memAfter": 36.9,
+    "appState": 0,
+    "snapshotMs": 776,
+    "encodeMs": 49.3,
+    "bytes": 642601,
+    "px": "1047x492",
+    "at_ms": 5951
+   }
+  ],
+  "prerender_done_ms": 5174,
+  "reload_requested_ms": 5956,
+  "timeline": [
+   {
+    "run": "t1-bitmap-app-html-fg",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 50.4,
+    "memBefore": 32.9,
+    "memAfter": 26.4,
+    "file": "t1-apphtml-systemLarge.png",
+    "bytes": 1308722,
+    "px": "1047x1095",
+    "decodeMs": 31.8,
+    "at_ms": 6073
+   },
+   {
+    "run": "t1-bitmap-app-html-fg",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 14.0,
+    "memBefore": 22.4,
+    "memAfter": 24.4,
+    "file": "t1-apphtml-systemMedium.png",
+    "bytes": 642601,
+    "px": "1047x492",
+    "decodeMs": 12.0,
+    "at_ms": 6134
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 6083,
+  "canvas_draws": [],
+  "visible_ms": 8644,
+  "screenshot_frame_ms": 855,
+  "screenshot": "experiments/rendering/raw/t1-bitmap-app-html-fg.png"
+ }
+]

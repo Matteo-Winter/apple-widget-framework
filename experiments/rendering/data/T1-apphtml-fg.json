@@ -1,0 +1,105 @@
+[
+ {
+  "run": "t1-bitmap-app-html-fg2",
+  "technique": "bitmap",
+  "trigger_ms": 1794313716469,
+  "push_to_app_ms": null,
+  "prerender": {
+   "op": "html",
+   "out": "t1-apphtml-systemLarge.png",
+   "totalMs": 1527.1,
+   "memBefore": 40.4,
+   "memAfter": 39.1,
+   "appState": 0,
+   "snapshotMs": 1527,
+   "encodeMs": 67.6,
+   "bytes": 1308842,
+   "px": "1047x1095"
+  },
+  "prerender_all": [
+   {
+    "op": "html",
+    "out": "t1-apphtml-systemLarge.png",
+    "totalMs": 1527.1,
+    "memBefore": 40.4,
+    "memAfter": 39.1,
+    "appState": 0,
+    "snapshotMs": 1527,
+    "encodeMs": 67.6,
+    "bytes": 1308842,
+    "px": "1047x1095",
+    "at_ms": 4055
+   },
+   {
+    "op": "html",
+    "out": "t1-apphtml-systemMedium.png",
+    "totalMs": 628.3,
+    "memBefore": 39.1,
+    "memAfter": 36.7,
+    "appState": 0,
+    "snapshotMs": 628,
+    "encodeMs": 34.1,
+    "bytes": 642601,
+    "px": "1047x492",
+    "at_ms": 4684
+   }
+  ],
+  "prerender_done_ms": 4055,
+  "reload_requested_ms": 4689,
+  "timeline": [
+   {
+    "run": "t1-bitmap-app-html-fg2",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 10.1,
+    "memBefore": 73.9,
+    "memAfter": 75.9,
+    "file": "t1-apphtml-systemMedium.png",
+    "bytes": 642601,
+    "px": "1047x492",
+    "decodeMs": 9.2,
+    "at_ms": 4754
+   },
+   {
+    "run": "t1-bitmap-app-html-fg2",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 18.4,
+    "memBefore": 73.9,
+    "memAfter": 78.3,
+    "file": "t1-apphtml-systemLarge.png",
+    "bytes": 1308842,
+    "px": "1047x1095",
+    "decodeMs": 17.6,
+    "at_ms": 4778
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 4756,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313721241,
+    "ms": 16,
+    "end": 1794313721257,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313721257,
+    "ms": 24,
+    "end": 1794313721281,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 4812,
+  "visible_ms": 7966,
+  "screenshot_frame_ms": 479,
+  "screenshot": "experiments/rendering/raw/t1-bitmap-app-html-fg2.png"
+ }
+]

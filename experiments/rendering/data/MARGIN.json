@@ -1,0 +1,160 @@
+[
+ {
+  "run": "margin-disabled",
+  "technique": "canvas",
+  "trigger_ms": 1794312081156,
+  "push_to_app_ms": 183,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.2,
+   "memAfter": 57.2,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.2,
+    "memAfter": 57.2,
+    "appState": 2,
+    "at_ms": 184
+   }
+  ],
+  "prerender_done_ms": 184,
+  "reload_requested_ms": 185,
+  "timeline": [
+   {
+    "run": "margin-disabled",
+    "tech": "canvas",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 7.1,
+    "memBefore": 36.2,
+    "memAfter": 36.2,
+    "ops": 6,
+    "at_ms": 250
+   },
+   {
+    "run": "margin-disabled",
+    "tech": "canvas",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 0.4,
+    "memBefore": 36.2,
+    "memAfter": 36.2,
+    "ops": 6,
+    "at_ms": 259
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 253,
+  "canvas_draws": [
+   {
+    "run": "margin-disabled",
+    "ops": 6,
+    "ms": 2.8,
+    "size": "349x164",
+    "mem": 36.25714111328125,
+    "at_ms": 257
+   },
+   {
+    "run": "margin-disabled",
+    "ops": 6,
+    "ms": 0.2,
+    "size": "349x365",
+    "mem": 36.25714111328125,
+    "at_ms": 261
+   }
+  ],
+  "visible_ms": 1989,
+  "screenshot_frame_ms": 377,
+  "screenshot": "experiments/rendering/raw/margin-disabled.png"
+ },
+ {
+  "run": "margin-padding16",
+  "technique": "canvas",
+  "trigger_ms": 1794312087669,
+  "push_to_app_ms": 181,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.1,
+   "memAfter": 57.1,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.1,
+    "memAfter": 57.1,
+    "appState": 2,
+    "at_ms": 182
+   }
+  ],
+  "prerender_done_ms": 182,
+  "reload_requested_ms": 183,
+  "timeline": [
+   {
+    "run": "margin-padding16",
+    "tech": "canvas",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 0.4,
+    "memBefore": 36.2,
+    "memAfter": 36.2,
+    "ops": 6,
+    "at_ms": 219
+   },
+   {
+    "run": "margin-padding16",
+    "tech": "canvas",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 0.3,
+    "memBefore": 36.2,
+    "memAfter": 36.2,
+    "ops": 6,
+    "at_ms": 223
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 220,
+  "canvas_draws": [
+   {
+    "run": "margin-padding16",
+    "ops": 6,
+    "ms": 0.3,
+    "size": "317x132",
+    "mem": 36.24151611328125,
+    "at_ms": 221
+   },
+   {
+    "run": "margin-padding16",
+    "ops": 6,
+    "ms": 0.4,
+    "size": "317x333",
+    "mem": 36.24151611328125,
+    "at_ms": 226
+   }
+  ],
+  "visible_ms": 1945,
+  "screenshot_frame_ms": 366,
+  "screenshot": "experiments/rendering/raw/margin-padding16.png"
+ },
+ {
+  "run": "margin-disabled",
+  "first_green_px_x": 80,
+  "widget_left_px": 80
+ },
+ {
+  "run": "margin-padding16",
+  "first_green_px_x": 127,
+  "widget_left_px": 80
+ }
+]

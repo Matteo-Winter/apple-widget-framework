@@ -124,6 +124,8 @@ struct AgentLiveActivity: Widget {
 struct AgentWidgetBundle: WidgetBundle {
     var body: some Widget {
         AgentWidget()
+        RenderLabWidget()
+        RenderLabMarginsWidget()
         if #available(iOS 26.0, *) {
             AgentPushWidget()
         }

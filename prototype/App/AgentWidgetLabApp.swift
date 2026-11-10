@@ -75,6 +75,11 @@ enum Automation {
             BackgroundRefresh.schedule()
         case "clearlog":
             Log.clear()
+        case "renderlab":   // agentlab://renderlab?op=html&html=x.html&out=y.png&pw=1086&ph=510
+            var cmd: [String: Any] = [:]
+            for item in q { cmd[item.name] = Int(item.value ?? "") ?? Double(item.value ?? "") ?? item.value as Any }
+            for k in ["out", "html", "scene", "type", "op"] { if let s = v(k) { cmd[k] = s } }
+            Task { await RLPrerender.handle(cmd) }
         default: break
         }
     }
@@ -91,6 +96,16 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
         app.registerForRemoteNotifications()
         LiveActivities.observeTokens()
         Task { await Bridge.flushOutbox() }
+        // Lab: `simctl launch <bundle> -rlcmd '<json>'` runs a RenderLab pre-render in the FOREGROUND app.
+        // base64(JSON): a raw "{…}" argument would be parsed as an old-style plist dictionary.
+        if let raw = UserDefaults.standard.string(forKey: "rlcmd"), let d = Data(base64Encoded: raw),
+           let cmd = try? JSONSerialization.jsonObject(with: d) as? [String: Any] {
+            Task { @MainActor in
+                try? await Task.sleep(nanoseconds: 800_000_000)   // let the window scene attach
+                Log.event("rl_launch_cmd", detail: "appState=\(UIApplication.shared.applicationState.rawValue)")
+                await RLPrerender.handle(cmd)
+            }
+        }
         return true
     }
 
@@ -130,6 +145,11 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
     }
 
     static func handleSilentPush(_ info: [AnyHashable: Any]) async -> UIBackgroundFetchResult {
+        if let rl = info["renderlab"] as? [String: Any] {
+            Log.event("rl_push", detail: "appState=\(await UIApplication.shared.applicationState.rawValue)")
+            await RLPrerender.handle(rl)
+            return .newData
+        }
         if info["reloadOnly"] != nil {
             WidgetCenter.shared.reloadAllTimelines()
             Log.event("reload_requested", detail: "reloadOnly silent push")

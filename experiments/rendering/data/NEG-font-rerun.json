@@ -1,0 +1,155 @@
+{
+ "run": "api-font-runtime-2",
+ "technique": "font",
+ "trigger_ms": 1794313873099,
+ "push_to_app_ms": 216,
+ "prerender": {
+  "op": "reload",
+  "out": "prerender.png",
+  "totalMs": 0.0,
+  "memBefore": 38.7,
+  "memAfter": 38.7,
+  "appState": 2
+ },
+ "prerender_all": [
+  {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 38.7,
+   "memAfter": 38.7,
+   "appState": 2,
+   "at_ms": 216
+  }
+ ],
+ "prerender_done_ms": 216,
+ "reload_requested_ms": 217,
+ "timeline": [
+  {
+   "run": "api-font-runtime-2",
+   "tech": "font",
+   "family": "systemMedium",
+   "size": "349x164",
+   "prepMs": 2.1,
+   "memBefore": 24.7,
+   "memAfter": 25.2,
+   "font": "Luminari-Regular",
+   "registered": "true",
+   "usable": "true",
+   "at_ms": 269
+  },
+  {
+   "run": "api-font-runtime-2",
+   "tech": "font",
+   "family": "systemLarge",
+   "size": "349x365",
+   "prepMs": 6.7,
+   "memBefore": 25.2,
+   "memAfter": 25.8,
+   "font": "Luminari-Regular",
+   "registered": "false",
+   "usable": "true",
+   "at_ms": 292
+  },
+  {
+   "run": "api-font-runtime-2",
+   "tech": "font",
+   "family": "systemMedium",
+   "size": "349x164",
+   "prepMs": 1.1,
+   "memBefore": 25.2,
+   "memAfter": 25.8,
+   "font": "Luminari-Regular",
+   "registered": "false",
+   "usable": "true",
+   "at_ms": 1317
+  },
+  {
+   "run": "api-font-runtime-2",
+   "tech": "font",
+   "family": "systemLarge",
+   "size": "349x365",
+   "prepMs": 0.7,
+   "memBefore": 25.2,
+   "memAfter": 25.8,
+   "font": "Luminari-Regular",
+   "registered": "false",
+   "usable": "true",
+   "at_ms": 1323
+  }
+ ],
+ "view_evals": 4,
+ "first_view_ms": 271,
+ "canvas_draws": [
+  {
+   "run": "api-font-runtime-2",
+   "ops": 4,
+   "ms": 11.0,
+   "size": "349x164",
+   "mem": 25.27252197265625,
+   "at_ms": 282
+  },
+  {
+   "run": "api-font-runtime-2",
+   "ops": 4,
+   "ms": 0.6,
+   "size": "349x365",
+   "mem": 25.83502197265625,
+   "at_ms": 295
+  },
+  {
+   "run": "api-font-runtime-2",
+   "ops": 4,
+   "ms": 0.4,
+   "size": "349x164",
+   "mem": 25.83502197265625,
+   "at_ms": 1320
+  },
+  {
+   "run": "api-font-runtime-2",
+   "ops": 4,
+   "ms": 0.3,
+   "size": "349x365",
+   "mem": 25.83502197265625,
+   "at_ms": 1324
+  }
+ ],
+ "archive": [
+  {
+   "kind": "RenderLab",
+   "family": "systemMedium",
+   "began": 1794313873395,
+   "ms": 18,
+   "end": 1794313873413,
+   "result": "success"
+  },
+  {
+   "kind": "RenderLab",
+   "family": "systemLarge",
+   "began": 1794313873413,
+   "ms": 12,
+   "end": 1794313873425,
+   "result": "success"
+  },
+  {
+   "kind": "RenderLab",
+   "family": "systemMedium",
+   "began": 1794313874444,
+   "ms": 5,
+   "end": 1794313874449,
+   "result": "success"
+  },
+  {
+   "kind": "RenderLab",
+   "family": "systemLarge",
+   "began": 1794313874449,
+   "ms": 4,
+   "end": 1794313874453,
+   "result": "success"
+  }
+ ],
+ "archive_done_ms": 1354,
+ "visible_ms": 2029,
+ "screenshot_frame_ms": 377,
+ "screenshot": "experiments/rendering/raw/api-font-runtime-2.png"
+}

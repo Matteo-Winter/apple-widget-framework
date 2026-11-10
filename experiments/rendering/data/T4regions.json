@@ -1,0 +1,1539 @@
+[
+ {
+  "render": {
+   "run": "t4-regions-4x4",
+   "technique": "canvas",
+   "trigger_ms": 1794313397006,
+   "push_to_app_ms": 184,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 57.5,
+     "memAfter": 57.5,
+     "appState": 2,
+     "at_ms": 184
+    }
+   ],
+   "prerender_done_ms": 184,
+   "reload_requested_ms": 185,
+   "timeline": [
+    {
+     "run": "t4-regions-4x4",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 1.0,
+     "memBefore": 87.4,
+     "memAfter": 87.4,
+     "ops": 95,
+     "at_ms": 226
+    },
+    {
+     "run": "t4-regions-4x4",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 0.6,
+     "memBefore": 87.2,
+     "memAfter": 87.2,
+     "ops": 32,
+     "at_ms": 310
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 228,
+   "canvas_draws": [
+    {
+     "run": "t4-regions-4x4",
+     "ops": 95,
+     "ms": 3.5,
+     "size": "349x365",
+     "mem": 88.66778564453125,
+     "at_ms": 279
+    },
+    {
+     "run": "t4-regions-4x4",
+     "ops": 32,
+     "ms": 1.0,
+     "size": "349x164",
+     "mem": 88.91778564453125,
+     "at_ms": 339
+    }
+   ],
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794313397222,
+     "ms": 84,
+     "end": 1794313397306,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794313397306,
+     "ms": 56,
+     "end": 1794313397362,
+     "result": "success"
+    }
+   ],
+   "archive_done_ms": 356,
+   "visible_ms": 1976,
+   "screenshot_frame_ms": 368,
+   "screenshot": "experiments/rendering/raw/t4-regions-4x4.png",
+   "syslog": [
+    "2026-11-10 13:23:18.209 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1019e3000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+    "2026-11-10 13:23:18.209 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1019e3000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+    "2026-11-10 13:23:18.209 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+    "2026-11-10 13:23:18.209 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+    "2026-11-10 13:23:18.210 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+    "2026-11-10 13:23:18.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+    "2026-11-10 13:23:18.212 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+    "2026-11-10 13:23:18.212 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1019e3000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+    "2026-11-10 13:23:18.216 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+    "2026-11-10 13:23:18.221 Df chronod[8467:171cb5d] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession--339404974939940248-scene::C464F921-5B94-4DB9-80E0-6AFC8CD719E3::0x105234000-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:23:18.223 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:23:18.223 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:23:18.223 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:23:18.225 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:23:18.225 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000064bb0> for context id 104936331",
+    "2026-11-10 13:23:18.226 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:23:18.263 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:23:18.263 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:23:18.263 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:23:18.263 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:23:18.263 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:23:18.267 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:23:18.275 Df chronod[8467:171cb5d] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:23:18.284 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:23:18.284 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000076740> for context id 2024423585",
+    "2026-11-10 13:23:18.284 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:23:18.287 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:23:18.287 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:23:18.287 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:23:18.287 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:23:18.287 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:23:19.721 Df SpringBoard[20475:171cb41] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+    "2026-11-10 13:23:19.722 Df SpringBoard[20475:171cb41] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+    "    widgetKind = RenderLab;",
+    "    widgetKind = RenderLab;"
+   ]
+  },
+  "regions": 16,
+  "cell_pt": 87.2,
+  "tap": {
+   "label": "t4-regions-4x4",
+   "taps": 12,
+   "correct": 12,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "12/12"
+   },
+   "tap_to_intent_ms_median": 348,
+   "tap_to_intent_ms_max": 922,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "taps": [
+   {
+    "pt": "c",
+    "x": 244.775,
+    "want": "L.g2_2",
+    "t": 1794313421012,
+    "y": 318.125,
+    "got": [
+     "L.g2_2"
+    ],
+    "intent_ms": 922
+   },
+   {
+    "t": 1794313423280,
+    "want": "L.g1_1",
+    "y": 226.875,
+    "x": 157.52499999999998,
+    "pt": "c",
+    "got": [
+     "L.g1_1"
+    ],
+    "intent_ms": 344
+   },
+   {
+    "t": 1794313425013,
+    "want": "L.g0_3",
+    "y": 409.375,
+    "pt": "c",
+    "x": 70.27499999999999,
+    "got": [
+     "L.g0_3"
+    ],
+    "intent_ms": 327
+   },
+   {
+    "t": 1794313426744,
+    "want": "L.g1_2",
+    "y": 318.125,
+    "x": 157.52499999999998,
+    "pt": "c",
+    "got": [
+     "L.g1_2"
+    ],
+    "intent_ms": 347
+   },
+   {
+    "pt": "c",
+    "t": 1794313428490,
+    "y": 409.375,
+    "want": "L.g2_3",
+    "x": 244.775,
+    "got": [
+     "L.g2_3"
+    ],
+    "intent_ms": 350
+   },
+   {
+    "pt": "c",
+    "x": 332.025,
+    "want": "L.g3_0",
+    "t": 1794313430227,
+    "y": 135.625,
+    "got": [
+     "L.g3_0"
+    ],
+    "intent_ms": 347
+   },
+   {
+    "pt": "c",
+    "y": 135.625,
+    "t": 1794313431972,
+    "x": 70.27499999999999,
+    "want": "L.g0_0",
+    "got": [
+     "L.g0_0"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "pt": "c",
+    "x": 70.27499999999999,
+    "want": "L.g0_2",
+    "t": 1794313433708,
+    "y": 318.125,
+    "got": [
+     "L.g0_2"
+    ],
+    "intent_ms": 349
+   },
+   {
+    "pt": "c",
+    "x": 157.52499999999998,
+    "want": "L.g1_3",
+    "t": 1794313435441,
+    "y": 409.375,
+    "got": [
+     "L.g1_3"
+    ],
+    "intent_ms": 329
+   },
+   {
+    "pt": "c",
+    "t": 1794313437170,
+    "y": 135.625,
+    "want": "L.g2_0",
+    "x": 244.775,
+    "got": [
+     "L.g2_0"
+    ],
+    "intent_ms": 346
+   },
+   {
+    "x": 332.025,
+    "want": "L.g3_3",
+    "t": 1794313438909,
+    "pt": "c",
+    "y": 409.375,
+    "got": [
+     "L.g3_3"
+    ],
+    "intent_ms": 354
+   },
+   {
+    "pt": "c",
+    "x": 244.775,
+    "want": "L.g2_1",
+    "t": 1794313440646,
+    "y": 226.875,
+    "got": [
+     "L.g2_1"
+    ],
+    "intent_ms": 348
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t4-regions-8x8",
+   "technique": "canvas",
+   "trigger_ms": 1794313451109,
+   "push_to_app_ms": 366,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.7,
+    "memAfter": 57.7,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 57.7,
+     "memAfter": 57.7,
+     "appState": 2,
+     "at_ms": 367
+    }
+   ],
+   "prerender_done_ms": 367,
+   "reload_requested_ms": 367,
+   "timeline": [
+    {
+     "run": "t4-regions-8x8",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 3.0,
+     "memBefore": 87.4,
+     "memAfter": 87.5,
+     "ops": 143,
+     "at_ms": 507
+    },
+    {
+     "run": "t4-regions-8x8",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 1.2,
+     "memBefore": 87.6,
+     "memAfter": 87.6,
+     "ops": 80,
+     "at_ms": 824
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 513,
+   "canvas_draws": [
+    {
+     "run": "t4-regions-8x8",
+     "ops": 143,
+     "ms": 2.6,
+     "size": "349x365",
+     "mem": 91.99591064453125,
+     "at_ms": 692
+    },
+    {
+     "run": "t4-regions-8x8",
+     "ops": 80,
+     "ms": 0.8,
+     "size": "349x164",
+     "mem": 91.94903564453125,
+     "at_ms": 935
+    }
+   ],
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794313451627,
+     "ms": 321,
+     "end": 1794313451948,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794313451948,
+     "ms": 213,
+     "end": 1794313452161,
+     "result": "success"
+    }
+   ],
+   "archive_done_ms": 1052,
+   "visible_ms": 2192,
+   "screenshot_frame_ms": 391,
+   "screenshot": "experiments/rendering/raw/t4-regions-8x8.png",
+   "syslog": [
+    "2026-11-10 13:24:12.561 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+    "2026-11-10 13:24:12.561 Df SpringBoard[35544:171d17f] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105919200 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+    "2026-11-10 13:24:12.561 Df SpringBoard[35544:171d17f] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105919200 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+    "2026-11-10 13:24:12.561 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+    "2026-11-10 13:24:12.562 Df SpringBoard[35544:171d17f] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105919200 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+    "2026-11-10 13:24:12.568 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+    "2026-11-10 13:24:12.574 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:24:12.574 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:24:12.575 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:12.575 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000030c40> for context id 2961630902",
+    "2026-11-10 13:24:12.575 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:12.575 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:24:12.582 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:24:12.582 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:24:12.582 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:24:12.584 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:24:12.585 Df chronod[8467:171cf80] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession--9014400384571170031-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x101244800-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:24:12.611 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:12.611 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000031710> for context id 919796005",
+    "2026-11-10 13:24:12.611 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:12.615 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:24:12.615 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:24:12.615 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:24:13.003 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:24:13.020 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:24:14.054 Df SpringBoard[35544:171d337] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+    "2026-11-10 13:24:14.055 Df SpringBoard[35544:171d337] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+    "    widgetKind = RenderLab;",
+    "    widgetKind = RenderLab;",
+    "2026-11-10 13:24:14.718 E  chronod[8467:171cf80] [com.apple.BoardServices:XPCErrors] [S:137] Error received: Connection invalidated.",
+    "2026-11-10 13:24:17.405 E  AgentWidgetExtension[27592:171c9ab] [com.apple.BoardServices:XPCErrors] [S:57] Error received: Connection invalidated."
+   ]
+  },
+  "regions": 64,
+  "cell_pt": 43.6,
+  "tap": {
+   "label": "t4-regions-8x8",
+   "taps": 12,
+   "correct": 12,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "12/12"
+   },
+   "tap_to_intent_ms_median": 418,
+   "tap_to_intent_ms_max": 728,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "taps": [
+   {
+    "t": 1794313471044,
+    "want": "L.g0_6",
+    "pt": "c",
+    "x": 48.46249999999999,
+    "y": 386.5625,
+    "got": [
+     "L.g0_6"
+    ],
+    "intent_ms": 728
+   },
+   {
+    "x": 310.2125,
+    "want": "L.g6_0",
+    "pt": "c",
+    "t": 1794313473151,
+    "y": 112.8125,
+    "got": [
+     "L.g6_0"
+    ],
+    "intent_ms": 405
+   },
+   {
+    "t": 1794313474957,
+    "want": "L.g6_4",
+    "pt": "c",
+    "x": 310.2125,
+    "y": 295.3125,
+    "got": [
+     "L.g6_4"
+    ],
+    "intent_ms": 416
+   },
+   {
+    "want": "L.g4_2",
+    "y": 204.0625,
+    "x": 222.9625,
+    "pt": "c",
+    "t": 1794313476757,
+    "got": [
+     "L.g4_2"
+    ],
+    "intent_ms": 397
+   },
+   {
+    "want": "L.g1_1",
+    "x": 92.08749999999999,
+    "y": 158.4375,
+    "t": 1794313478557,
+    "pt": "c",
+    "got": [
+     "L.g1_1"
+    ],
+    "intent_ms": 414
+   },
+   {
+    "want": "L.g0_0",
+    "x": 48.46249999999999,
+    "y": 112.8125,
+    "t": 1794313480369,
+    "pt": "c",
+    "got": [
+     "L.g0_0"
+    ],
+    "intent_ms": 418
+   },
+   {
+    "want": "L.g4_0",
+    "x": 222.9625,
+    "y": 112.8125,
+    "t": 1794313482185,
+    "pt": "c",
+    "got": [
+     "L.g4_0"
+    ],
+    "intent_ms": 420
+   },
+   {
+    "t": 1794313484002,
+    "want": "L.g2_6",
+    "pt": "c",
+    "x": 135.71249999999998,
+    "y": 386.5625,
+    "got": [
+     "L.g2_6"
+    ],
+    "intent_ms": 418
+   },
+   {
+    "t": 1794313485809,
+    "want": "L.g6_2",
+    "pt": "c",
+    "x": 310.2125,
+    "y": 204.0625,
+    "got": [
+     "L.g6_2"
+    ],
+    "intent_ms": 428
+   },
+   {
+    "t": 1794313487622,
+    "want": "L.g2_2",
+    "pt": "c",
+    "x": 135.71249999999998,
+    "y": 204.0625,
+    "got": [
+     "L.g2_2"
+    ],
+    "intent_ms": 415
+   },
+   {
+    "x": 179.3375,
+    "want": "L.g3_5",
+    "pt": "c",
+    "t": 1794313489439,
+    "y": 340.9375,
+    "got": [
+     "L.g3_5"
+    ],
+    "intent_ms": 432
+   },
+   {
+    "t": 1794313491268,
+    "want": "L.g0_2",
+    "x": 48.46249999999999,
+    "pt": "c",
+    "y": 204.0625,
+    "got": [
+     "L.g0_2"
+    ],
+    "intent_ms": 418
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t4-regions-12x12",
+   "technique": "canvas",
+   "trigger_ms": 1794313498715,
+   "push_to_app_ms": 216,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.8,
+    "memAfter": 57.8,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 57.8,
+     "memAfter": 57.8,
+     "appState": 2,
+     "at_ms": 218
+    }
+   ],
+   "prerender_done_ms": 218,
+   "reload_requested_ms": 220,
+   "timeline": [
+    {
+     "run": "t4-regions-12x12",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 2.8,
+     "memBefore": 87.2,
+     "memAfter": 87.3,
+     "ops": 223,
+     "at_ms": 274
+    },
+    {
+     "run": "t4-regions-12x12",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 1.7,
+     "memBefore": 87.4,
+     "memAfter": 87.4,
+     "ops": 160,
+     "at_ms": 775
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 277,
+   "canvas_draws": [
+    {
+     "run": "t4-regions-12x12",
+     "ops": 223,
+     "ms": 2.0,
+     "size": "349x365",
+     "mem": 95.57403564453125,
+     "at_ms": 560
+    },
+    {
+     "run": "t4-regions-12x12",
+     "ops": 160,
+     "ms": 1.1,
+     "size": "349x164",
+     "mem": 95.80841064453125,
+     "at_ms": 992
+    }
+   ],
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794313499014,
+     "ms": 502,
+     "end": 1794313499516,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794313499516,
+     "ms": 438,
+     "end": 1794313499954,
+     "result": "success"
+    }
+   ],
+   "archive_done_ms": 1239,
+   "visible_ms": 1998,
+   "screenshot_frame_ms": 378,
+   "screenshot": "experiments/rendering/raw/t4-regions-12x12.png",
+   "syslog": [
+    "2026-11-10 13:24:59.965 Df chronod[8467:171cf80] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)] on local reload: succeeded with 1 entries",
+    "2026-11-10 13:24:59.965 Df chronod[8467:171cf80] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab] reload: succeeded",
+    "2026-11-10 13:24:59.966 Df chronod[8467:171d7bf] [com.apple.chrono:keepalive] Removed: <Task 05A29A5D-BE4F-4B67-A688-1483FBD435CA: timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>>",
+    "2026-11-10 13:24:59.966 Df chronod[8467:171d7bf] [com.apple.chrono:tasksession] [886C4424]: _taskQueue_evaluate() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.886C4424",
+    "2026-11-10 13:24:59.966 Df chronod[8467:171d7bf] [com.apple.chrono:tasksession] [886C4424]: _taskQueue_teardown() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.886C4424",
+    "2026-11-10 13:24:59.966 Df chronod[8467:171d85d] [com.apple.chrono:timeline.store] Task [994] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Completed",
+    "2026-11-10 13:24:59.966 Df chronod[8467:171d7bf] [com.apple.chrono:tasksession] [886C4424]: _taskQueue_complete() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.886C4424",
+    "2026-11-10 13:24:59.967 Df chronod[8467:171d85d] [com.apple.chrono:timeline.store] Task [994] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Reload success",
+    "2026-11-10 13:24:59.967 Df chronod[8467:171d85d] [com.apple.chrono:timeline.store] Task [994] [<bundle-id>::<bundle-id>.Widgets:RenderLab] New state: clean",
+    "2026-11-10 13:24:59.968 Df chronod[8467:171d85d] [com.apple.chrono:timeline.store] Task [994] [<bundle-id>::<bundle-id>.Widgets:RenderLab] No remaining tasks",
+    "2026-11-10 13:24:59.968 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+    "2026-11-10 13:24:59.969 Df chronod[8467:171d7bf] [com.apple.xpc:connection] [0x10332da90] failed to do a bootstrap look-up: xpc_error=[3: No such process]",
+    "2026-11-10 13:24:59.971 E  chronod[8467:171cf80] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x6000017480c0; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemMedium; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}",
+    "2026-11-10 13:24:59.972 E  chronod[8467:171cf80] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x600001770b00; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemLarge; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}",
+    "2026-11-10 13:24:59.976 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:24:59.976 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:24:59.976 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+    "2026-11-10 13:24:59.976 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:59.976 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000005c090> for context id 3447128229",
+    "2026-11-10 13:24:59.977 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:24:59.983 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:24:59.983 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:24:59.983 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:24:59.983 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:24:59.983 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:00.062 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:25:00.110 Df chronod[8467:171cf80] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession--9014400384571170031-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x101244800-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:25:00.148 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:25:00.148 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000003b3c0> for context id 2175847210",
+    "2026-11-10 13:25:00.149 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:25:00.153 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:25:00.153 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:25:00.153 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:00.153 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:25:00.153 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:01.471 Df SpringBoard[35544:171d6ac] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+    "2026-11-10 13:25:01.472 Df SpringBoard[35544:171d6ac] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+    "    widgetKind = RenderLab;",
+    "    widgetKind = RenderLab;",
+    "2026-11-10 13:25:05.072 E  AgentWidgetExtension[27592:171d7b3] [com.apple.BoardServices:XPCErrors] [S:59] Error received: Connection invalidated."
+   ]
+  },
+  "regions": 144,
+  "cell_pt": 29.1,
+  "tap": {
+   "label": "t4-regions-12x12",
+   "taps": 12,
+   "correct": 12,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "12/12"
+   },
+   "tap_to_intent_ms_median": 550,
+   "tap_to_intent_ms_max": 1037,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "taps": [
+   {
+    "y": 318.12499999999994,
+    "pt": "c",
+    "t": 1794313512270,
+    "x": 273.85833333333335,
+    "want": "L.g8_7",
+    "got": [
+     "L.g8_7"
+    ],
+    "intent_ms": 1037
+   },
+   {
+    "y": 287.7083333333333,
+    "pt": "c",
+    "t": 1794313514690,
+    "x": 273.85833333333335,
+    "want": "L.g8_6",
+    "got": [
+     "L.g8_6"
+    ],
+    "intent_ms": 547
+   },
+   {
+    "y": 196.45833333333334,
+    "pt": "c",
+    "t": 1794313516636,
+    "x": 273.85833333333335,
+    "want": "L.g8_3",
+    "got": [
+     "L.g8_3"
+    ],
+    "intent_ms": 550
+   },
+   {
+    "pt": "c",
+    "want": "L.g8_0",
+    "t": 1794313518586,
+    "x": 273.85833333333335,
+    "y": 105.20833333333333,
+    "got": [
+     "L.g8_0"
+    ],
+    "intent_ms": 550
+   },
+   {
+    "y": 409.375,
+    "pt": "c",
+    "t": 1794313520524,
+    "x": 157.52499999999998,
+    "want": "L.g4_10",
+    "got": [
+     "L.g4_10"
+    ],
+    "intent_ms": 546
+   },
+   {
+    "y": 409.375,
+    "pt": "c",
+    "t": 1794313522468,
+    "x": 244.775,
+    "want": "L.g7_10",
+    "got": [
+     "L.g7_10"
+    ],
+    "intent_ms": 551
+   },
+   {
+    "t": 1794313524414,
+    "want": "L.g2_4",
+    "y": 226.87500000000003,
+    "x": 99.35833333333333,
+    "pt": "c",
+    "got": [
+     "L.g2_4"
+    ],
+    "intent_ms": 672
+   },
+   {
+    "y": 318.12499999999994,
+    "pt": "c",
+    "t": 1794313526486,
+    "x": 157.52499999999998,
+    "want": "L.g4_7",
+    "got": [
+     "L.g4_7"
+    ],
+    "intent_ms": 550
+   },
+   {
+    "want": "L.g11_4",
+    "pt": "c",
+    "t": 1794313528435,
+    "y": 226.87500000000003,
+    "x": 361.10833333333335,
+    "got": [
+     "L.g11_4"
+    ],
+    "intent_ms": 551
+   },
+   {
+    "want": "L.g11_10",
+    "pt": "c",
+    "t": 1794313530386,
+    "y": 409.375,
+    "x": 361.10833333333335,
+    "got": [
+     "L.g11_10"
+    ],
+    "intent_ms": 550
+   },
+   {
+    "y": 409.375,
+    "pt": "c",
+    "t": 1794313532343,
+    "x": 41.19166666666666,
+    "want": "L.g0_10",
+    "got": [
+     "L.g0_10"
+    ],
+    "intent_ms": 560
+   },
+   {
+    "t": 1794313534286,
+    "want": "L.g6_1",
+    "pt": "c",
+    "x": 215.69166666666666,
+    "y": 135.625,
+    "got": [
+     "L.g6_1"
+    ],
+    "intent_ms": 533
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t4-regions-20x20",
+   "technique": "canvas",
+   "trigger_ms": 1794313541788,
+   "push_to_app_ms": 199,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.8,
+    "memAfter": 57.8,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 57.8,
+     "memAfter": 57.8,
+     "appState": 2,
+     "at_ms": 199
+    }
+   ],
+   "prerender_done_ms": 199,
+   "reload_requested_ms": 200,
+   "timeline": [
+    {
+     "run": "t4-regions-20x20",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 4.8,
+     "memBefore": 87.4,
+     "memAfter": 87.6,
+     "ops": 416,
+     "at_ms": 246
+    },
+    {
+     "run": "t4-regions-20x20",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 4.2,
+     "memBefore": 84.6,
+     "memAfter": 84.8,
+     "ops": 479,
+     "at_ms": 1510
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 248,
+   "canvas_draws": [
+    {
+     "run": "t4-regions-20x20",
+     "ops": 416,
+     "ms": 1.8,
+     "size": "349x164",
+     "mem": 111.33966064453125,
+     "at_ms": 870
+    },
+    {
+     "run": "t4-regions-20x20",
+     "ops": 479,
+     "ms": 2.8,
+     "size": "349x365",
+     "mem": 104.48028564453125,
+     "at_ms": 2106
+    }
+   ],
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794313542056,
+     "ms": 1265,
+     "end": 1794313543321,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794313543321,
+     "ms": 1186,
+     "end": 1794313544507,
+     "result": "success"
+    }
+   ],
+   "archive_done_ms": 2719,
+   "visible_ms": 1932,
+   "screenshot_frame_ms": 340,
+   "screenshot": "experiments/rendering/raw/t4-regions-20x20.png",
+   "syslog": [
+    "2026-11-10 13:25:43.068 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:43.068 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:25:43.068 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:43.074 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:25:43.086 Df chronod[8467:171dd56] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession--9014400384571170031-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x101244800-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:25:43.086 Df chronod[8467:171dd56] [com.apple.chrono:tasksession] Session priority boosting for task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.373A118B: true",
+    "2026-11-10 13:25:43.128 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:25:43.128 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000028830> for context id 1073078922",
+    "2026-11-10 13:25:43.128 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:25:43.137 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:25:43.137 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:25:43.137 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:43.137 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:25:43.137 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:25:43.321 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request ended for RenderLab:systemMedium:(noIntent) - success",
+    "2026-11-10 13:25:43.321 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request began for RenderLab:systemLarge:(noIntent) - to archive: ~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_pSjpJK/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0#4whja22jdasM+9uwBap5KvY=.chrono-timeline",
+    "2026-11-10 13:25:43.327 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Archive deployment version: DeploymentVersion(base: SwiftUI.ArchivedViewInput.DeploymentVersion(rawValue: 2))",
+    "2026-11-10 13:25:43.328 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=3",
+    "2026-11-10 13:25:43.824 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=3",
+    "2026-11-10 13:25:44.507 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request ended for RenderLab:systemLarge:(noIntent) - success",
+    "2026-11-10 13:25:44.511 Df chronod[8467:171dd56] [com.apple.chrono:archiving] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)] on local-file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline destroying promise for 'Accepted successfully to file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline.' - <~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_pSjpJK/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6f<\u2026>",
+    "2026-11-10 13:25:44.513 Df chronod[8467:171dd56] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)] on local reload: succeeded with 1 entries",
+    "2026-11-10 13:25:44.515 Df chronod[8467:171dd56] [com.apple.chrono:archiving] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)] on local-file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline destroying promise for 'Accepted successfully to file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline.' - <~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_IWUyzP/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1<\u2026>",
+    "2026-11-10 13:25:44.517 Df chronod[8467:171dd56] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)] on local reload: succeeded with 1 entries",
+    "2026-11-10 13:25:44.517 Df chronod[8467:171dd56] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab] reload: succeeded",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171dd57] [com.apple.chrono:keepalive] Removed: <Task 17EC4319-0760-4676-8E4C-CBF7710E8FE9: timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>>",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171dd57] [com.apple.chrono:tasksession] [373A118B]: _taskQueue_evaluate() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.373A118B",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171dd57] [com.apple.chrono:tasksession] [373A118B]: _taskQueue_teardown() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.373A118B",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171da84] [com.apple.chrono:timeline.store] Task [1008] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Completed",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171dd57] [com.apple.chrono:tasksession] [373A118B]: _taskQueue_complete() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.373A118B",
+    "2026-11-10 13:25:44.518 Df chronod[8467:171da84] [com.apple.chrono:timeline.store] Task [1008] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Reload success",
+    "2026-11-10 13:25:44.519 Df chronod[8467:171da84] [com.apple.chrono:timeline.store] Task [1008] [<bundle-id>::<bundle-id>.Widgets:RenderLab] New state: clean",
+    "2026-11-10 13:25:44.520 Df chronod[8467:171da84] [com.apple.chrono:timeline.store] Task [1008] [<bundle-id>::<bundle-id>.Widgets:RenderLab] No remaining tasks",
+    "2026-11-10 13:25:44.520 Df chronod[8467:171d7bf] [com.apple.xpc:connection] [0x10283a860] failed to do a bootstrap look-up: xpc_error=[3: No such process]",
+    "2026-11-10 13:25:44.521 E  chronod[8467:171dda1] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x6000017480c0; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemMedium; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}",
+    "2026-11-10 13:25:44.522 E  chronod[8467:171dda1] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x600001770b00; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemLarge; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}",
+    "2026-11-10 13:25:44.537 Df SpringBoard[35544:171e009] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+    "2026-11-10 13:25:44.538 Df SpringBoard[35544:171e009] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+    "    widgetKind = RenderLab;",
+    "    widgetKind = RenderLab;"
+   ]
+  },
+  "regions": 400,
+  "cell_pt": 17.4,
+  "tap": {
+   "label": "t4-regions-20x20",
+   "taps": 12,
+   "correct": 12,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "12/12"
+   },
+   "tap_to_intent_ms_median": 1835,
+   "tap_to_intent_ms_max": 2194,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "taps": [
+   {
+    "t": 1794313555369,
+    "y": 263.375,
+    "want": "L.g13_9",
+    "x": 262.225,
+    "pt": "c",
+    "got": [
+     "L.g13_9"
+    ],
+    "intent_ms": 1469
+   },
+   {
+    "want": "L.g6_3",
+    "x": 140.075,
+    "pt": "c",
+    "y": 153.875,
+    "t": 1794313558229,
+    "got": [
+     "L.g6_3"
+    ],
+    "intent_ms": 1037
+   },
+   {
+    "y": 245.125,
+    "pt": "c",
+    "t": 1794313560549,
+    "x": 349.475,
+    "want": "L.g18_8",
+    "got": [
+     "L.g18_8"
+    ],
+    "intent_ms": 1562
+   },
+   {
+    "pt": "c",
+    "t": 1794313563150,
+    "want": "L.g3_6",
+    "x": 87.725,
+    "y": 208.625,
+    "got": [
+     "L.g3_6"
+    ],
+    "intent_ms": 2194
+   },
+   {
+    "y": 226.875,
+    "t": 1794313565956,
+    "pt": "c",
+    "x": 227.325,
+    "want": "L.g11_7",
+    "got": [
+     "L.g11_7"
+    ],
+    "intent_ms": 1916
+   },
+   {
+    "pt": "c",
+    "t": 1794313568476,
+    "want": "L.g12_8",
+    "x": 244.775,
+    "y": 245.125,
+    "got": [
+     "L.g12_8"
+    ],
+    "intent_ms": 1836
+   },
+   {
+    "y": 263.375,
+    "t": 1794313570953,
+    "pt": "c",
+    "x": 314.575,
+    "want": "L.g16_9",
+    "got": [
+     "L.g16_9"
+    ],
+    "intent_ms": 1795
+   },
+   {
+    "want": "L.g14_9",
+    "x": 279.675,
+    "pt": "c",
+    "y": 263.375,
+    "t": 1794313573390,
+    "got": [
+     "L.g14_9"
+    ],
+    "intent_ms": 1791
+   },
+   {
+    "t": 1794313575823,
+    "want": "L.g1_14",
+    "y": 354.625,
+    "pt": "c",
+    "x": 52.824999999999996,
+    "got": [
+     "L.g1_14"
+    ],
+    "intent_ms": 1850
+   },
+   {
+    "pt": "c",
+    "t": 1794313578289,
+    "want": "L.g14_0",
+    "x": 279.675,
+    "y": 99.125,
+    "got": [
+     "L.g14_0"
+    ],
+    "intent_ms": 2146
+   },
+   {
+    "pt": "c",
+    "t": 1794313581040,
+    "want": "L.g8_0",
+    "x": 174.975,
+    "y": 99.125,
+    "got": [
+     "L.g8_0"
+    ],
+    "intent_ms": 1835
+   },
+   {
+    "pt": "c",
+    "t": 1794313583523,
+    "want": "L.g3_14",
+    "x": 87.725,
+    "y": 354.625,
+    "got": [
+     "L.g3_14"
+    ],
+    "intent_ms": 1796
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t4-regions-30x30",
+   "technique": "canvas",
+   "trigger_ms": 1794313591607,
+   "push_to_app_ms": 190,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.9,
+    "memAfter": 57.9,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 57.9,
+     "memAfter": 57.9,
+     "appState": 2,
+     "at_ms": 191
+    }
+   ],
+   "prerender_done_ms": 191,
+   "reload_requested_ms": 191,
+   "timeline": [
+    {
+     "run": "t4-regions-30x30",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 10.3,
+     "memBefore": 69.2,
+     "memAfter": 69.6,
+     "ops": 916,
+     "at_ms": 248
+    },
+    {
+     "run": "t4-regions-30x30",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 8.4,
+     "memBefore": 76.0,
+     "memAfter": 76.4,
+     "ops": 979,
+     "at_ms": 3053
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 252,
+   "canvas_draws": [
+    {
+     "run": "t4-regions-30x30",
+     "ops": 916,
+     "ms": 3.2,
+     "size": "349x164",
+     "mem": 114.76153564453125,
+     "at_ms": 1683
+    },
+    {
+     "run": "t4-regions-30x30",
+     "ops": 979,
+     "ms": 4.1,
+     "size": "349x365",
+     "mem": 129.44903564453125,
+     "at_ms": 4440
+    }
+   ],
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794313591873,
+     "ms": 2806,
+     "end": 1794313594679,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794313594679,
+     "ms": 2757,
+     "end": 1794313597436,
+     "result": "success"
+    }
+   ],
+   "archive_done_ms": 5829,
+   "visible_ms": 1955,
+   "screenshot_frame_ms": 366,
+   "screenshot": "experiments/rendering/raw/t4-regions-30x30.png",
+   "syslog": [
+    "2026-11-10 13:26:33.012 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:26:33.012 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101223000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:26:33.074 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=3",
+    "2026-11-10 13:26:33.090 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+    "2026-11-10 13:26:33.091 Df chronod[8467:171e292] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession--9014400384571170031-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x101244800-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+    "2026-11-10 13:26:33.091 Df chronod[8467:171e292] [com.apple.chrono:tasksession] Session priority boosting for task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.2FF93E83: true",
+    "2026-11-10 13:26:33.197 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:26:33.198 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000005da30> for context id 485118438",
+    "2026-11-10 13:26:33.198 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewControllerTouch] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+    "2026-11-10 13:26:33.264 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+    "2026-11-10 13:26:33.265 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+    "2026-11-10 13:26:33.265 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:26:33.265 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+    "2026-11-10 13:26:33.265 Df SpringBoard[35544:171d17f] [com.apple.chrono:ViewController] [0x101244800-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+    "2026-11-10 13:26:34.354 Df SpringBoard[35544:171e1e4] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+    "2026-11-10 13:26:34.355 Df SpringBoard[35544:171e1e4] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+    "    widgetKind = RenderLab;",
+    "    widgetKind = RenderLab;",
+    "2026-11-10 13:26:34.679 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request ended for RenderLab:systemMedium:(noIntent) - success",
+    "2026-11-10 13:26:34.679 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request began for RenderLab:systemLarge:(noIntent) - to archive: ~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_Nillue/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0#4whja22jdasM+9uwBap5KvY=.chrono-timeline",
+    "2026-11-10 13:26:34.689 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Archive deployment version: DeploymentVersion(base: SwiftUI.ArchivedViewInput.DeploymentVersion(rawValue: 2))",
+    "2026-11-10 13:26:34.690 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=3",
+    "2026-11-10 13:26:35.835 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:widget] Supports content layers? true, archiveVersion=3",
+    "2026-11-10 13:26:37.436 Df AgentWidgetExtension[27592:1706b11] [com.apple.chrono:timeline] Request ended for RenderLab:systemLarge:(noIntent) - success",
+    "2026-11-10 13:26:37.440 Df chronod[8467:171e292] [com.apple.chrono:archiving] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)] on local-file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline destroying promise for 'Accepted successfully to file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline.' - <~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_Nillue/systemLarge----349.67w-365.00h-27.94r-1VTNgEwDUstZ1uS6f<\u2026>",
+    "2026-11-10 13:26:37.442 Df chronod[8467:171e292] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)] on local reload: succeeded with 1 entries",
+    "2026-11-10 13:26:37.448 Df chronod[8467:171e292] [com.apple.chrono:archiving] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)] on local-file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline destroying promise for 'Accepted successfully to file://~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/Containers/Data/PluginKitPlugin/3162B234-99B0-49F3-88E8-1761277686A4/SystemData/com.apple.chrono/timelines/RenderLab/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1uS6fX0%234whja22jdasM+9uwBap5KvY=.chrono-timeline.' - <~/Library/Developer/CoreSimulator/Devices/597F1AC4-D164-4ED4-841F-1EFC2779E193/data/tmp/com.apple.chrono/NSIRD_chronod_WdPpMU/systemMedium----349.67w-164.33h-27.94r-1VTNgEwDUstZ1<\u2026>",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e292] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)] on local reload: succeeded with 1 entries",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e292] [com.apple.chrono:timeline.store] [<bundle-id>::<bundle-id>.Widgets:RenderLab] reload: succeeded",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e2a9] [com.apple.chrono:keepalive] Removed: <Task 03F3EB38-00E4-40C4-83CE-E4A72A6AC28B: timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>>",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e2a9] [com.apple.chrono:tasksession] [2FF93E83]: _taskQueue_evaluate() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.2FF93E83",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e26c] [com.apple.chrono:timeline.store] Task [1028] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Completed",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e2a9] [com.apple.chrono:tasksession] [2FF93E83]: _taskQueue_teardown() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.2FF93E83",
+    "2026-11-10 13:26:37.450 Df chronod[8467:171e2a9] [com.apple.chrono:tasksession] [2FF93E83]: _taskQueue_complete() with task timeline<com.apple.chronod.timeline-host::[<bundle-id>::<bundle-id>.Widgets:RenderLab]>.2FF93E83",
+    "2026-11-10 13:26:37.451 Df chronod[8467:171e26c] [com.apple.chrono:timeline.store] Task [1028] [<bundle-id>::<bundle-id>.Widgets:RenderLab] Reload success",
+    "2026-11-10 13:26:37.451 Df chronod[8467:171e26c] [com.apple.chrono:timeline.store] Task [1028] [<bundle-id>::<bundle-id>.Widgets:RenderLab] New state: clean",
+    "2026-11-10 13:26:37.452 Df chronod[8467:171e26c] [com.apple.chrono:timeline.store] Task [1028] [<bundle-id>::<bundle-id>.Widgets:RenderLab] No remaining tasks",
+    "2026-11-10 13:26:37.453 Df chronod[8467:171e26c] [com.apple.xpc:connection] [0x10351ce90] failed to do a bootstrap look-up: xpc_error=[3: No such process]",
+    "2026-11-10 13:26:37.454 E  chronod[8467:171e292] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x6000017480c0; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemMedium; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}",
+    "2026-11-10 13:26:37.454 E  chronod[8467:171e292] [com.apple.duetexpertd.atx:timeline] ATXInfoTimelineDonationClient: Error reloading timeline for widget <CHSWidget: 0x600001770b00; extensionIdentity: <bundle-id>::<bundle-id>.Widgets; kind: RenderLab; family: systemLarge; intentHash: 0; activityIdentifier: 0x0> - Error Domain=NSCocoaErrorDomain Code=4099 \"The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.\" UserInfo={NSDebugDescription=The connection to service named com.apple.proactive.infoSuggestion.xpc was invalidated: Connection init failed at lookup with error 3 - No such process.}"
+   ]
+  },
+  "regions": 900,
+  "cell_pt": 11.6,
+  "tap": {
+   "label": "t4-regions-30x30",
+   "taps": 12,
+   "correct": 1,
+   "wrong": 10,
+   "missed": 1,
+   "by_point": {
+    "c": "1/12"
+   },
+   "tap_to_intent_ms_median": 927,
+   "tap_to_intent_ms_max": 2470,
+   "wrong_examples": [
+    {
+     "x": 172.06666666666666,
+     "y": 327.24999999999994,
+     "want": "L.g12_19",
+     "pt": "c",
+     "t": 1794313616029,
+     "got": [
+      "L.g18_2"
+     ],
+     "intent_ms": 1157
+    },
+    {
+     "y": 388.0833333333333,
+     "pt": "c",
+     "t": 1794313622254,
+     "want": "L.g17_24",
+     "x": 230.23333333333335,
+     "got": [
+      "L.g12_19"
+     ],
+     "intent_ms": 1108
+    },
+    {
+     "x": 276.76666666666665,
+     "want": "L.g21_10",
+     "t": 1794313628376,
+     "y": 217.75000000000003,
+     "pt": "c",
+     "got": [
+      "L.g17_24"
+     ],
+     "intent_ms": 1165
+    },
+    {
+     "pt": "c",
+     "want": "L.g20_8",
+     "t": 1794313634102,
+     "x": 265.1333333333333,
+     "y": 193.41666666666666,
+     "got": [
+      "L.g21_10"
+     ],
+     "intent_ms": 978
+    },
+    {
+     "y": 302.9166666666667,
+     "pt": "c",
+     "want": "L.g21_17",
+     "x": 276.76666666666665,
+     "t": 1794313639902,
+     "got": [
+      "L.g20_8"
+     ],
+     "intent_ms": 927
+    },
+    {
+     "x": 183.7,
+     "want": "L.g13_24",
+     "t": 1794313645657,
+     "y": 388.0833333333333,
+     "pt": "c",
+     "got": [
+      "L.g21_17"
+     ],
+     "intent_ms": 709
+    },
+    {
+     "pt": "c",
+     "t": 1794313651543,
+     "x": 195.33333333333334,
+     "want": "L.g14_25",
+     "y": 400.25,
+     "got": [
+      "L.g13_24"
+     ],
+     "intent_ms": 607
+    },
+    {
+     "pt": "c",
+     "x": 78.99999999999999,
+     "t": 1794313657210,
+     "y": 412.41666666666663,
+     "want": "L.g4_26",
+     "got": [
+      "L.g14_25"
+     ],
+     "intent_ms": 485
+    }
+   ],
+   "missed_examples": [
+    {
+     "want": "L.g18_2",
+     "y": 120.41666666666666,
+     "pt": "c",
+     "t": 1794313612963,
+     "x": 241.86666666666667,
+     "got": [],
+     "intent_ms": null
+    }
+   ],
+   "uitest_ok": true
+  },
+  "taps": [
+   {
+    "pt": "c",
+    "x": 78.99999999999999,
+    "t": 1794313609103,
+    "y": 424.5833333333333,
+    "want": "L.g4_27",
+    "got": [
+     "L.g4_27"
+    ],
+    "intent_ms": 2470
+   },
+   {
+    "want": "L.g18_2",
+    "y": 120.41666666666666,
+    "pt": "c",
+    "t": 1794313612963,
+    "x": 241.86666666666667,
+    "got": [],
+    "intent_ms": null
+   },
+   {
+    "x": 172.06666666666666,
+    "y": 327.24999999999994,
+    "want": "L.g12_19",
+    "pt": "c",
+    "t": 1794313616029,
+    "got": [
+     "L.g18_2"
+    ],
+    "intent_ms": 1157
+   },
+   {
+    "y": 388.0833333333333,
+    "pt": "c",
+    "t": 1794313622254,
+    "want": "L.g17_24",
+    "x": 230.23333333333335,
+    "got": [
+     "L.g12_19"
+    ],
+    "intent_ms": 1108
+   },
+   {
+    "x": 276.76666666666665,
+    "want": "L.g21_10",
+    "t": 1794313628376,
+    "y": 217.75000000000003,
+    "pt": "c",
+    "got": [
+     "L.g17_24"
+    ],
+    "intent_ms": 1165
+   },
+   {
+    "pt": "c",
+    "want": "L.g20_8",
+    "t": 1794313634102,
+    "x": 265.1333333333333,
+    "y": 193.41666666666666,
+    "got": [
+     "L.g21_10"
+    ],
+    "intent_ms": 978
+   },
+   {
+    "y": 302.9166666666667,
+    "pt": "c",
+    "want": "L.g21_17",
+    "x": 276.76666666666665,
+    "t": 1794313639902,
+    "got": [
+     "L.g20_8"
+    ],
+    "intent_ms": 927
+   },
+   {
+    "x": 183.7,
+    "want": "L.g13_24",
+    "t": 1794313645657,
+    "y": 388.0833333333333,
+    "pt": "c",
+    "got": [
+     "L.g21_17"
+    ],
+    "intent_ms": 709
+   },
+   {
+    "pt": "c",
+    "t": 1794313651543,
+    "x": 195.33333333333334,
+    "want": "L.g14_25",
+    "y": 400.25,
+    "got": [
+     "L.g13_24"
+    ],
+    "intent_ms": 607
+   },
+   {
+    "pt": "c",
+    "x": 78.99999999999999,
+    "t": 1794313657210,
+    "y": 412.41666666666663,
+    "want": "L.g4_26",
+    "got": [
+     "L.g14_25"
+    ],
+    "intent_ms": 485
+   },
+   {
+    "pt": "c",
+    "want": "L.g26_10",
+    "t": 1794313662908,
+    "x": 334.9333333333333,
+    "y": 217.75000000000003,
+    "got": [
+     "L.g4_26"
+    ],
+    "intent_ms": 323
+   },
+   {
+    "want": "L.g27_0",
+    "y": 96.08333333333333,
+    "pt": "c",
+    "t": 1794313668768,
+    "x": 346.56666666666666,
+    "got": [
+     "L.g26_10"
+    ],
+    "intent_ms": 175
+   }
+  ]
+ }
+]

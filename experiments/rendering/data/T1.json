@@ -1,0 +1,711 @@
+{
+ "generation": {
+  "server-cg-systemLarge": {
+   "renderMs": 50,
+   "encodeMs": 57,
+   "bytes": 1167192,
+   "ops": 50,
+   "skipped": 1,
+   "wallMs": 527
+  },
+  "chrome-png-systemLarge": {
+   "wallMs": 1980,
+   "ok": true,
+   "bytes": 742274
+  },
+  "chrome-pdf-systemLarge": {
+   "wallMs": 1900,
+   "ok": true,
+   "bytes": 245959
+  },
+  "server-cg-systemMedium": {
+   "renderMs": 26,
+   "encodeMs": 28,
+   "bytes": 583989,
+   "ops": 19,
+   "skipped": 1,
+   "wallMs": 61
+  },
+  "chrome-png-systemMedium": {
+   "wallMs": 1120,
+   "ok": true,
+   "bytes": 370350
+  },
+  "chrome-pdf-systemMedium": {
+   "wallMs": 888,
+   "ok": true,
+   "bytes": 86076
+  }
+ },
+ "rows": [
+  {
+   "run": "t1-json",
+   "technique": "json",
+   "trigger_ms": 1794310358141,
+   "push_to_app_ms": 1130,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 31.7,
+    "memAfter": 31.7,
+    "appState": 2
+   },
+   "prerender_done_ms": 1131,
+   "reload_requested_ms": 1132,
+   "timeline": [
+    {
+     "run": "t1-json",
+     "tech": "json",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 1.1,
+     "memBefore": 32.7,
+     "memAfter": 32.7,
+     "nodes": 16,
+     "at_ms": 1176
+    },
+    {
+     "run": "t1-json",
+     "tech": "json",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 0.6,
+     "memBefore": 33.3,
+     "memAfter": 33.3,
+     "nodes": 16,
+     "at_ms": 1242
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 1178,
+   "canvas_draws": [],
+   "visible_ms": 2128,
+   "screenshot_frame_ms": 399,
+   "screenshot": "experiments/rendering/raw/t1-json.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310359297,
+     "ms": 66,
+     "end": 1794310359363,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310359363,
+     "ms": 17,
+     "end": 1794310359380,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-views",
+   "technique": "views",
+   "trigger_ms": 1794310365059,
+   "push_to_app_ms": 180,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 38.4,
+    "memAfter": 38.4,
+    "appState": 2
+   },
+   "prerender_done_ms": 180,
+   "reload_requested_ms": 181,
+   "timeline": [
+    {
+     "run": "t1-views",
+     "tech": "views",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 5.5,
+     "memBefore": 33.4,
+     "memAfter": 33.4,
+     "ops": 50,
+     "at_ms": 240
+    },
+    {
+     "run": "t1-views",
+     "tech": "views",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 4.0,
+     "memBefore": 23.2,
+     "memAfter": 23.2,
+     "ops": 19,
+     "at_ms": 336
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 241,
+   "canvas_draws": [],
+   "visible_ms": 2089,
+   "screenshot_frame_ms": 474,
+   "screenshot": "experiments/rendering/raw/t1-views.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310365274,
+     "ms": 97,
+     "end": 1794310365371,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310365371,
+     "ms": 23,
+     "end": 1794310365394,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-canvas",
+   "technique": "canvas",
+   "trigger_ms": 1794310372005,
+   "push_to_app_ms": 178,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 38.4,
+    "memAfter": 38.4,
+    "appState": 2
+   },
+   "prerender_done_ms": 178,
+   "reload_requested_ms": 180,
+   "timeline": [
+    {
+     "run": "t1-canvas",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 0.6,
+     "memBefore": 23.5,
+     "memAfter": 23.5,
+     "ops": 19,
+     "at_ms": 223
+    },
+    {
+     "run": "t1-canvas",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 0.8,
+     "memBefore": 23.5,
+     "memAfter": 23.5,
+     "ops": 50,
+     "at_ms": 246
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 224,
+   "canvas_draws": [
+    {
+     "run": "t1-canvas",
+     "ops": 19,
+     "ms": 6.8,
+     "size": "349x164",
+     "mem": 23.55401611328125,
+     "at_ms": 234
+    },
+    {
+     "run": "t1-canvas",
+     "ops": 19,
+     "ms": 2.2,
+     "size": "349x164",
+     "mem": 23.56964111328125,
+     "at_ms": 243
+    },
+    {
+     "run": "t1-canvas",
+     "ops": 50,
+     "ms": 7.2,
+     "size": "349x365",
+     "mem": 23.66339111328125,
+     "at_ms": 258
+    },
+    {
+     "run": "t1-canvas",
+     "ops": 50,
+     "ms": 3.2,
+     "size": "349x365",
+     "mem": 23.69464111328125,
+     "at_ms": 265
+    }
+   ],
+   "visible_ms": 2057,
+   "screenshot_frame_ms": 460,
+   "screenshot": "experiments/rendering/raw/t1-canvas.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310372208,
+     "ms": 23,
+     "end": 1794310372231,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310372231,
+     "ms": 22,
+     "end": 1794310372253,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-cg-ext",
+   "technique": "cg",
+   "trigger_ms": 1794310378998,
+   "push_to_app_ms": 185,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 38.5,
+    "memAfter": 38.5,
+    "appState": 2
+   },
+   "prerender_done_ms": 185,
+   "reload_requested_ms": 186,
+   "timeline": [
+    {
+     "run": "t1-cg-ext",
+     "tech": "cg",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 25.0,
+     "memBefore": 23.6,
+     "memAfter": 24.1,
+     "ops": 50,
+     "renderMs": 24,
+     "px": "1049x1095",
+     "skipped": 0,
+     "at_ms": 246
+    },
+    {
+     "run": "t1-cg-ext",
+     "tech": "cg",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 11.6,
+     "memBefore": 24.1,
+     "memAfter": 24.3,
+     "ops": 19,
+     "renderMs": 10,
+     "px": "1049x492",
+     "skipped": 0,
+     "at_ms": 325
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 248,
+   "canvas_draws": [],
+   "visible_ms": 2082,
+   "screenshot_frame_ms": 472,
+   "screenshot": "experiments/rendering/raw/t1-cg-ext.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310379200,
+     "ms": 92,
+     "end": 1794310379292,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310379292,
+     "ms": 46,
+     "end": 1794310379338,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-bitmap-app-cg",
+   "technique": "bitmap",
+   "trigger_ms": 1794310386013,
+   "push_to_app_ms": 183,
+   "prerender": {
+    "op": "cg",
+    "out": "t1-appcg-systemLarge.png",
+    "totalMs": 102.0,
+    "memBefore": 38.5,
+    "memAfter": 27.8,
+    "appState": 2,
+    "renderMs": 28,
+    "encodeMs": 64.6,
+    "bytes": 1168419
+   },
+   "prerender_done_ms": 286,
+   "reload_requested_ms": 331,
+   "timeline": [
+    {
+     "run": "t1-bitmap-app-cg",
+     "tech": "bitmap",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 26.8,
+     "memBefore": 24.3,
+     "memAfter": 28.9,
+     "file": "t1-appcg-systemLarge.png",
+     "bytes": 1168419,
+     "px": "1047x1095",
+     "decodeMs": 25.6,
+     "at_ms": 409
+    },
+    {
+     "run": "t1-bitmap-app-cg",
+     "tech": "bitmap",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 10.4,
+     "memBefore": 24.5,
+     "memAfter": 26.5,
+     "file": "t1-appcg-systemMedium.png",
+     "bytes": 585513,
+     "px": "1047x492",
+     "decodeMs": 9.5,
+     "at_ms": 425
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 410,
+   "canvas_draws": [],
+   "visible_ms": 2034,
+   "screenshot_frame_ms": 453,
+   "screenshot": "experiments/rendering/raw/t1-bitmap-app-cg.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310386376,
+     "ms": 32,
+     "end": 1794310386408,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310386408,
+     "ms": 14,
+     "end": 1794310386422,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-bitmap-server-cg",
+   "technique": "bitmap",
+   "trigger_ms": 1794310392948,
+   "push_to_app_ms": 174,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 30.0,
+    "memAfter": 30.0,
+    "appState": 2
+   },
+   "prerender_done_ms": 175,
+   "reload_requested_ms": 176,
+   "timeline": [
+    {
+     "run": "t1-bitmap-server-cg",
+     "tech": "bitmap",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 13.5,
+     "memBefore": 24.5,
+     "memAfter": 26.5,
+     "file": "t1-srvcg-systemMedium.png",
+     "bytes": 583989,
+     "px": "1047x492",
+     "decodeMs": 12.1,
+     "at_ms": 233
+    },
+    {
+     "run": "t1-bitmap-server-cg",
+     "tech": "bitmap",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 28.1,
+     "memBefore": 24.6,
+     "memAfter": 28.9,
+     "file": "t1-srvcg-systemLarge.png",
+     "bytes": 1167192,
+     "px": "1047x1095",
+     "decodeMs": 19.9,
+     "at_ms": 269
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 235,
+   "canvas_draws": [],
+   "visible_ms": 2055,
+   "screenshot_frame_ms": 474,
+   "screenshot": "experiments/rendering/raw/t1-bitmap-server-cg.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310393148,
+     "ms": 21,
+     "end": 1794310393169,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310393170,
+     "ms": 33,
+     "end": 1794310393203,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-bitmap-server-html",
+   "technique": "bitmap",
+   "trigger_ms": 1794310399931,
+   "push_to_app_ms": 179,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 29.0,
+    "memAfter": 29.0,
+    "appState": 2
+   },
+   "prerender_done_ms": 180,
+   "reload_requested_ms": 181,
+   "timeline": [
+    {
+     "run": "t1-bitmap-server-html",
+     "tech": "bitmap",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 18.1,
+     "memBefore": 24.6,
+     "memAfter": 28.9,
+     "file": "t1-html-systemLarge.png",
+     "bytes": 742274,
+     "px": "1047x1095",
+     "decodeMs": 17.0,
+     "at_ms": 244
+    },
+    {
+     "run": "t1-bitmap-server-html",
+     "tech": "bitmap",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 12.3,
+     "memBefore": 24.6,
+     "memAfter": 26.5,
+     "file": "t1-html-systemMedium.png",
+     "bytes": 370350,
+     "px": "1047x492",
+     "decodeMs": 11.0,
+     "at_ms": 261
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 245,
+   "canvas_draws": [],
+   "visible_ms": 2047,
+   "screenshot_frame_ms": 439,
+   "screenshot": "experiments/rendering/raw/t1-bitmap-server-html.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310400137,
+     "ms": 24,
+     "end": 1794310400161,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310400161,
+     "ms": 16,
+     "end": 1794310400177,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-bitmap-app-html",
+   "technique": "bitmap",
+   "trigger_ms": 1794310406811,
+   "push_to_app_ms": 178,
+   "prerender": null,
+   "prerender_done_ms": null,
+   "reload_requested_ms": null,
+   "timeline": [],
+   "view_evals": 0,
+   "first_view_ms": null,
+   "canvas_draws": [],
+   "visible_ms": 2076,
+   "screenshot_frame_ms": 473,
+   "screenshot": "experiments/rendering/raw/t1-bitmap-app-html.png",
+   "archive": []
+  },
+  {
+   "run": "t1-pdf-server-html",
+   "technique": "pdf",
+   "trigger_ms": 1794310413786,
+   "push_to_app_ms": 186,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 32.7,
+    "memAfter": 32.7,
+    "appState": 2
+   },
+   "prerender_done_ms": 186,
+   "reload_requested_ms": 187,
+   "timeline": [
+    {
+     "run": "t1-pdf-server-html",
+     "tech": "pdf",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 255.4,
+     "memBefore": 24.6,
+     "memAfter": 25.4,
+     "box": "262x123",
+     "px": "1049x492",
+     "at_ms": 494
+    },
+    {
+     "run": "t1-pdf-server-html",
+     "tech": "pdf",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 283.1,
+     "memBefore": 25.2,
+     "memAfter": 26.2,
+     "box": "262x274",
+     "px": "1049x1095",
+     "at_ms": 812
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 496,
+   "canvas_draws": [],
+   "visible_ms": 2108,
+   "screenshot_frame_ms": 495,
+   "screenshot": "experiments/rendering/raw/t1-pdf-server-html.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310414005,
+     "ms": 290,
+     "end": 1794310414295,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310414295,
+     "ms": 345,
+     "end": 1794310414640,
+     "result": "success"
+    }
+   ]
+  },
+  {
+   "run": "t1-charts",
+   "technique": "charts",
+   "trigger_ms": 1794310420803,
+   "push_to_app_ms": 178,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 34.5,
+    "memAfter": 34.5,
+    "appState": 2
+   },
+   "prerender_done_ms": 178,
+   "reload_requested_ms": 178,
+   "timeline": [
+    {
+     "run": "t1-charts",
+     "tech": "charts",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 0.2,
+     "memBefore": 25.9,
+     "memAfter": 25.9,
+     "at_ms": 222
+    },
+    {
+     "run": "t1-charts",
+     "tech": "charts",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 0.4,
+     "memBefore": 26.4,
+     "memAfter": 26.4,
+     "at_ms": 329
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 224,
+   "canvas_draws": [],
+   "visible_ms": 1965,
+   "screenshot_frame_ms": 362,
+   "screenshot": "experiments/rendering/raw/t1-charts.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310421006,
+     "ms": 106,
+     "end": 1794310421112,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310421112,
+     "ms": 40,
+     "end": 1794310421152,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794310477953,
+     "ms": 71,
+     "end": 1794310478024,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794310478024,
+     "ms": 37,
+     "end": 1794310478061,
+     "result": "success"
+    }
+   ]
+  }
+ ]
+}

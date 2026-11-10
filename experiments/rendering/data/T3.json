@@ -1,0 +1,529 @@
+{
+ "generation": {
+  "agentA_chrome": {
+   "wallMs": 1529,
+   "ok": true,
+   "bytes": 56621
+  }
+ },
+ "panes": [
+  {
+   "agent": "portfolio",
+   "technique": "bitmap",
+   "x": 0.03,
+   "y": 0.02,
+   "w": 0.94,
+   "h": 0.49,
+   "bitmap": "agentA.png",
+   "scene": "agentA-regions.json"
+  },
+  {
+   "agent": "ops",
+   "technique": "canvas",
+   "x": 0.03,
+   "y": 0.53,
+   "w": 0.46,
+   "h": 0.45,
+   "scene": "agentB.json"
+  },
+  {
+   "agent": "mail",
+   "technique": "json",
+   "x": 0.51,
+   "y": 0.53,
+   "w": 0.46,
+   "h": 0.45,
+   "surfaceFile": "agentC.surface.json"
+  }
+ ],
+ "rows": [
+  {
+   "render": {
+    "run": "t3-multi-debug",
+    "technique": "multi",
+    "trigger_ms": 1794312029619,
+    "push_to_app_ms": 198,
+    "prerender": {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.3,
+     "memAfter": 37.3,
+     "appState": 2
+    },
+    "prerender_all": [
+     {
+      "op": "reload",
+      "out": "prerender.png",
+      "totalMs": 0.0,
+      "memBefore": 37.3,
+      "memAfter": 37.3,
+      "appState": 2,
+      "at_ms": 198
+     }
+    ],
+    "prerender_done_ms": 198,
+    "reload_requested_ms": 198,
+    "timeline": [
+     {
+      "run": "t3-multi-debug",
+      "tech": "multi",
+      "family": "systemMedium",
+      "size": "349x164",
+      "prepMs": 16.5,
+      "memBefore": 36.1,
+      "memAfter": 38.3,
+      "panes": 3,
+      "images": 1,
+      "at_ms": 270
+     },
+     {
+      "run": "t3-multi-debug",
+      "tech": "multi",
+      "family": "systemLarge",
+      "size": "349x365",
+      "prepMs": 8.3,
+      "memBefore": 36.1,
+      "memAfter": 38.3,
+      "panes": 3,
+      "images": 1,
+      "at_ms": 390
+     }
+    ],
+    "view_evals": 2,
+    "first_view_ms": 272,
+    "canvas_draws": [
+     {
+      "run": "t3-multi-debug",
+      "ops": 18,
+      "ms": 1.1,
+      "size": "161x74",
+      "mem": 38.69464111328125,
+      "at_ms": 356
+     },
+     {
+      "run": "t3-multi-debug",
+      "ops": 18,
+      "ms": 0.5,
+      "size": "161x164",
+      "mem": 38.66339111328125,
+      "at_ms": 403
+     }
+    ],
+    "visible_ms": 1998,
+    "screenshot_frame_ms": 389,
+    "screenshot": "experiments/rendering/raw/t3-multi-debug.png",
+    "archive": [
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312029840,
+      "ms": 128,
+      "end": 1794312029968,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312029969,
+      "ms": 42,
+      "end": 1794312030011,
+      "result": "success"
+     }
+    ]
+   }
+  },
+  {
+   "render": {
+    "run": "t3-multi",
+    "technique": "multi",
+    "trigger_ms": 1794312036164,
+    "push_to_app_ms": 179,
+    "prerender": {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.2,
+     "memAfter": 37.2,
+     "appState": 2
+    },
+    "prerender_all": [
+     {
+      "op": "reload",
+      "out": "prerender.png",
+      "totalMs": 0.0,
+      "memBefore": 37.2,
+      "memAfter": 37.2,
+      "appState": 2,
+      "at_ms": 179
+     }
+    ],
+    "prerender_done_ms": 179,
+    "reload_requested_ms": 180,
+    "timeline": [
+     {
+      "run": "t3-multi",
+      "tech": "multi",
+      "family": "systemLarge",
+      "size": "349x365",
+      "prepMs": 6.4,
+      "memBefore": 36.1,
+      "memAfter": 38.3,
+      "panes": 3,
+      "images": 1,
+      "at_ms": 225
+     },
+     {
+      "run": "t3-multi",
+      "tech": "multi",
+      "family": "systemMedium",
+      "size": "349x164",
+      "prepMs": 6.3,
+      "memBefore": 36.1,
+      "memAfter": 38.3,
+      "panes": 3,
+      "images": 1,
+      "at_ms": 275
+     }
+    ],
+    "view_evals": 2,
+    "first_view_ms": 226,
+    "canvas_draws": [
+     {
+      "run": "t3-multi",
+      "ops": 18,
+      "ms": 0.5,
+      "size": "161x164",
+      "mem": 38.67901611328125,
+      "at_ms": 239
+     },
+     {
+      "run": "t3-multi",
+      "ops": 18,
+      "ms": 0.5,
+      "size": "161x74",
+      "mem": 38.71026611328125,
+      "at_ms": 287
+     }
+    ],
+    "visible_ms": 1954,
+    "screenshot_frame_ms": 364,
+    "screenshot": "experiments/rendering/raw/t3-multi.png",
+    "archive": [
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312036350,
+      "ms": 50,
+      "end": 1794312036400,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312036400,
+      "ms": 42,
+      "end": 1794312036442,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312048126,
+      "ms": 49,
+      "end": 1794312048175,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312048176,
+      "ms": 55,
+      "end": 1794312048231,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312049977,
+      "ms": 35,
+      "end": 1794312050012,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312050012,
+      "ms": 34,
+      "end": 1794312050046,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312051807,
+      "ms": 35,
+      "end": 1794312051842,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312051842,
+      "ms": 33,
+      "end": 1794312051875,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312053641,
+      "ms": 33,
+      "end": 1794312053674,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312053674,
+      "ms": 34,
+      "end": 1794312053708,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312055490,
+      "ms": 35,
+      "end": 1794312055525,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312055525,
+      "ms": 34,
+      "end": 1794312055559,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312057325,
+      "ms": 35,
+      "end": 1794312057360,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312057360,
+      "ms": 33,
+      "end": 1794312057393,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312059158,
+      "ms": 33,
+      "end": 1794312059191,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312059191,
+      "ms": 34,
+      "end": 1794312059225,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312081366,
+      "ms": 16,
+      "end": 1794312081382,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312081382,
+      "ms": 4,
+      "end": 1794312081386,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemMedium",
+      "began": 1794312087855,
+      "ms": 4,
+      "end": 1794312087859,
+      "result": "success"
+     },
+     {
+      "kind": "RenderLab",
+      "family": "systemLarge",
+      "began": 1794312087859,
+      "ms": 7,
+      "end": 1794312087866,
+      "result": "success"
+     }
+    ]
+   }
+  },
+  {
+   "tap": {
+    "label": "t3 panes A+B (large)",
+    "taps": 7,
+    "correct": 7,
+    "wrong": 0,
+    "missed": 0,
+    "by_point": {
+     "c": "7/7"
+    },
+    "tap_to_intent_ms_median": 343,
+    "tap_to_intent_ms_max": 867,
+    "wrong_examples": [],
+    "missed_examples": [],
+    "uitest_ok": true
+   },
+   "taps": [
+    {
+     "want": "portfolio:trade-0",
+     "pt": "c",
+     "x": 330.659240687679,
+     "y": 140.57261604584528,
+     "t": 1794312047250,
+     "got": [
+      "portfolio:trade-0"
+     ],
+     "intent_ms": 867
+    },
+    {
+     "want": "portfolio:trade-1",
+     "pt": "c",
+     "x": 330.659240687679,
+     "y": 167.5105381088825,
+     "t": 1794312049625,
+     "got": [
+      "portfolio:trade-1"
+     ],
+     "intent_ms": 355
+    },
+    {
+     "y": 194.44846017191978,
+     "pt": "c",
+     "x": 330.659240687679,
+     "t": 1794312051470,
+     "want": "portfolio:trade-2",
+     "got": [
+      "portfolio:trade-2"
+     ],
+     "intent_ms": 343
+    },
+    {
+     "y": 221.38638223495704,
+     "x": 330.659240687679,
+     "t": 1794312053303,
+     "want": "portfolio:trade-3",
+     "pt": "c",
+     "got": [
+      "portfolio:trade-3"
+     ],
+     "intent_ms": 343
+    },
+    {
+     "y": 248.32430429799427,
+     "want": "portfolio:trade-4",
+     "x": 330.659240687679,
+     "pt": "c",
+     "t": 1794312055146,
+     "got": [
+      "portfolio:trade-4"
+     ],
+     "intent_ms": 350
+    },
+    {
+     "want": "ops:scale",
+     "pt": "c",
+     "y": 418.714705882353,
+     "t": 1794312056988,
+     "x": 80.50729411764706,
+     "got": [
+      "ops:scale"
+     ],
+     "intent_ms": 342
+    },
+    {
+     "x": 153.93670588235295,
+     "t": 1794312058829,
+     "want": "ops:mute",
+     "y": 418.714705882353,
+     "pt": "c",
+     "got": [
+      "ops:mute"
+     ],
+     "intent_ms": 334
+    }
+   ]
+  },
+  {
+   "agentC_tap": [
+    [
+     "mail:send",
+     285.078,
+     419.7,
+     "c"
+    ]
+   ],
+   "events": [
+    [
+     "scene_active",
+     ""
+    ]
+   ]
+  },
+  {
+   "agentC_tap_retry": [
+    [
+     "mail:send",
+     285.078,
+     385.65000000000003,
+     "c"
+    ],
+    [
+     "portfolio:trade-2",
+     337.533,
+     194.02499999999998,
+     "c"
+    ],
+    [
+     "ops:mute",
+     152.192,
+     416.675,
+     "c"
+    ]
+   ],
+   "events": [
+    [
+     "action_received",
+     "widget c/send"
+    ],
+    [
+     "action_rejected",
+     "want c#1 have decision-1#81217 answered=revert"
+    ],
+    [
+     "rl_hit",
+     "run=t3-multi-c agent=portfolio region=portfolio:trade-2"
+    ],
+    [
+     "rl_hit",
+     "run=t3-multi-c agent=ops region=ops:mute"
+    ]
+   ]
+  }
+ ]
+}

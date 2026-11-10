@@ -1,0 +1,86 @@
+[
+ {
+  "plan": [
+   [
+    "L.item-3",
+    146.3,
+    197.0,
+    "c"
+   ],
+   [
+    "L.next",
+    319.88767908309455,
+    433.0,
+    "c"
+   ],
+   [
+    "L.item-14",
+    146.3,
+    225.5,
+    "c"
+   ],
+   [
+    "L.next",
+    319.88767908309455,
+    433.0,
+    "c"
+   ],
+   [
+    "L.item-27",
+    146.3,
+    311.0,
+    "c"
+   ],
+   [
+    "L.prev",
+    82.41232091690544,
+    433.0,
+    "c"
+   ],
+   [
+    "L.item-15",
+    146.3,
+    254.0,
+    "c"
+   ]
+  ],
+  "events": [
+   [
+    10399,
+    "rl_hit",
+    "run=page-0 agent= region=L.item-3"
+   ],
+   [
+    12632,
+    "rl_page",
+    "run=page-0 page=1"
+   ],
+   [
+    14934,
+    "rl_hit",
+    "run=page-0 agent= region=L.item-14"
+   ],
+   [
+    17282,
+    "rl_page",
+    "run=page-0 page=2"
+   ],
+   [
+    19599,
+    "rl_hit",
+    "run=page-0 agent= region=L.item-27"
+   ],
+   [
+    21952,
+    "rl_page",
+    "run=page-0 page=1"
+   ],
+   [
+    24265,
+    "rl_hit",
+    "run=page-0 agent= region=L.item-15"
+   ]
+  ],
+  "uitest_ok": true
+ }
+]

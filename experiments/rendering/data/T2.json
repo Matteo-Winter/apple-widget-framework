@@ -1,0 +1,8107 @@
+[
+ {
+  "render": {
+   "run": "t2-canvas-clear",
+   "technique": "canvas",
+   "trigger_ms": 1794311114459,
+   "push_to_app_ms": 199,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 37.2,
+    "memAfter": 37.2,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.2,
+     "memAfter": 37.2,
+     "appState": 2,
+     "at_ms": 199
+    }
+   ],
+   "prerender_done_ms": 199,
+   "reload_requested_ms": 200,
+   "timeline": [
+    {
+     "run": "t2-canvas-clear",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 0.5,
+     "memBefore": 33.3,
+     "memAfter": 33.3,
+     "ops": 16,
+     "at_ms": 248
+    },
+    {
+     "run": "t2-canvas-clear",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 1.1,
+     "memBefore": 33.4,
+     "memAfter": 33.4,
+     "ops": 79,
+     "at_ms": 273
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 249,
+   "canvas_draws": [
+    {
+     "run": "t2-canvas-clear",
+     "ops": 16,
+     "ms": 0.6,
+     "size": "349x164",
+     "mem": 33.60089111328125,
+     "at_ms": 254
+    },
+    {
+     "run": "t2-canvas-clear",
+     "ops": 79,
+     "ms": 2.1,
+     "size": "349x365",
+     "mem": 34.77276611328125,
+     "at_ms": 325
+    }
+   ],
+   "visible_ms": 1993,
+   "screenshot_frame_ms": 380,
+   "screenshot": "experiments/rendering/raw/t2-canvas-clear.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311114681,
+     "ms": 25,
+     "end": 1794311114706,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311114706,
+     "ms": 142,
+     "end": 1794311114848,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311126448,
+     "ms": 21,
+     "end": 1794311126469,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311126469,
+     "ms": 92,
+     "end": 1794311126561,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311128292,
+     "ms": 91,
+     "end": 1794311128383,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311128383,
+     "ms": 21,
+     "end": 1794311128404,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311130142,
+     "ms": 93,
+     "end": 1794311130235,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311130235,
+     "ms": 19,
+     "end": 1794311130254,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311131991,
+     "ms": 93,
+     "end": 1794311132084,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311132085,
+     "ms": 19,
+     "end": 1794311132104,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311133858,
+     "ms": 20,
+     "end": 1794311133878,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311133878,
+     "ms": 92,
+     "end": 1794311133970,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311135724,
+     "ms": 20,
+     "end": 1794311135744,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311135744,
+     "ms": 92,
+     "end": 1794311135836,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311137575,
+     "ms": 19,
+     "end": 1794311137594,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311137594,
+     "ms": 92,
+     "end": 1794311137686,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311139441,
+     "ms": 92,
+     "end": 1794311139533,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311139533,
+     "ms": 19,
+     "end": 1794311139552,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311141291,
+     "ms": 93,
+     "end": 1794311141384,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311141384,
+     "ms": 19,
+     "end": 1794311141403,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311143140,
+     "ms": 20,
+     "end": 1794311143160,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311143161,
+     "ms": 92,
+     "end": 1794311143253,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311145009,
+     "ms": 20,
+     "end": 1794311145029,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311145029,
+     "ms": 92,
+     "end": 1794311145121,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311146876,
+     "ms": 98,
+     "end": 1794311146974,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311146974,
+     "ms": 21,
+     "end": 1794311146995,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311148742,
+     "ms": 20,
+     "end": 1794311148762,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311148762,
+     "ms": 92,
+     "end": 1794311148854,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311150640,
+     "ms": 105,
+     "end": 1794311150745,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311150745,
+     "ms": 20,
+     "end": 1794311150765,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311152513,
+     "ms": 96,
+     "end": 1794311152609,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311152609,
+     "ms": 19,
+     "end": 1794311152628,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311154377,
+     "ms": 19,
+     "end": 1794311154396,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311154396,
+     "ms": 92,
+     "end": 1794311154488,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311156240,
+     "ms": 20,
+     "end": 1794311156260,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311156260,
+     "ms": 92,
+     "end": 1794311156352,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311158108,
+     "ms": 20,
+     "end": 1794311158128,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311158128,
+     "ms": 92,
+     "end": 1794311158220,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311159958,
+     "ms": 20,
+     "end": 1794311159978,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311159978,
+     "ms": 93,
+     "end": 1794311160071,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311161825,
+     "ms": 20,
+     "end": 1794311161845,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311161845,
+     "ms": 91,
+     "end": 1794311161936,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311163700,
+     "ms": 23,
+     "end": 1794311163723,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311163723,
+     "ms": 101,
+     "end": 1794311163824,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311165558,
+     "ms": 93,
+     "end": 1794311165651,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311165651,
+     "ms": 19,
+     "end": 1794311165670,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311167427,
+     "ms": 93,
+     "end": 1794311167520,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311167520,
+     "ms": 19,
+     "end": 1794311167539,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311169290,
+     "ms": 20,
+     "end": 1794311169310,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311169310,
+     "ms": 93,
+     "end": 1794311169403,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311171159,
+     "ms": 20,
+     "end": 1794311171179,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311171179,
+     "ms": 93,
+     "end": 1794311171272,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311173008,
+     "ms": 20,
+     "end": 1794311173028,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311173028,
+     "ms": 92,
+     "end": 1794311173120,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311174874,
+     "ms": 19,
+     "end": 1794311174893,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311174894,
+     "ms": 90,
+     "end": 1794311174984,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311176724,
+     "ms": 92,
+     "end": 1794311176816,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311176816,
+     "ms": 19,
+     "end": 1794311176835,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311178590,
+     "ms": 93,
+     "end": 1794311178683,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311178683,
+     "ms": 20,
+     "end": 1794311178703,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311180442,
+     "ms": 20,
+     "end": 1794311180462,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311180463,
+     "ms": 92,
+     "end": 1794311180555,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311182307,
+     "ms": 20,
+     "end": 1794311182327,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311182327,
+     "ms": 92,
+     "end": 1794311182419,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311184158,
+     "ms": 93,
+     "end": 1794311184251,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311184251,
+     "ms": 19,
+     "end": 1794311184270,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311186007,
+     "ms": 93,
+     "end": 1794311186100,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311186100,
+     "ms": 19,
+     "end": 1794311186119,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311187875,
+     "ms": 20,
+     "end": 1794311187895,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311187895,
+     "ms": 93,
+     "end": 1794311187988,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311189741,
+     "ms": 20,
+     "end": 1794311189761,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311189761,
+     "ms": 93,
+     "end": 1794311189854,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311191607,
+     "ms": 92,
+     "end": 1794311191699,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311191699,
+     "ms": 20,
+     "end": 1794311191719,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311193474,
+     "ms": 20,
+     "end": 1794311193494,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311193494,
+     "ms": 91,
+     "end": 1794311193585,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311195327,
+     "ms": 20,
+     "end": 1794311195347,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311195347,
+     "ms": 91,
+     "end": 1794311195438,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311197174,
+     "ms": 94,
+     "end": 1794311197268,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311197268,
+     "ms": 19,
+     "end": 1794311197287,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311199041,
+     "ms": 20,
+     "end": 1794311199061,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311199062,
+     "ms": 92,
+     "end": 1794311199154,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311200907,
+     "ms": 20,
+     "end": 1794311200927,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311200927,
+     "ms": 92,
+     "end": 1794311201019,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311202759,
+     "ms": 20,
+     "end": 1794311202779,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311202779,
+     "ms": 92,
+     "end": 1794311202871,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311204607,
+     "ms": 93,
+     "end": 1794311204700,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311204700,
+     "ms": 19,
+     "end": 1794311204719,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311206457,
+     "ms": 93,
+     "end": 1794311206550,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311206550,
+     "ms": 19,
+     "end": 1794311206569,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311208326,
+     "ms": 93,
+     "end": 1794311208419,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311208419,
+     "ms": 20,
+     "end": 1794311208439,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311210175,
+     "ms": 92,
+     "end": 1794311210267,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311210267,
+     "ms": 20,
+     "end": 1794311210287,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311212040,
+     "ms": 20,
+     "end": 1794311212060,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311212060,
+     "ms": 92,
+     "end": 1794311212152,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311213889,
+     "ms": 92,
+     "end": 1794311213981,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311213981,
+     "ms": 19,
+     "end": 1794311214000,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311215739,
+     "ms": 93,
+     "end": 1794311215832,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311215832,
+     "ms": 19,
+     "end": 1794311215851,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311217607,
+     "ms": 20,
+     "end": 1794311217627,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311217627,
+     "ms": 93,
+     "end": 1794311217720,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311219457,
+     "ms": 20,
+     "end": 1794311219477,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311219477,
+     "ms": 93,
+     "end": 1794311219570,
+     "result": "success"
+    }
+   ]
+  },
+  "tap": {
+   "label": "t2-canvas-clear",
+   "taps": 51,
+   "correct": 51,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "51/51"
+   },
+   "tap_to_intent_ms_median": 367,
+   "tap_to_intent_ms_max": 876,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "y": 162,
+    "pt": "c",
+    "want": "L.seat-1A",
+    "t": 1794311125566,
+    "x": 56.64999999999999,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 876
+   },
+   {
+    "y": 162,
+    "pt": "c",
+    "want": "L.seat-1B",
+    "t": 1794311127925,
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "x": 124.64999999999999,
+    "t": 1794311129772,
+    "y": 162,
+    "want": "L.seat-1C",
+    "pt": "c",
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "x": 170.65,
+    "y": 162,
+    "pt": "c",
+    "want": "L.seat-1D",
+    "t": 1794311131633,
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 357
+   },
+   {
+    "want": "L.seat-1E",
+    "t": 1794311133494,
+    "y": 162,
+    "x": 204.65,
+    "pt": "c",
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.seat-1F",
+    "y": 162,
+    "x": 238.65,
+    "pt": "c",
+    "t": 1794311135354,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 196,
+    "want": "L.seat-2A",
+    "x": 56.64999999999999,
+    "t": 1794311137208,
+    "pt": "c",
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "want": "L.seat-2B",
+    "t": 1794311139071,
+    "y": 196,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311140928,
+    "want": "L.seat-2C",
+    "x": 124.64999999999999,
+    "pt": "c",
+    "y": 196,
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "t": 1794311142778,
+    "pt": "c",
+    "want": "L.seat-2D",
+    "x": 170.65,
+    "y": 196,
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "t": 1794311144640,
+    "pt": "c",
+    "want": "L.seat-2E",
+    "x": 204.65,
+    "y": 196,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "y": 196,
+    "t": 1794311146496,
+    "want": "L.seat-2F",
+    "x": 238.65,
+    "pt": "c",
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "y": 230,
+    "want": "L.seat-3A",
+    "pt": "c",
+    "t": 1794311148366,
+    "x": 56.64999999999999,
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "want": "L.seat-3B",
+    "y": 230,
+    "x": 90.64999999999999,
+    "pt": "c",
+    "t": 1794311150237,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 392
+   },
+   {
+    "y": 230,
+    "t": 1794311152110,
+    "pt": "c",
+    "want": "L.seat-3C",
+    "x": 124.64999999999999,
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 398
+   },
+   {
+    "y": 230,
+    "want": "L.seat-3D",
+    "x": 170.65,
+    "t": 1794311154007,
+    "pt": "c",
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 230,
+    "want": "L.seat-3E",
+    "pt": "c",
+    "t": 1794311155871,
+    "x": 204.65,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 230,
+    "want": "L.seat-3F",
+    "pt": "c",
+    "t": 1794311157735,
+    "x": 238.65,
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "x": 56.64999999999999,
+    "t": 1794311159589,
+    "y": 264,
+    "want": "L.seat-4A",
+    "pt": "c",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 264,
+    "want": "L.seat-4B",
+    "x": 90.64999999999999,
+    "t": 1794311161454,
+    "pt": "c",
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 264,
+    "t": 1794311163313,
+    "pt": "c",
+    "x": 124.64999999999999,
+    "want": "L.seat-4C",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 382
+   },
+   {
+    "want": "L.seat-4D",
+    "y": 264,
+    "x": 170.65,
+    "pt": "c",
+    "t": 1794311165190,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "x": 204.65,
+    "t": 1794311167054,
+    "y": 264,
+    "want": "L.seat-4E",
+    "pt": "c",
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "y": 264,
+    "want": "L.seat-4F",
+    "pt": "c",
+    "t": 1794311168921,
+    "x": 238.65,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.swatch-0",
+    "t": 1794311170786,
+    "y": 170,
+    "x": 294.65,
+    "pt": "c",
+    "got": [
+     "L.swatch-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.swatch-1",
+    "y": 170,
+    "x": 338.65,
+    "pt": "c",
+    "t": 1794311172648,
+    "got": [
+     "L.swatch-1"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "want": "L.swatch-2",
+    "y": 214,
+    "x": 294.65,
+    "pt": "c",
+    "t": 1794311174505,
+    "got": [
+     "L.swatch-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 214,
+    "want": "L.swatch-3",
+    "x": 338.65,
+    "t": 1794311176363,
+    "pt": "c",
+    "got": [
+     "L.swatch-3"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "y": 270,
+    "want": "L.tri-up",
+    "pt": "c",
+    "t": 1794311178220,
+    "x": 316.65,
+    "got": [
+     "L.tri-up"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "y": 315,
+    "t": 1794311180079,
+    "want": "L.slot-0",
+    "x": 72.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "y": 315,
+    "want": "L.slot-1",
+    "pt": "c",
+    "t": 1794311181939,
+    "x": 136.64999999999998,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "pt": "c",
+    "t": 1794311183803,
+    "want": "L.slot-2",
+    "x": 200.65,
+    "y": 315,
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 354
+   },
+   {
+    "pt": "c",
+    "t": 1794311185647,
+    "want": "L.slot-3",
+    "x": 264.65,
+    "y": 315,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.slot-4",
+    "y": 315,
+    "x": 328.65,
+    "pt": "c",
+    "t": 1794311187505,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-0",
+    "pt": "c",
+    "t": 1794311189372,
+    "x": 53.64999999999999,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "c",
+    "want": "L.tiny-1",
+    "x": 79.64999999999999,
+    "t": 1794311191241,
+    "y": 357,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "pt": "c",
+    "want": "L.tiny-2",
+    "x": 105.64999999999999,
+    "t": 1794311193105,
+    "y": 357,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-3",
+    "pt": "c",
+    "t": 1794311194970,
+    "x": 131.64999999999998,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-4",
+    "x": 157.65,
+    "t": 1794311196820,
+    "pt": "c",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 354
+   },
+   {
+    "pt": "c",
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "t": 1794311198672,
+    "y": 357,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "t": 1794311200537,
+    "pt": "c",
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "c",
+    "t": 1794311202398,
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "y": 357,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "y": 415,
+    "t": 1794311204252,
+    "pt": "c",
+    "want": "L.confirm",
+    "x": 149.64999999999998,
+    "got": [
+     "L.confirm"
+    ],
+    "intent_ms": 355
+   },
+   {
+    "y": 415,
+    "want": "L.skip",
+    "pt": "c",
+    "t": 1794311206096,
+    "x": 312.15,
+    "got": [
+     "L.skip"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "pt": "c",
+    "t": 1794311207954,
+    "want": "M.slot-0",
+    "x": 72.41493902439022,
+    "y": 554.415243902439,
+    "got": [
+     "M.slot-0"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 554.415243902439,
+    "want": "M.slot-1",
+    "pt": "c",
+    "t": 1794311209813,
+    "x": 136.53201219512192,
+    "got": [
+     "M.slot-1"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "M.slot-2",
+    "y": 554.415243902439,
+    "x": 200.64908536585367,
+    "pt": "c",
+    "t": 1794311211672,
+    "got": [
+     "M.slot-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 554.415243902439,
+    "t": 1794311213537,
+    "pt": "c",
+    "want": "M.slot-3",
+    "x": 264.76615853658535,
+    "got": [
+     "M.slot-3"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "y": 554.415243902439,
+    "want": "M.slot-4",
+    "x": 328.88323170731707,
+    "t": 1794311215389,
+    "pt": "c",
+    "got": [
+     "M.slot-4"
+    ],
+    "intent_ms": 351
+   },
+   {
+    "y": 615.5268292682927,
+    "want": "M.confirm",
+    "pt": "c",
+    "t": 1794311217244,
+    "x": 149.5557926829268,
+    "got": [
+     "M.confirm"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "M.skip",
+    "t": 1794311219106,
+    "y": 615.5268292682927,
+    "x": 312.3530487804878,
+    "pt": "c",
+    "got": [
+     "M.skip"
+    ],
+    "intent_ms": 350
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t2-canvas-faint",
+   "technique": "canvas",
+   "trigger_ms": 1794311229531,
+   "push_to_app_ms": 204,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 37.2,
+    "memAfter": 37.2,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.2,
+     "memAfter": 37.2,
+     "appState": 2,
+     "at_ms": 205
+    }
+   ],
+   "prerender_done_ms": 205,
+   "reload_requested_ms": 206,
+   "timeline": [
+    {
+     "run": "t2-canvas-faint",
+     "tech": "canvas",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 0.9,
+     "memBefore": 33.4,
+     "memAfter": 33.4,
+     "ops": 16,
+     "at_ms": 253
+    },
+    {
+     "run": "t2-canvas-faint",
+     "tech": "canvas",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 2.7,
+     "memBefore": 33.4,
+     "memAfter": 33.5,
+     "ops": 79,
+     "at_ms": 295
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 256,
+   "canvas_draws": [
+    {
+     "run": "t2-canvas-faint",
+     "ops": 16,
+     "ms": 0.8,
+     "size": "349x164",
+     "mem": 33.64776611328125,
+     "at_ms": 267
+    },
+    {
+     "run": "t2-canvas-faint",
+     "ops": 79,
+     "ms": 1.8,
+     "size": "349x365",
+     "mem": 34.92901611328125,
+     "at_ms": 327
+    }
+   ],
+   "visible_ms": 2007,
+   "screenshot_frame_ms": 386,
+   "screenshot": "experiments/rendering/raw/t2-canvas-faint.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311229757,
+     "ms": 40,
+     "end": 1794311229797,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311229798,
+     "ms": 113,
+     "end": 1794311229911,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311241547,
+     "ms": 20,
+     "end": 1794311241567,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311241567,
+     "ms": 93,
+     "end": 1794311241660,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311243408,
+     "ms": 20,
+     "end": 1794311243428,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311243428,
+     "ms": 93,
+     "end": 1794311243521,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311245261,
+     "ms": 20,
+     "end": 1794311245281,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311245281,
+     "ms": 94,
+     "end": 1794311245375,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311247123,
+     "ms": 21,
+     "end": 1794311247144,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311247144,
+     "ms": 95,
+     "end": 1794311247239,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311248975,
+     "ms": 21,
+     "end": 1794311248996,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311248996,
+     "ms": 93,
+     "end": 1794311249089,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311250840,
+     "ms": 20,
+     "end": 1794311250860,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311250860,
+     "ms": 93,
+     "end": 1794311250953,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311252710,
+     "ms": 94,
+     "end": 1794311252804,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311252804,
+     "ms": 19,
+     "end": 1794311252823,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311254557,
+     "ms": 94,
+     "end": 1794311254651,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311254652,
+     "ms": 19,
+     "end": 1794311254671,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311256425,
+     "ms": 94,
+     "end": 1794311256519,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311256520,
+     "ms": 19,
+     "end": 1794311256539,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311258275,
+     "ms": 20,
+     "end": 1794311258295,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311258295,
+     "ms": 94,
+     "end": 1794311258389,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311260124,
+     "ms": 94,
+     "end": 1794311260218,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311260218,
+     "ms": 19,
+     "end": 1794311260237,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311261991,
+     "ms": 94,
+     "end": 1794311262085,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311262085,
+     "ms": 19,
+     "end": 1794311262104,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311263858,
+     "ms": 94,
+     "end": 1794311263952,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311263952,
+     "ms": 20,
+     "end": 1794311263972,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311265710,
+     "ms": 20,
+     "end": 1794311265730,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311265730,
+     "ms": 94,
+     "end": 1794311265824,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311267574,
+     "ms": 94,
+     "end": 1794311267668,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311267668,
+     "ms": 20,
+     "end": 1794311267688,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311269427,
+     "ms": 20,
+     "end": 1794311269447,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311269447,
+     "ms": 93,
+     "end": 1794311269540,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311271291,
+     "ms": 20,
+     "end": 1794311271311,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311271311,
+     "ms": 92,
+     "end": 1794311271403,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311273158,
+     "ms": 93,
+     "end": 1794311273251,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311273251,
+     "ms": 20,
+     "end": 1794311273271,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311275009,
+     "ms": 94,
+     "end": 1794311275103,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311275103,
+     "ms": 19,
+     "end": 1794311275122,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311276877,
+     "ms": 120,
+     "end": 1794311276997,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311276997,
+     "ms": 20,
+     "end": 1794311277017,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311278742,
+     "ms": 20,
+     "end": 1794311278762,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311278762,
+     "ms": 93,
+     "end": 1794311278855,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311280607,
+     "ms": 21,
+     "end": 1794311280628,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311280628,
+     "ms": 92,
+     "end": 1794311280720,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311282459,
+     "ms": 93,
+     "end": 1794311282552,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311282552,
+     "ms": 20,
+     "end": 1794311282572,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311284352,
+     "ms": 22,
+     "end": 1794311284374,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311284375,
+     "ms": 102,
+     "end": 1794311284477,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311286217,
+     "ms": 99,
+     "end": 1794311286316,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311286317,
+     "ms": 19,
+     "end": 1794311286336,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311288076,
+     "ms": 21,
+     "end": 1794311288097,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311288097,
+     "ms": 94,
+     "end": 1794311288191,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311289942,
+     "ms": 94,
+     "end": 1794311290036,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311290037,
+     "ms": 19,
+     "end": 1794311290056,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311291807,
+     "ms": 20,
+     "end": 1794311291827,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311291828,
+     "ms": 92,
+     "end": 1794311291920,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311293658,
+     "ms": 20,
+     "end": 1794311293678,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311293679,
+     "ms": 92,
+     "end": 1794311293771,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311295526,
+     "ms": 20,
+     "end": 1794311295546,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311295546,
+     "ms": 92,
+     "end": 1794311295638,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311297394,
+     "ms": 22,
+     "end": 1794311297416,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311297416,
+     "ms": 124,
+     "end": 1794311297540,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311299241,
+     "ms": 94,
+     "end": 1794311299335,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311299335,
+     "ms": 20,
+     "end": 1794311299355,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311301111,
+     "ms": 20,
+     "end": 1794311301131,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311301131,
+     "ms": 93,
+     "end": 1794311301224,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311302957,
+     "ms": 94,
+     "end": 1794311303051,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311303051,
+     "ms": 20,
+     "end": 1794311303071,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311304826,
+     "ms": 95,
+     "end": 1794311304921,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311304921,
+     "ms": 19,
+     "end": 1794311304940,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311306673,
+     "ms": 96,
+     "end": 1794311306769,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311306769,
+     "ms": 19,
+     "end": 1794311306788,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311308545,
+     "ms": 95,
+     "end": 1794311308640,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311308640,
+     "ms": 19,
+     "end": 1794311308659,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311310407,
+     "ms": 94,
+     "end": 1794311310501,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311310501,
+     "ms": 19,
+     "end": 1794311310520,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311312258,
+     "ms": 93,
+     "end": 1794311312351,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311312351,
+     "ms": 19,
+     "end": 1794311312370,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311314108,
+     "ms": 95,
+     "end": 1794311314203,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311314203,
+     "ms": 20,
+     "end": 1794311314223,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311315962,
+     "ms": 97,
+     "end": 1794311316059,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311316059,
+     "ms": 20,
+     "end": 1794311316079,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311317828,
+     "ms": 102,
+     "end": 1794311317930,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311317930,
+     "ms": 26,
+     "end": 1794311317956,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311319692,
+     "ms": 93,
+     "end": 1794311319785,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311319785,
+     "ms": 19,
+     "end": 1794311319804,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311321561,
+     "ms": 20,
+     "end": 1794311321581,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311321581,
+     "ms": 93,
+     "end": 1794311321674,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311323407,
+     "ms": 20,
+     "end": 1794311323427,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311323427,
+     "ms": 92,
+     "end": 1794311323519,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311325274,
+     "ms": 20,
+     "end": 1794311325294,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311325294,
+     "ms": 92,
+     "end": 1794311325386,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311327128,
+     "ms": 99,
+     "end": 1794311327227,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311327227,
+     "ms": 22,
+     "end": 1794311327249,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311328992,
+     "ms": 92,
+     "end": 1794311329084,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311329084,
+     "ms": 20,
+     "end": 1794311329104,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311330857,
+     "ms": 93,
+     "end": 1794311330950,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311330951,
+     "ms": 19,
+     "end": 1794311330970,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311332707,
+     "ms": 93,
+     "end": 1794311332800,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311332800,
+     "ms": 20,
+     "end": 1794311332820,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311334575,
+     "ms": 20,
+     "end": 1794311334595,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311334595,
+     "ms": 92,
+     "end": 1794311334687,
+     "result": "success"
+    }
+   ]
+  },
+  "tap": {
+   "label": "t2-canvas-faint",
+   "taps": 51,
+   "correct": 51,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "51/51"
+   },
+   "tap_to_intent_ms_median": 368,
+   "tap_to_intent_ms_max": 868,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "x": 56.64999999999999,
+    "pt": "c",
+    "t": 1794311240675,
+    "want": "L.seat-1A",
+    "y": 162,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 868
+   },
+   {
+    "want": "L.seat-1B",
+    "y": 162,
+    "x": 90.64999999999999,
+    "pt": "c",
+    "t": 1794311243039,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-1C",
+    "y": 162,
+    "x": 124.64999999999999,
+    "pt": "c",
+    "t": 1794311244895,
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "pt": "c",
+    "x": 170.65,
+    "want": "L.seat-1D",
+    "y": 162,
+    "t": 1794311246755,
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-1E",
+    "y": 162,
+    "x": 204.65,
+    "pt": "c",
+    "t": 1794311248614,
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-1F",
+    "y": 162,
+    "x": 238.65,
+    "pt": "c",
+    "t": 1794311250473,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "x": 56.64999999999999,
+    "pt": "c",
+    "t": 1794311252333,
+    "want": "L.seat-2A",
+    "y": 196,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "want": "L.seat-2B",
+    "t": 1794311254190,
+    "y": 196,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "c",
+    "x": 124.64999999999999,
+    "want": "L.seat-2C",
+    "y": 196,
+    "t": 1794311256054,
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "x": 170.65,
+    "pt": "c",
+    "t": 1794311257921,
+    "want": "L.seat-2D",
+    "y": 196,
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "t": 1794311259774,
+    "y": 196,
+    "want": "L.seat-2E",
+    "x": 204.65,
+    "pt": "c",
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 350
+   },
+   {
+    "pt": "c",
+    "x": 238.65,
+    "want": "L.seat-2F",
+    "y": 196,
+    "t": 1794311261621,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311263484,
+    "y": 230,
+    "want": "L.seat-3A",
+    "x": 56.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "want": "L.seat-3B",
+    "t": 1794311265344,
+    "y": 230,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "t": 1794311267206,
+    "y": 230,
+    "want": "L.seat-3C",
+    "x": 124.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "c",
+    "x": 170.65,
+    "want": "L.seat-3D",
+    "y": 230,
+    "t": 1794311269060,
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "x": 204.65,
+    "pt": "c",
+    "t": 1794311270921,
+    "want": "L.seat-3E",
+    "y": 230,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "c",
+    "x": 238.65,
+    "want": "L.seat-3F",
+    "y": 230,
+    "t": 1794311272783,
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "x": 56.64999999999999,
+    "pt": "c",
+    "t": 1794311274642,
+    "want": "L.seat-4A",
+    "y": 264,
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "x": 90.64999999999999,
+    "pt": "c",
+    "t": 1794311276506,
+    "want": "L.seat-4B",
+    "y": 264,
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-4C",
+    "t": 1794311278373,
+    "y": 264,
+    "pt": "c",
+    "x": 124.64999999999999,
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 170.65,
+    "y": 264,
+    "want": "L.seat-4D",
+    "pt": "c",
+    "t": 1794311280238,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "c",
+    "x": 204.65,
+    "want": "L.seat-4E",
+    "y": 264,
+    "t": 1794311282097,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 264,
+    "pt": "c",
+    "t": 1794311283955,
+    "want": "L.seat-4F",
+    "x": 238.65,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 389
+   },
+   {
+    "pt": "c",
+    "x": 294.65,
+    "want": "L.swatch-0",
+    "y": 170,
+    "t": 1794311285832,
+    "got": [
+     "L.swatch-0"
+    ],
+    "intent_ms": 378
+   },
+   {
+    "pt": "c",
+    "want": "L.swatch-1",
+    "x": 338.65,
+    "t": 1794311287707,
+    "y": 170,
+    "got": [
+     "L.swatch-1"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "pt": "c",
+    "x": 294.65,
+    "want": "L.swatch-2",
+    "y": 214,
+    "t": 1794311289571,
+    "got": [
+     "L.swatch-2"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.swatch-3",
+    "x": 338.65,
+    "y": 214,
+    "pt": "c",
+    "t": 1794311291436,
+    "got": [
+     "L.swatch-3"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "t": 1794311293300,
+    "want": "L.tri-up",
+    "y": 270,
+    "pt": "c",
+    "x": 316.65,
+    "got": [
+     "L.tri-up"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "y": 315,
+    "pt": "c",
+    "want": "L.slot-0",
+    "x": 72.64999999999999,
+    "t": 1794311295155,
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.slot-1",
+    "t": 1794311297015,
+    "y": 315,
+    "pt": "c",
+    "x": 136.64999999999998,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "t": 1794311298877,
+    "want": "L.slot-2",
+    "y": 315,
+    "pt": "c",
+    "x": 200.65,
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "x": 264.65,
+    "y": 315,
+    "want": "L.slot-3",
+    "pt": "c",
+    "t": 1794311300739,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 315,
+    "pt": "c",
+    "x": 328.65,
+    "t": 1794311302599,
+    "want": "L.slot-4",
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.tiny-0",
+    "x": 53.64999999999999,
+    "y": 357,
+    "pt": "c",
+    "t": 1794311304455,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.tiny-1",
+    "x": 79.64999999999999,
+    "y": 357,
+    "pt": "c",
+    "t": 1794311306313,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.tiny-2",
+    "y": 357,
+    "x": 105.64999999999999,
+    "pt": "c",
+    "t": 1794311308173,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "x": 131.64999999999998,
+    "t": 1794311310032,
+    "y": 357,
+    "want": "L.tiny-3",
+    "pt": "c",
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "want": "L.tiny-4",
+    "y": 357,
+    "x": 157.65,
+    "pt": "c",
+    "t": 1794311311888,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.tiny-5",
+    "t": 1794311313744,
+    "y": 357,
+    "pt": "c",
+    "x": 183.65,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "pt": "c",
+    "t": 1794311315596,
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "y": 357,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "x": 235.65,
+    "pt": "c",
+    "t": 1794311317456,
+    "want": "L.tiny-7",
+    "y": 357,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 149.64999999999998,
+    "pt": "c",
+    "t": 1794311319322,
+    "want": "L.confirm",
+    "y": 415,
+    "got": [
+     "L.confirm"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 312.15,
+    "pt": "c",
+    "t": 1794311321187,
+    "want": "L.skip",
+    "y": 415,
+    "got": [
+     "L.skip"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "x": 72.41493902439022,
+    "pt": "c",
+    "t": 1794311323046,
+    "want": "M.slot-0",
+    "y": 554.415243902439,
+    "got": [
+     "M.slot-0"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 554.415243902439,
+    "pt": "c",
+    "t": 1794311324906,
+    "x": 136.53201219512192,
+    "want": "M.slot-1",
+    "got": [
+     "M.slot-1"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 554.415243902439,
+    "x": 200.64908536585367,
+    "t": 1794311326763,
+    "want": "M.slot-2",
+    "pt": "c",
+    "got": [
+     "M.slot-2"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "x": 264.76615853658535,
+    "pt": "c",
+    "t": 1794311328624,
+    "want": "M.slot-3",
+    "y": 554.415243902439,
+    "got": [
+     "M.slot-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 554.415243902439,
+    "want": "M.slot-4",
+    "pt": "c",
+    "x": 328.88323170731707,
+    "t": 1794311330488,
+    "got": [
+     "M.slot-4"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 149.5557926829268,
+    "t": 1794311332345,
+    "y": 615.5268292682927,
+    "want": "M.confirm",
+    "pt": "c",
+    "got": [
+     "M.confirm"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "x": 312.3530487804878,
+    "pt": "c",
+    "t": 1794311334211,
+    "want": "M.skip",
+    "y": 615.5268292682927,
+    "got": [
+     "M.skip"
+    ],
+    "intent_ms": 363
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t2-bitmap-html",
+   "technique": "bitmap",
+   "trigger_ms": 1794311344645,
+   "push_to_app_ms": 193,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 37.2,
+    "memAfter": 37.2,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.2,
+     "memAfter": 37.2,
+     "appState": 2,
+     "at_ms": 194
+    }
+   ],
+   "prerender_done_ms": 194,
+   "reload_requested_ms": 194,
+   "timeline": [
+    {
+     "run": "t2-bitmap-html",
+     "tech": "bitmap",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 14.8,
+     "memBefore": 33.5,
+     "memAfter": 37.9,
+     "file": "t2-html-systemLarge.png",
+     "bytes": 78041,
+     "px": "1047x1095",
+     "decodeMs": 12.2,
+     "at_ms": 260
+    },
+    {
+     "run": "t2-bitmap-html",
+     "tech": "bitmap",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 5.8,
+     "memBefore": 33.5,
+     "memAfter": 35.5,
+     "file": "t2-html-systemMedium.png",
+     "bytes": 24224,
+     "px": "1047x492",
+     "decodeMs": 4.4,
+     "at_ms": 365
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 261,
+   "canvas_draws": [],
+   "visible_ms": 2042,
+   "screenshot_frame_ms": 429,
+   "screenshot": "experiments/rendering/raw/t2-bitmap-html.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311344863,
+     "ms": 114,
+     "end": 1794311344977,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311344977,
+     "ms": 24,
+     "end": 1794311345001,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311356563,
+     "ms": 103,
+     "end": 1794311356666,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311356666,
+     "ms": 24,
+     "end": 1794311356690,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311358426,
+     "ms": 23,
+     "end": 1794311358449,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311358449,
+     "ms": 100,
+     "end": 1794311358549,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311360273,
+     "ms": 100,
+     "end": 1794311360373,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311360373,
+     "ms": 23,
+     "end": 1794311360396,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311362143,
+     "ms": 101,
+     "end": 1794311362244,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311362244,
+     "ms": 23,
+     "end": 1794311362267,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311364008,
+     "ms": 24,
+     "end": 1794311364032,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311364032,
+     "ms": 99,
+     "end": 1794311364131,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311365878,
+     "ms": 28,
+     "end": 1794311365906,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311365906,
+     "ms": 101,
+     "end": 1794311366007,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311367742,
+     "ms": 23,
+     "end": 1794311367765,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311367765,
+     "ms": 98,
+     "end": 1794311367863,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311369592,
+     "ms": 101,
+     "end": 1794311369693,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311369693,
+     "ms": 23,
+     "end": 1794311369716,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311371458,
+     "ms": 101,
+     "end": 1794311371559,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311371559,
+     "ms": 23,
+     "end": 1794311371582,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311373307,
+     "ms": 101,
+     "end": 1794311373408,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311373408,
+     "ms": 23,
+     "end": 1794311373431,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311375177,
+     "ms": 24,
+     "end": 1794311375201,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311375201,
+     "ms": 103,
+     "end": 1794311375304,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311377026,
+     "ms": 24,
+     "end": 1794311377050,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311377050,
+     "ms": 99,
+     "end": 1794311377149,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311378893,
+     "ms": 24,
+     "end": 1794311378917,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311378917,
+     "ms": 99,
+     "end": 1794311379016,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311380758,
+     "ms": 100,
+     "end": 1794311380858,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311380858,
+     "ms": 23,
+     "end": 1794311380881,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311382623,
+     "ms": 24,
+     "end": 1794311382647,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311382647,
+     "ms": 100,
+     "end": 1794311382747,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311384475,
+     "ms": 99,
+     "end": 1794311384574,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311384575,
+     "ms": 22,
+     "end": 1794311384597,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311386340,
+     "ms": 23,
+     "end": 1794311386363,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311386363,
+     "ms": 99,
+     "end": 1794311386462,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311388209,
+     "ms": 101,
+     "end": 1794311388310,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311388310,
+     "ms": 23,
+     "end": 1794311388333,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311390079,
+     "ms": 101,
+     "end": 1794311390180,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311390180,
+     "ms": 23,
+     "end": 1794311390203,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311391924,
+     "ms": 24,
+     "end": 1794311391948,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311391948,
+     "ms": 99,
+     "end": 1794311392047,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311393794,
+     "ms": 25,
+     "end": 1794311393819,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311393819,
+     "ms": 102,
+     "end": 1794311393921,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311395658,
+     "ms": 24,
+     "end": 1794311395682,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311395682,
+     "ms": 100,
+     "end": 1794311395782,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311397507,
+     "ms": 24,
+     "end": 1794311397531,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311397531,
+     "ms": 100,
+     "end": 1794311397631,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311399377,
+     "ms": 24,
+     "end": 1794311399401,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311399401,
+     "ms": 102,
+     "end": 1794311399503,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311401241,
+     "ms": 24,
+     "end": 1794311401265,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311401265,
+     "ms": 99,
+     "end": 1794311401364,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311403093,
+     "ms": 104,
+     "end": 1794311403197,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311403197,
+     "ms": 23,
+     "end": 1794311403220,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311404976,
+     "ms": 101,
+     "end": 1794311405077,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311405077,
+     "ms": 23,
+     "end": 1794311405100,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311406843,
+     "ms": 24,
+     "end": 1794311406867,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311406867,
+     "ms": 98,
+     "end": 1794311406965,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311408707,
+     "ms": 24,
+     "end": 1794311408731,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311408731,
+     "ms": 99,
+     "end": 1794311408830,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311410575,
+     "ms": 24,
+     "end": 1794311410599,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311410599,
+     "ms": 99,
+     "end": 1794311410698,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311412443,
+     "ms": 23,
+     "end": 1794311412466,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311412467,
+     "ms": 99,
+     "end": 1794311412566,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311414311,
+     "ms": 101,
+     "end": 1794311414412,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311414412,
+     "ms": 23,
+     "end": 1794311414435,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311416175,
+     "ms": 24,
+     "end": 1794311416199,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311416199,
+     "ms": 99,
+     "end": 1794311416298,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311418040,
+     "ms": 24,
+     "end": 1794311418064,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311418064,
+     "ms": 100,
+     "end": 1794311418164,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311419893,
+     "ms": 102,
+     "end": 1794311419995,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311419995,
+     "ms": 23,
+     "end": 1794311420018,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311421758,
+     "ms": 23,
+     "end": 1794311421781,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311421781,
+     "ms": 100,
+     "end": 1794311421881,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311423608,
+     "ms": 24,
+     "end": 1794311423632,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311423632,
+     "ms": 100,
+     "end": 1794311423732,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311425474,
+     "ms": 101,
+     "end": 1794311425575,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311425575,
+     "ms": 23,
+     "end": 1794311425598,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311427340,
+     "ms": 24,
+     "end": 1794311427364,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311427364,
+     "ms": 100,
+     "end": 1794311427464,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311429207,
+     "ms": 24,
+     "end": 1794311429231,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311429231,
+     "ms": 101,
+     "end": 1794311429332,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311431075,
+     "ms": 101,
+     "end": 1794311431176,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311431176,
+     "ms": 23,
+     "end": 1794311431199,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311432942,
+     "ms": 23,
+     "end": 1794311432965,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311432965,
+     "ms": 99,
+     "end": 1794311433064,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311434808,
+     "ms": 24,
+     "end": 1794311434832,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311434832,
+     "ms": 101,
+     "end": 1794311434933,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311436658,
+     "ms": 24,
+     "end": 1794311436682,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311436682,
+     "ms": 100,
+     "end": 1794311436782,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311438523,
+     "ms": 100,
+     "end": 1794311438623,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311438623,
+     "ms": 24,
+     "end": 1794311438647,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311440402,
+     "ms": 24,
+     "end": 1794311440426,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311440426,
+     "ms": 102,
+     "end": 1794311440528,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311442241,
+     "ms": 24,
+     "end": 1794311442265,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311442265,
+     "ms": 99,
+     "end": 1794311442364,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311444107,
+     "ms": 101,
+     "end": 1794311444208,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311444208,
+     "ms": 23,
+     "end": 1794311444231,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311445975,
+     "ms": 101,
+     "end": 1794311446076,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311446076,
+     "ms": 23,
+     "end": 1794311446099,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311447840,
+     "ms": 24,
+     "end": 1794311447864,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311447864,
+     "ms": 100,
+     "end": 1794311447964,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311449690,
+     "ms": 101,
+     "end": 1794311449791,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311449791,
+     "ms": 23,
+     "end": 1794311449814,
+     "result": "success"
+    }
+   ]
+  },
+  "tap": {
+   "label": "t2-bitmap-html",
+   "taps": 51,
+   "correct": 51,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "51/51"
+   },
+   "tap_to_intent_ms_median": 368,
+   "tap_to_intent_ms_max": 879,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "want": "L.seat-1A",
+    "x": 56.64999999999999,
+    "pt": "c",
+    "t": 1794311355681,
+    "y": 162,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 879
+   },
+   {
+    "want": "L.seat-1B",
+    "x": 90.64999999999999,
+    "y": 162,
+    "pt": "c",
+    "t": 1794311358055,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311359912,
+    "pt": "c",
+    "y": 162,
+    "want": "L.seat-1C",
+    "x": 124.64999999999999,
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "want": "L.seat-1D",
+    "t": 1794311361774,
+    "x": 170.65,
+    "pt": "c",
+    "y": 162,
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 162,
+    "want": "L.seat-1E",
+    "pt": "c",
+    "t": 1794311363640,
+    "x": 204.65,
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 238.65,
+    "want": "L.seat-1F",
+    "pt": "c",
+    "t": 1794311365506,
+    "y": 162,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "t": 1794311367370,
+    "pt": "c",
+    "y": 196,
+    "want": "L.seat-2A",
+    "x": 56.64999999999999,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "pt": "c",
+    "t": 1794311369235,
+    "want": "L.seat-2B",
+    "y": 196,
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 357
+   },
+   {
+    "want": "L.seat-2C",
+    "t": 1794311371090,
+    "x": 124.64999999999999,
+    "pt": "c",
+    "y": 196,
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-2D",
+    "t": 1794311372948,
+    "x": 170.65,
+    "pt": "c",
+    "y": 196,
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-2E",
+    "x": 204.65,
+    "y": 196,
+    "pt": "c",
+    "t": 1794311374802,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "want": "L.seat-2F",
+    "t": 1794311376662,
+    "x": 238.65,
+    "pt": "c",
+    "y": 196,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "want": "L.seat-3A",
+    "x": 56.64999999999999,
+    "y": 230,
+    "pt": "c",
+    "t": 1794311378522,
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "want": "L.seat-3B",
+    "x": 90.64999999999999,
+    "y": 230,
+    "pt": "c",
+    "t": 1794311380389,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-3C",
+    "pt": "c",
+    "x": 124.64999999999999,
+    "y": 230,
+    "t": 1794311382253,
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "want": "L.seat-3D",
+    "t": 1794311384115,
+    "x": 170.65,
+    "pt": "c",
+    "y": 230,
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "pt": "c",
+    "t": 1794311385974,
+    "want": "L.seat-3E",
+    "y": 230,
+    "x": 204.65,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 230,
+    "t": 1794311387833,
+    "x": 238.65,
+    "want": "L.seat-3F",
+    "pt": "c",
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "want": "L.seat-4A",
+    "x": 56.64999999999999,
+    "y": 264,
+    "pt": "c",
+    "t": 1794311389699,
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "want": "L.seat-4B",
+    "x": 90.64999999999999,
+    "y": 264,
+    "pt": "c",
+    "t": 1794311391561,
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "want": "L.seat-4C",
+    "t": 1794311393423,
+    "x": 124.64999999999999,
+    "pt": "c",
+    "y": 264,
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.seat-4D",
+    "t": 1794311395286,
+    "x": 170.65,
+    "pt": "c",
+    "y": 264,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "want": "L.seat-4E",
+    "x": 204.65,
+    "y": 264,
+    "pt": "c",
+    "t": 1794311397142,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.seat-4F",
+    "x": 238.65,
+    "y": 264,
+    "pt": "c",
+    "t": 1794311399008,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "x": 294.65,
+    "want": "L.swatch-0",
+    "pt": "c",
+    "t": 1794311400874,
+    "y": 170,
+    "got": [
+     "L.swatch-0"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.swatch-1",
+    "t": 1794311402730,
+    "x": 338.65,
+    "pt": "c",
+    "y": 170,
+    "got": [
+     "L.swatch-1"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.swatch-2",
+    "x": 294.65,
+    "y": 214,
+    "pt": "c",
+    "t": 1794311404589,
+    "got": [
+     "L.swatch-2"
+    ],
+    "intent_ms": 387
+   },
+   {
+    "want": "L.swatch-3",
+    "t": 1794311406475,
+    "x": 338.65,
+    "pt": "c",
+    "y": 214,
+    "got": [
+     "L.swatch-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.tri-up",
+    "x": 316.65,
+    "y": 270,
+    "pt": "c",
+    "t": 1794311408340,
+    "got": [
+     "L.tri-up"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 315,
+    "want": "L.slot-0",
+    "pt": "c",
+    "x": 72.64999999999999,
+    "t": 1794311410207,
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.slot-1",
+    "t": 1794311412075,
+    "x": 136.64999999999998,
+    "pt": "c",
+    "y": 315,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 315,
+    "t": 1794311413941,
+    "x": 200.65,
+    "want": "L.slot-2",
+    "pt": "c",
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.slot-3",
+    "pt": "c",
+    "t": 1794311415808,
+    "y": 315,
+    "x": 264.65,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.slot-4",
+    "t": 1794311417675,
+    "x": 328.65,
+    "pt": "c",
+    "y": 315,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "L.tiny-0",
+    "pt": "c",
+    "x": 53.64999999999999,
+    "y": 357,
+    "t": 1794311419529,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "want": "L.tiny-1",
+    "pt": "c",
+    "t": 1794311421389,
+    "y": 357,
+    "x": 79.64999999999999,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.tiny-2",
+    "t": 1794311423256,
+    "x": 105.64999999999999,
+    "pt": "c",
+    "y": 357,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-3",
+    "pt": "c",
+    "t": 1794311425108,
+    "x": 131.64999999999998,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-4",
+    "pt": "c",
+    "t": 1794311426974,
+    "x": 157.65,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311428842,
+    "pt": "c",
+    "y": 357,
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-6",
+    "pt": "c",
+    "t": 1794311430708,
+    "x": 209.65,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "c",
+    "x": 235.65,
+    "want": "L.tiny-7",
+    "y": 357,
+    "t": 1794311432574,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "c",
+    "x": 149.64999999999998,
+    "want": "L.confirm",
+    "y": 415,
+    "t": 1794311434442,
+    "got": [
+     "L.confirm"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "L.skip",
+    "y": 415,
+    "pt": "c",
+    "t": 1794311436298,
+    "x": 312.15,
+    "got": [
+     "L.skip"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "M.slot-0",
+    "y": 554.415243902439,
+    "pt": "c",
+    "t": 1794311438157,
+    "x": 72.41493902439022,
+    "got": [
+     "M.slot-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "M.slot-1",
+    "y": 554.415243902439,
+    "pt": "c",
+    "t": 1794311440020,
+    "x": 136.53201219512192,
+    "got": [
+     "M.slot-1"
+    ],
+    "intent_ms": 380
+   },
+   {
+    "y": 554.415243902439,
+    "pt": "c",
+    "want": "M.slot-2",
+    "t": 1794311441883,
+    "x": 200.64908536585367,
+    "got": [
+     "M.slot-2"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "want": "M.slot-3",
+    "x": 264.76615853658535,
+    "y": 554.415243902439,
+    "pt": "c",
+    "t": 1794311443742,
+    "got": [
+     "M.slot-3"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "M.slot-4",
+    "x": 328.88323170731707,
+    "y": 554.415243902439,
+    "pt": "c",
+    "t": 1794311445608,
+    "got": [
+     "M.slot-4"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "M.confirm",
+    "t": 1794311447469,
+    "x": 149.5557926829268,
+    "pt": "c",
+    "y": 615.5268292682927,
+    "got": [
+     "M.confirm"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "want": "M.skip",
+    "t": 1794311449323,
+    "x": 312.3530487804878,
+    "pt": "c",
+    "y": 615.5268292682927,
+    "got": [
+     "M.skip"
+    ],
+    "intent_ms": 369
+   }
+  ]
+ },
+ {
+  "render": {
+   "run": "t2-cg-ext",
+   "technique": "cg",
+   "trigger_ms": 1794311460131,
+   "push_to_app_ms": 197,
+   "prerender": {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 37.2,
+    "memAfter": 37.2,
+    "appState": 2
+   },
+   "prerender_all": [
+    {
+     "op": "reload",
+     "out": "prerender.png",
+     "totalMs": 0.0,
+     "memBefore": 37.2,
+     "memAfter": 37.2,
+     "appState": 2,
+     "at_ms": 198
+    }
+   ],
+   "prerender_done_ms": 198,
+   "reload_requested_ms": 198,
+   "timeline": [
+    {
+     "run": "t2-cg-ext",
+     "tech": "cg",
+     "family": "systemLarge",
+     "size": "349x365",
+     "prepMs": 11.6,
+     "memBefore": 33.6,
+     "memAfter": 33.6,
+     "ops": 79,
+     "renderMs": 10,
+     "px": "1049x1095",
+     "skipped": 0,
+     "at_ms": 245
+    },
+    {
+     "run": "t2-cg-ext",
+     "tech": "cg",
+     "family": "systemMedium",
+     "size": "349x164",
+     "prepMs": 1.9,
+     "memBefore": 33.6,
+     "memAfter": 33.6,
+     "ops": 16,
+     "renderMs": 1,
+     "px": "1049x492",
+     "skipped": 0,
+     "at_ms": 371
+    }
+   ],
+   "view_evals": 2,
+   "first_view_ms": 247,
+   "canvas_draws": [],
+   "visible_ms": 1974,
+   "screenshot_frame_ms": 372,
+   "screenshot": "experiments/rendering/raw/t2-cg-ext.png",
+   "archive": [
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311460337,
+     "ms": 135,
+     "end": 1794311460472,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311460472,
+     "ms": 27,
+     "end": 1794311460499,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311472265,
+     "ms": 109,
+     "end": 1794311472374,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311472374,
+     "ms": 25,
+     "end": 1794311472399,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311474124,
+     "ms": 26,
+     "end": 1794311474150,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311474150,
+     "ms": 106,
+     "end": 1794311474256,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311475991,
+     "ms": 27,
+     "end": 1794311476018,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311476018,
+     "ms": 107,
+     "end": 1794311476125,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311477841,
+     "ms": 26,
+     "end": 1794311477867,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311477867,
+     "ms": 107,
+     "end": 1794311477974,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311479708,
+     "ms": 26,
+     "end": 1794311479734,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311479734,
+     "ms": 108,
+     "end": 1794311479842,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311481576,
+     "ms": 26,
+     "end": 1794311481602,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311481602,
+     "ms": 106,
+     "end": 1794311481708,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311483471,
+     "ms": 27,
+     "end": 1794311483498,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311483498,
+     "ms": 108,
+     "end": 1794311483606,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311485308,
+     "ms": 27,
+     "end": 1794311485335,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311485335,
+     "ms": 105,
+     "end": 1794311485440,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311487177,
+     "ms": 26,
+     "end": 1794311487203,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311487204,
+     "ms": 106,
+     "end": 1794311487310,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311489025,
+     "ms": 26,
+     "end": 1794311489051,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311489051,
+     "ms": 106,
+     "end": 1794311489157,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311490892,
+     "ms": 107,
+     "end": 1794311490999,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311490999,
+     "ms": 26,
+     "end": 1794311491025,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311492758,
+     "ms": 106,
+     "end": 1794311492864,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311492864,
+     "ms": 26,
+     "end": 1794311492890,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311494630,
+     "ms": 27,
+     "end": 1794311494657,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311494657,
+     "ms": 110,
+     "end": 1794311494767,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311496474,
+     "ms": 26,
+     "end": 1794311496500,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311496501,
+     "ms": 105,
+     "end": 1794311496606,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311498341,
+     "ms": 26,
+     "end": 1794311498367,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311498367,
+     "ms": 106,
+     "end": 1794311498473,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311500207,
+     "ms": 107,
+     "end": 1794311500314,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311500314,
+     "ms": 25,
+     "end": 1794311500339,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311502076,
+     "ms": 26,
+     "end": 1794311502102,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311502102,
+     "ms": 107,
+     "end": 1794311502209,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311503924,
+     "ms": 106,
+     "end": 1794311504030,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311504030,
+     "ms": 25,
+     "end": 1794311504055,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311505793,
+     "ms": 106,
+     "end": 1794311505899,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311505899,
+     "ms": 25,
+     "end": 1794311505924,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311507657,
+     "ms": 108,
+     "end": 1794311507765,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311507765,
+     "ms": 25,
+     "end": 1794311507790,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311509524,
+     "ms": 26,
+     "end": 1794311509550,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311509550,
+     "ms": 107,
+     "end": 1794311509657,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311511390,
+     "ms": 26,
+     "end": 1794311511416,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311511416,
+     "ms": 107,
+     "end": 1794311511523,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311513258,
+     "ms": 26,
+     "end": 1794311513284,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311513284,
+     "ms": 107,
+     "end": 1794311513391,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311515125,
+     "ms": 106,
+     "end": 1794311515231,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311515231,
+     "ms": 25,
+     "end": 1794311515256,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311516974,
+     "ms": 27,
+     "end": 1794311517001,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311517001,
+     "ms": 106,
+     "end": 1794311517107,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemLarge",
+     "began": 1794311518841,
+     "ms": 108,
+     "end": 1794311518949,
+     "result": "success"
+    },
+    {
+     "kind": "RenderLab",
+     "family": "systemMedium",
+     "began": 1794311518949,
+     "ms": 25,
+     "end": 1794311518974,
+     "result": "success"
+    }
+   ]
+  },
+  "tap": {
+   "label": "t2-cg-ext",
+   "taps": 51,
+   "correct": 51,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "51/51"
+   },
+   "tap_to_intent_ms_median": 368,
+   "tap_to_intent_ms_max": 878,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "x": 56.64999999999999,
+    "pt": "c",
+    "t": 1794311471383,
+    "want": "L.seat-1A",
+    "y": 162,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 878
+   },
+   {
+    "pt": "c",
+    "y": 162,
+    "want": "L.seat-1B",
+    "x": 90.64999999999999,
+    "t": 1794311473756,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311475618,
+    "want": "L.seat-1C",
+    "y": 162,
+    "x": 124.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "t": 1794311477475,
+    "y": 162,
+    "pt": "c",
+    "want": "L.seat-1D",
+    "x": 170.65,
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.seat-1E",
+    "x": 204.65,
+    "t": 1794311479341,
+    "pt": "c",
+    "y": 162,
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 162,
+    "want": "L.seat-1F",
+    "t": 1794311481208,
+    "pt": "c",
+    "x": 238.65,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 196,
+    "want": "L.seat-2A",
+    "t": 1794311483074,
+    "pt": "c",
+    "x": 56.64999999999999,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "y": 196,
+    "want": "L.seat-2B",
+    "t": 1794311484939,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "c",
+    "t": 1794311486804,
+    "x": 124.64999999999999,
+    "y": 196,
+    "want": "L.seat-2C",
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "pt": "c",
+    "y": 196,
+    "want": "L.seat-2D",
+    "x": 170.65,
+    "t": 1794311488664,
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "y": 196,
+    "want": "L.seat-2E",
+    "t": 1794311490523,
+    "pt": "c",
+    "x": 204.65,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 196,
+    "want": "L.seat-2F",
+    "t": 1794311492379,
+    "pt": "c",
+    "x": 238.65,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 380
+   },
+   {
+    "pt": "c",
+    "t": 1794311494251,
+    "x": 56.64999999999999,
+    "y": 230,
+    "want": "L.seat-3A",
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "y": 230,
+    "want": "L.seat-3B",
+    "t": 1794311496116,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "y": 230,
+    "pt": "c",
+    "x": 124.64999999999999,
+    "t": 1794311497975,
+    "want": "L.seat-3C",
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "t": 1794311499842,
+    "y": 230,
+    "pt": "c",
+    "want": "L.seat-3D",
+    "x": 170.65,
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "t": 1794311501706,
+    "y": 230,
+    "pt": "c",
+    "want": "L.seat-3E",
+    "x": 204.65,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "x": 238.65,
+    "pt": "c",
+    "t": 1794311503566,
+    "want": "L.seat-3F",
+    "y": 230,
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "t": 1794311505423,
+    "pt": "c",
+    "want": "L.seat-4A",
+    "y": 264,
+    "x": 56.64999999999999,
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 264,
+    "want": "L.seat-4B",
+    "t": 1794311507289,
+    "pt": "c",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311509155,
+    "want": "L.seat-4C",
+    "y": 264,
+    "x": 124.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "t": 1794311511020,
+    "y": 264,
+    "pt": "c",
+    "want": "L.seat-4D",
+    "x": 170.65,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "t": 1794311512885,
+    "want": "L.seat-4E",
+    "y": 264,
+    "x": 204.65,
+    "pt": "c",
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "t": 1794311514756,
+    "pt": "c",
+    "want": "L.seat-4F",
+    "y": 264,
+    "x": 238.65,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "c",
+    "y": 170,
+    "want": "L.swatch-0",
+    "x": 294.65,
+    "t": 1794311516612,
+    "got": [
+     "L.swatch-0"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "y": 170,
+    "want": "L.swatch-1",
+    "t": 1794311518475,
+    "pt": "c",
+    "x": 338.65,
+    "got": [
+     "L.swatch-1"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 214,
+    "pt": "c",
+    "x": 294.65,
+    "t": 1794311520332,
+    "want": "L.swatch-2",
+    "got": [
+     "L.swatch-2"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 214,
+    "want": "L.swatch-3",
+    "x": 338.65,
+    "pt": "c",
+    "t": 1794311522197,
+    "got": [
+     "L.swatch-3"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "x": 316.65,
+    "want": "L.tri-up",
+    "y": 270,
+    "pt": "c",
+    "t": 1794311524061,
+    "got": [
+     "L.tri-up"
+    ],
+    "intent_ms": 492
+   },
+   {
+    "t": 1794311526047,
+    "pt": "c",
+    "want": "L.slot-0",
+    "y": 315,
+    "x": 72.64999999999999,
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "t": 1794311527901,
+    "y": 315,
+    "pt": "c",
+    "want": "L.slot-1",
+    "x": 136.64999999999998,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "y": 315,
+    "want": "L.slot-2",
+    "t": 1794311529757,
+    "pt": "c",
+    "x": 200.65,
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "y": 315,
+    "want": "L.slot-3",
+    "t": 1794311531606,
+    "pt": "c",
+    "x": 264.65,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "want": "L.slot-4",
+    "y": 315,
+    "x": 328.65,
+    "t": 1794311533457,
+    "pt": "c",
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 357,
+    "want": "L.tiny-0",
+    "t": 1794311535324,
+    "pt": "c",
+    "x": 53.64999999999999,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.tiny-1",
+    "y": 357,
+    "x": 79.64999999999999,
+    "t": 1794311537183,
+    "pt": "c",
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "t": 1794311539048,
+    "want": "L.tiny-2",
+    "y": 357,
+    "x": 105.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "x": 131.64999999999998,
+    "y": 357,
+    "pt": "c",
+    "t": 1794311540908,
+    "want": "L.tiny-3",
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "t": 1794311542757,
+    "want": "L.tiny-4",
+    "y": 357,
+    "x": 157.65,
+    "pt": "c",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "c",
+    "want": "L.tiny-5",
+    "t": 1794311544624,
+    "y": 357,
+    "x": 183.65,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "x": 209.65,
+    "pt": "c",
+    "y": 357,
+    "t": 1794311546475,
+    "want": "L.tiny-6",
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "t": 1794311548331,
+    "pt": "c",
+    "y": 357,
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.confirm",
+    "t": 1794311550181,
+    "y": 415,
+    "pt": "c",
+    "x": 149.64999999999998,
+    "got": [
+     "L.confirm"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "y": 415,
+    "want": "L.skip",
+    "t": 1794311552042,
+    "pt": "c",
+    "x": 312.15,
+    "got": [
+     "L.skip"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "t": 1794311553899,
+    "y": 554.415243902439,
+    "pt": "c",
+    "x": 72.41493902439022,
+    "want": "M.slot-0",
+    "got": [
+     "M.slot-0"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "t": 1794311555743,
+    "y": 554.415243902439,
+    "pt": "c",
+    "x": 136.53201219512192,
+    "want": "M.slot-1",
+    "got": [
+     "M.slot-1"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "M.slot-2",
+    "t": 1794311557608,
+    "y": 554.415243902439,
+    "pt": "c",
+    "x": 200.64908536585367,
+    "got": [
+     "M.slot-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 554.415243902439,
+    "want": "M.slot-3",
+    "t": 1794311559475,
+    "pt": "c",
+    "x": 264.76615853658535,
+    "got": [
+     "M.slot-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 554.415243902439,
+    "want": "M.slot-4",
+    "t": 1794311561341,
+    "pt": "c",
+    "x": 328.88323170731707,
+    "got": [
+     "M.slot-4"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 149.5557926829268,
+    "pt": "c",
+    "t": 1794311563202,
+    "want": "M.confirm",
+    "y": 615.5268292682927,
+    "got": [
+     "M.confirm"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "y": 615.5268292682927,
+    "want": "M.skip",
+    "t": 1794311565070,
+    "pt": "c",
+    "x": 312.3530487804878,
+    "got": [
+     "M.skip"
+    ],
+    "intent_ms": 356
+   }
+  ]
+ },
+ {
+  "tap": {
+   "label": "edges L.tiny inset 3pt",
+   "taps": 40,
+   "correct": 40,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "8/8",
+    "l": "8/8",
+    "r": "8/8",
+    "t": "8/8",
+    "b": "8/8"
+   },
+   "tap_to_intent_ms_median": 368,
+   "tap_to_intent_ms_max": 886,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "pt": "c",
+    "y": 357,
+    "x": 53.64999999999999,
+    "t": 1794311586760,
+    "want": "L.tiny-0",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 886
+   },
+   {
+    "x": 45.64999999999999,
+    "want": "L.tiny-0",
+    "y": 357,
+    "t": 1794311589042,
+    "pt": "l",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311590790,
+    "want": "L.tiny-0",
+    "x": 61.64999999999999,
+    "y": 357,
+    "pt": "r",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "y": 349,
+    "pt": "t",
+    "t": 1794311592551,
+    "want": "L.tiny-0",
+    "x": 53.64999999999999,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "x": 53.64999999999999,
+    "want": "L.tiny-0",
+    "y": 365,
+    "t": 1794311594308,
+    "pt": "b",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "c",
+    "y": 357,
+    "t": 1794311596071,
+    "want": "L.tiny-1",
+    "x": 79.64999999999999,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 355
+   },
+   {
+    "x": 71.64999999999999,
+    "want": "L.tiny-1",
+    "y": 357,
+    "t": 1794311597817,
+    "pt": "l",
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.tiny-1",
+    "x": 87.64999999999999,
+    "y": 357,
+    "pt": "r",
+    "t": 1794311599575,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.tiny-1",
+    "x": 79.64999999999999,
+    "y": 349,
+    "pt": "t",
+    "t": 1794311601342,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 79.64999999999999,
+    "t": 1794311603103,
+    "y": 365,
+    "pt": "b",
+    "want": "L.tiny-1",
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "t": 1794311604864,
+    "want": "L.tiny-2",
+    "x": 105.64999999999999,
+    "y": 357,
+    "pt": "c",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "pt": "l",
+    "want": "L.tiny-2",
+    "x": 97.64999999999999,
+    "y": 357,
+    "t": 1794311606624,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "t": 1794311608375,
+    "want": "L.tiny-2",
+    "x": 113.64999999999999,
+    "y": 357,
+    "pt": "r",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "t",
+    "y": 349,
+    "t": 1794311610136,
+    "want": "L.tiny-2",
+    "x": 105.64999999999999,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 357
+   },
+   {
+    "pt": "b",
+    "want": "L.tiny-2",
+    "x": 105.64999999999999,
+    "y": 365,
+    "t": 1794311611885,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "pt": "c",
+    "want": "L.tiny-3",
+    "x": 131.64999999999998,
+    "y": 357,
+    "t": 1794311613642,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "l",
+    "t": 1794311615402,
+    "want": "L.tiny-3",
+    "y": 357,
+    "x": 123.64999999999999,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "pt": "r",
+    "want": "L.tiny-3",
+    "x": 139.64999999999998,
+    "y": 357,
+    "t": 1794311617144,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "pt": "t",
+    "y": 349,
+    "t": 1794311618907,
+    "want": "L.tiny-3",
+    "x": 131.64999999999998,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "b",
+    "want": "L.tiny-3",
+    "x": 131.64999999999998,
+    "y": 365,
+    "t": 1794311620666,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.tiny-4",
+    "x": 157.65,
+    "y": 357,
+    "pt": "c",
+    "t": 1794311622409,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 149.65,
+    "want": "L.tiny-4",
+    "y": 357,
+    "t": 1794311624167,
+    "pt": "l",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "t": 1794311625918,
+    "want": "L.tiny-4",
+    "x": 165.65,
+    "y": 357,
+    "pt": "r",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "x": 157.65,
+    "want": "L.tiny-4",
+    "y": 349,
+    "t": 1794311627676,
+    "pt": "t",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "t": 1794311629438,
+    "want": "L.tiny-4",
+    "x": 157.65,
+    "y": 365,
+    "pt": "b",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "t": 1794311631195,
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "y": 357,
+    "pt": "c",
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "pt": "l",
+    "y": 357,
+    "t": 1794311632957,
+    "want": "L.tiny-5",
+    "x": 175.65,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "pt": "r",
+    "want": "L.tiny-5",
+    "x": 191.65,
+    "y": 357,
+    "t": 1794311634720,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "pt": "t",
+    "y": 349,
+    "x": 183.65,
+    "t": 1794311636483,
+    "want": "L.tiny-5",
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "pt": "b",
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "y": 365,
+    "t": 1794311638254,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "y": 357,
+    "pt": "c",
+    "t": 1794311640012,
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "t": 1794311641777,
+    "want": "L.tiny-6",
+    "x": 201.65,
+    "y": 357,
+    "pt": "l",
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.tiny-6",
+    "y": 357,
+    "x": 217.65,
+    "pt": "r",
+    "t": 1794311643536,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 395
+   },
+   {
+    "y": 349,
+    "pt": "t",
+    "t": 1794311645326,
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "x": 209.65,
+    "want": "L.tiny-6",
+    "y": 365,
+    "t": 1794311647081,
+    "pt": "b",
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "t": 1794311648834,
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "y": 357,
+    "pt": "c",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "x": 227.65,
+    "want": "L.tiny-7",
+    "y": 357,
+    "t": 1794311650596,
+    "pt": "l",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "y": 357,
+    "pt": "r",
+    "t": 1794311652358,
+    "want": "L.tiny-7",
+    "x": 243.65,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 235.65,
+    "want": "L.tiny-7",
+    "y": 349,
+    "t": 1794311654124,
+    "pt": "t",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311655876,
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "y": 365,
+    "pt": "b",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 351
+   }
+  ]
+ },
+ {
+  "tap": {
+   "label": "edges L.tiny inset 1pt",
+   "taps": 40,
+   "correct": 40,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "8/8",
+    "l": "8/8",
+    "r": "8/8",
+    "t": "8/8",
+    "b": "8/8"
+   },
+   "tap_to_intent_ms_median": 369,
+   "tap_to_intent_ms_max": 869,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "t": 1794311666909,
+    "want": "L.tiny-0",
+    "y": 357,
+    "x": 53.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 869
+   },
+   {
+    "t": 1794311669178,
+    "want": "L.tiny-0",
+    "y": 357,
+    "x": 43.64999999999999,
+    "pt": "l",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "t": 1794311670942,
+    "want": "L.tiny-0",
+    "y": 357,
+    "x": 63.64999999999999,
+    "pt": "r",
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "t",
+    "y": 347,
+    "t": 1794311672705,
+    "want": "L.tiny-0",
+    "x": 53.64999999999999,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "want": "L.tiny-0",
+    "y": 367,
+    "x": 53.64999999999999,
+    "pt": "b",
+    "t": 1794311674461,
+    "got": [
+     "L.tiny-0"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "x": 79.64999999999999,
+    "want": "L.tiny-1",
+    "pt": "c",
+    "t": 1794311676211,
+    "y": 357,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "pt": "l",
+    "y": 357,
+    "t": 1794311677974,
+    "want": "L.tiny-1",
+    "x": 69.64999999999999,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "t": 1794311679738,
+    "want": "L.tiny-1",
+    "y": 357,
+    "x": 89.64999999999999,
+    "pt": "r",
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "x": 79.64999999999999,
+    "pt": "t",
+    "y": 347,
+    "t": 1794311681496,
+    "want": "L.tiny-1",
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "want": "L.tiny-1",
+    "x": 79.64999999999999,
+    "pt": "b",
+    "t": 1794311683258,
+    "y": 367,
+    "got": [
+     "L.tiny-1"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 105.64999999999999,
+    "want": "L.tiny-2",
+    "y": 357,
+    "t": 1794311685018,
+    "pt": "c",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "x": 95.64999999999999,
+    "want": "L.tiny-2",
+    "y": 357,
+    "t": 1794311686776,
+    "pt": "l",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 115.64999999999999,
+    "want": "L.tiny-2",
+    "y": 357,
+    "t": 1794311688536,
+    "pt": "r",
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "x": 105.64999999999999,
+    "y": 347,
+    "pt": "t",
+    "want": "L.tiny-2",
+    "t": 1794311690286,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "want": "L.tiny-2",
+    "x": 105.64999999999999,
+    "pt": "b",
+    "t": 1794311692049,
+    "y": 367,
+    "got": [
+     "L.tiny-2"
+    ],
+    "intent_ms": 379
+   },
+   {
+    "x": 131.64999999999998,
+    "y": 357,
+    "t": 1794311693809,
+    "pt": "c",
+    "want": "L.tiny-3",
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311695570,
+    "want": "L.tiny-3",
+    "y": 357,
+    "x": 121.64999999999999,
+    "pt": "l",
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "t": 1794311697327,
+    "want": "L.tiny-3",
+    "y": 357,
+    "x": 141.64999999999998,
+    "pt": "r",
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "pt": "t",
+    "y": 347,
+    "t": 1794311699091,
+    "want": "L.tiny-3",
+    "x": 131.64999999999998,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.tiny-3",
+    "y": 367,
+    "pt": "b",
+    "x": 131.64999999999998,
+    "t": 1794311700858,
+    "got": [
+     "L.tiny-3"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "t": 1794311702615,
+    "want": "L.tiny-4",
+    "y": 357,
+    "x": 157.65,
+    "pt": "c",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "t": 1794311704364,
+    "y": 357,
+    "want": "L.tiny-4",
+    "x": 147.65,
+    "pt": "l",
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 385
+   },
+   {
+    "want": "L.tiny-4",
+    "x": 167.65,
+    "pt": "r",
+    "t": 1794311706145,
+    "y": 357,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 386
+   },
+   {
+    "want": "L.tiny-4",
+    "x": 157.65,
+    "pt": "t",
+    "t": 1794311707916,
+    "y": 347,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 345
+   },
+   {
+    "pt": "b",
+    "y": 367,
+    "t": 1794311709666,
+    "want": "L.tiny-4",
+    "x": 157.65,
+    "got": [
+     "L.tiny-4"
+    ],
+    "intent_ms": 378
+   },
+   {
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "pt": "c",
+    "t": 1794311711425,
+    "y": 357,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "l",
+    "y": 357,
+    "t": 1794311713191,
+    "want": "L.tiny-5",
+    "x": 173.65,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "want": "L.tiny-5",
+    "x": 193.65,
+    "pt": "r",
+    "t": 1794311714943,
+    "y": 357,
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311716708,
+    "y": 347,
+    "want": "L.tiny-5",
+    "x": 183.65,
+    "pt": "t",
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311718470,
+    "want": "L.tiny-5",
+    "y": 367,
+    "x": 183.65,
+    "pt": "b",
+    "got": [
+     "L.tiny-5"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "pt": "c",
+    "t": 1794311720229,
+    "y": 357,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "x": 199.65,
+    "want": "L.tiny-6",
+    "y": 357,
+    "t": 1794311721991,
+    "pt": "l",
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.tiny-6",
+    "x": 219.65,
+    "pt": "r",
+    "t": 1794311723751,
+    "y": 357,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "pt": "t",
+    "y": 347,
+    "t": 1794311725517,
+    "want": "L.tiny-6",
+    "x": 209.65,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "x": 209.65,
+    "want": "L.tiny-6",
+    "pt": "b",
+    "t": 1794311727282,
+    "y": 367,
+    "got": [
+     "L.tiny-6"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "pt": "c",
+    "t": 1794311729043,
+    "y": 357,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.tiny-7",
+    "x": 225.65,
+    "pt": "l",
+    "t": 1794311730809,
+    "y": 357,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 245.65,
+    "want": "L.tiny-7",
+    "y": 357,
+    "t": 1794311732575,
+    "pt": "r",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "t",
+    "y": 347,
+    "t": 1794311734333,
+    "want": "L.tiny-7",
+    "x": 235.65,
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "t": 1794311736092,
+    "want": "L.tiny-7",
+    "y": 367,
+    "x": 235.65,
+    "pt": "b",
+    "got": [
+     "L.tiny-7"
+    ],
+    "intent_ms": 369
+   }
+  ]
+ },
+ {
+  "tap": {
+   "label": "edges L.slot inset 3pt",
+   "taps": 25,
+   "correct": 25,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "5/5",
+    "l": "5/5",
+    "r": "5/5",
+    "t": "5/5",
+    "b": "5/5"
+   },
+   "tap_to_intent_ms_median": 369,
+   "tap_to_intent_ms_max": 895,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "pt": "c",
+    "t": 1794311747366,
+    "x": 72.64999999999999,
+    "want": "L.slot-0",
+    "y": 315,
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 895
+   },
+   {
+    "y": 315,
+    "pt": "l",
+    "t": 1794311749660,
+    "x": 45.64999999999999,
+    "want": "L.slot-0",
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311751425,
+    "want": "L.slot-0",
+    "x": 99.64999999999999,
+    "y": 315,
+    "pt": "r",
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.slot-0",
+    "t": 1794311753186,
+    "x": 72.64999999999999,
+    "y": 301,
+    "pt": "t",
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "want": "L.slot-0",
+    "x": 72.64999999999999,
+    "pt": "b",
+    "t": 1794311754943,
+    "y": 329,
+    "got": [
+     "L.slot-0"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.slot-1",
+    "x": 136.64999999999998,
+    "y": 315,
+    "pt": "c",
+    "t": 1794311756703,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "y": 315,
+    "x": 109.64999999999999,
+    "t": 1794311758466,
+    "want": "L.slot-1",
+    "pt": "l",
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "pt": "r",
+    "t": 1794311760226,
+    "x": 163.64999999999998,
+    "want": "L.slot-1",
+    "y": 315,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 419
+   },
+   {
+    "y": 301,
+    "pt": "t",
+    "t": 1794311762044,
+    "x": 136.64999999999998,
+    "want": "L.slot-1",
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 329,
+    "pt": "b",
+    "want": "L.slot-1",
+    "x": 136.64999999999998,
+    "t": 1794311763801,
+    "got": [
+     "L.slot-1"
+    ],
+    "intent_ms": 397
+   },
+   {
+    "want": "L.slot-2",
+    "x": 200.65,
+    "y": 315,
+    "t": 1794311765592,
+    "pt": "c",
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 373
+   },
+   {
+    "pt": "l",
+    "x": 173.65,
+    "y": 315,
+    "want": "L.slot-2",
+    "t": 1794311767360,
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "r",
+    "x": 227.65,
+    "y": 315,
+    "want": "L.slot-2",
+    "t": 1794311769125,
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "y": 301,
+    "pt": "t",
+    "t": 1794311770891,
+    "x": 200.65,
+    "want": "L.slot-2",
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 354
+   },
+   {
+    "y": 329,
+    "pt": "b",
+    "t": 1794311772637,
+    "x": 200.65,
+    "want": "L.slot-2",
+    "got": [
+     "L.slot-2"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "want": "L.slot-3",
+    "y": 315,
+    "t": 1794311774410,
+    "x": 264.65,
+    "pt": "c",
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.slot-3",
+    "y": 315,
+    "t": 1794311776170,
+    "x": 237.65,
+    "pt": "l",
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "t": 1794311777926,
+    "x": 291.65,
+    "want": "L.slot-3",
+    "y": 315,
+    "pt": "r",
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "t",
+    "t": 1794311779684,
+    "want": "L.slot-3",
+    "x": 264.65,
+    "y": 301,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "pt": "b",
+    "x": 264.65,
+    "y": 329,
+    "want": "L.slot-3",
+    "t": 1794311781439,
+    "got": [
+     "L.slot-3"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "want": "L.slot-4",
+    "x": 328.65,
+    "pt": "c",
+    "t": 1794311783204,
+    "y": 315,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 357
+   },
+   {
+    "want": "L.slot-4",
+    "x": 301.65,
+    "pt": "l",
+    "t": 1794311784959,
+    "y": 315,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "r",
+    "x": 355.65,
+    "y": 315,
+    "want": "L.slot-4",
+    "t": 1794311786725,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311788495,
+    "pt": "t",
+    "x": 328.65,
+    "want": "L.slot-4",
+    "y": 301,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.slot-4",
+    "x": 328.65,
+    "y": 329,
+    "pt": "b",
+    "t": 1794311790258,
+    "got": [
+     "L.slot-4"
+    ],
+    "intent_ms": 354
+   }
+  ]
+ },
+ {
+  "tap": {
+   "label": "edges L.seat inset 2pt",
+   "taps": 120,
+   "correct": 120,
+   "wrong": 0,
+   "missed": 0,
+   "by_point": {
+    "c": "24/24",
+    "l": "24/24",
+    "r": "24/24",
+    "t": "24/24",
+    "b": "24/24"
+   },
+   "tap_to_intent_ms_median": 368,
+   "tap_to_intent_ms_max": 863,
+   "wrong_examples": [],
+   "missed_examples": [],
+   "uitest_ok": true
+  },
+  "frames": null,
+  "taps": [
+   {
+    "want": "L.seat-1A",
+    "x": 56.64999999999999,
+    "y": 162,
+    "pt": "c",
+    "t": 1794311801649,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 863
+   },
+   {
+    "pt": "l",
+    "t": 1794311803912,
+    "x": 44.64999999999999,
+    "y": 162,
+    "want": "L.seat-1A",
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "L.seat-1A",
+    "x": 68.64999999999999,
+    "y": 162,
+    "pt": "r",
+    "t": 1794311805659,
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "want": "L.seat-1A",
+    "x": 56.64999999999999,
+    "t": 1794311807410,
+    "y": 150,
+    "pt": "t",
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-1A",
+    "x": 56.64999999999999,
+    "t": 1794311809180,
+    "y": 174,
+    "pt": "b",
+    "got": [
+     "L.seat-1A"
+    ],
+    "intent_ms": 348
+   },
+   {
+    "y": 162,
+    "want": "L.seat-1B",
+    "pt": "c",
+    "t": 1794311810927,
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 162,
+    "t": 1794311812682,
+    "pt": "l",
+    "want": "L.seat-1B",
+    "x": 78.64999999999999,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 380
+   },
+   {
+    "pt": "r",
+    "t": 1794311814453,
+    "x": 102.64999999999999,
+    "y": 162,
+    "want": "L.seat-1B",
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "pt": "t",
+    "t": 1794311816217,
+    "x": 90.64999999999999,
+    "y": 150,
+    "want": "L.seat-1B",
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.seat-1B",
+    "y": 174,
+    "pt": "b",
+    "t": 1794311817967,
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-1B"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.seat-1C",
+    "x": 124.64999999999999,
+    "t": 1794311819726,
+    "y": 162,
+    "pt": "c",
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "t": 1794311821488,
+    "pt": "l",
+    "y": 162,
+    "want": "L.seat-1C",
+    "x": 112.64999999999999,
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 357
+   },
+   {
+    "pt": "r",
+    "x": 136.64999999999998,
+    "want": "L.seat-1C",
+    "y": 162,
+    "t": 1794311823245,
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 407
+   },
+   {
+    "want": "L.seat-1C",
+    "x": 124.64999999999999,
+    "t": 1794311825053,
+    "y": 150,
+    "pt": "t",
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 375
+   },
+   {
+    "pt": "b",
+    "t": 1794311826812,
+    "x": 124.64999999999999,
+    "y": 174,
+    "want": "L.seat-1C",
+    "got": [
+     "L.seat-1C"
+    ],
+    "intent_ms": 384
+   },
+   {
+    "y": 162,
+    "pt": "c",
+    "t": 1794311828583,
+    "x": 170.65,
+    "want": "L.seat-1D",
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "want": "L.seat-1D",
+    "y": 162,
+    "pt": "l",
+    "t": 1794311830344,
+    "x": 158.65,
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "r",
+    "t": 1794311832110,
+    "x": 182.65,
+    "y": 162,
+    "want": "L.seat-1D",
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-1D",
+    "x": 170.65,
+    "t": 1794311833877,
+    "y": 150,
+    "pt": "t",
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 351
+   },
+   {
+    "pt": "b",
+    "t": 1794311835626,
+    "x": 170.65,
+    "y": 174,
+    "want": "L.seat-1D",
+    "got": [
+     "L.seat-1D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 162,
+    "t": 1794311837385,
+    "want": "L.seat-1E",
+    "pt": "c",
+    "x": 204.65,
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-1E",
+    "y": 162,
+    "pt": "l",
+    "t": 1794311839144,
+    "x": 192.65,
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-1E",
+    "x": 216.65,
+    "y": 162,
+    "t": 1794311840910,
+    "pt": "r",
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "t",
+    "t": 1794311842668,
+    "x": 204.65,
+    "y": 150,
+    "want": "L.seat-1E",
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.seat-1E",
+    "x": 204.65,
+    "t": 1794311844412,
+    "y": 174,
+    "pt": "b",
+    "got": [
+     "L.seat-1E"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.seat-1F",
+    "x": 238.65,
+    "t": 1794311846167,
+    "y": 162,
+    "pt": "c",
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.seat-1F",
+    "x": 226.65,
+    "y": 162,
+    "pt": "l",
+    "t": 1794311847925,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.seat-1F",
+    "x": 250.65,
+    "t": 1794311849688,
+    "y": 162,
+    "pt": "r",
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "x": 238.65,
+    "want": "L.seat-1F",
+    "y": 150,
+    "pt": "t",
+    "t": 1794311851444,
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-1F",
+    "x": 238.65,
+    "t": 1794311853203,
+    "y": 174,
+    "pt": "b",
+    "got": [
+     "L.seat-1F"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "pt": "c",
+    "t": 1794311854970,
+    "x": 56.64999999999999,
+    "y": 196,
+    "want": "L.seat-2A",
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.seat-2A",
+    "x": 44.64999999999999,
+    "y": 196,
+    "pt": "l",
+    "t": 1794311856732,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "want": "L.seat-2A",
+    "x": 68.64999999999999,
+    "y": 196,
+    "pt": "r",
+    "t": 1794311858484,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 379
+   },
+   {
+    "want": "L.seat-2A",
+    "x": 56.64999999999999,
+    "y": 184,
+    "pt": "t",
+    "t": 1794311860251,
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "pt": "b",
+    "t": 1794311862010,
+    "x": 56.64999999999999,
+    "y": 208,
+    "want": "L.seat-2A",
+    "got": [
+     "L.seat-2A"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "want": "L.seat-2B",
+    "x": 90.64999999999999,
+    "t": 1794311863759,
+    "y": 196,
+    "pt": "c",
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "x": 78.64999999999999,
+    "pt": "l",
+    "y": 196,
+    "t": 1794311865524,
+    "want": "L.seat-2B",
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "t": 1794311867288,
+    "y": 196,
+    "want": "L.seat-2B",
+    "x": 102.64999999999999,
+    "pt": "r",
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "pt": "t",
+    "t": 1794311869050,
+    "x": 90.64999999999999,
+    "y": 184,
+    "want": "L.seat-2B",
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "y": 208,
+    "t": 1794311870812,
+    "pt": "b",
+    "want": "L.seat-2B",
+    "x": 90.64999999999999,
+    "got": [
+     "L.seat-2B"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "y": 196,
+    "x": 124.64999999999999,
+    "t": 1794311872567,
+    "pt": "c",
+    "want": "L.seat-2C",
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 196,
+    "pt": "l",
+    "t": 1794311874326,
+    "want": "L.seat-2C",
+    "x": 112.64999999999999,
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "pt": "r",
+    "t": 1794311876077,
+    "x": 136.64999999999998,
+    "y": 196,
+    "want": "L.seat-2C",
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-2C",
+    "x": 124.64999999999999,
+    "t": 1794311877843,
+    "y": 184,
+    "pt": "t",
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 352
+   },
+   {
+    "want": "L.seat-2C",
+    "x": 124.64999999999999,
+    "y": 208,
+    "pt": "b",
+    "t": 1794311879593,
+    "got": [
+     "L.seat-2C"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-2D",
+    "x": 170.65,
+    "t": 1794311881355,
+    "y": 196,
+    "pt": "c",
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "t": 1794311883111,
+    "x": 158.65,
+    "y": 196,
+    "pt": "l",
+    "want": "L.seat-2D",
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "pt": "r",
+    "t": 1794311884962,
+    "x": 182.65,
+    "y": 196,
+    "want": "L.seat-2D",
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 384
+   },
+   {
+    "x": 170.65,
+    "y": 184,
+    "pt": "t",
+    "t": 1794311886750,
+    "want": "L.seat-2D",
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "want": "L.seat-2D",
+    "x": 170.65,
+    "y": 208,
+    "t": 1794311888511,
+    "pt": "b",
+    "got": [
+     "L.seat-2D"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311890276,
+    "want": "L.seat-2E",
+    "y": 196,
+    "pt": "c",
+    "x": 204.65,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311892039,
+    "pt": "l",
+    "y": 196,
+    "want": "L.seat-2E",
+    "x": 192.65,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 374
+   },
+   {
+    "want": "L.seat-2E",
+    "x": 216.65,
+    "y": 196,
+    "t": 1794311893803,
+    "pt": "r",
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 184,
+    "pt": "t",
+    "t": 1794311895568,
+    "want": "L.seat-2E",
+    "x": 204.65,
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "want": "L.seat-2E",
+    "x": 204.65,
+    "t": 1794311897331,
+    "y": 208,
+    "pt": "b",
+    "got": [
+     "L.seat-2E"
+    ],
+    "intent_ms": 365
+   },
+   {
+    "y": 196,
+    "t": 1794311899086,
+    "pt": "c",
+    "want": "L.seat-2F",
+    "x": 238.65,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.seat-2F",
+    "x": 226.65,
+    "t": 1794311900844,
+    "y": 196,
+    "pt": "l",
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-2F",
+    "x": 250.65,
+    "y": 196,
+    "pt": "r",
+    "t": 1794311902603,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 377
+   },
+   {
+    "y": 184,
+    "t": 1794311904363,
+    "pt": "t",
+    "want": "L.seat-2F",
+    "x": 238.65,
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "L.seat-2F",
+    "x": 238.65,
+    "y": 208,
+    "t": 1794311906126,
+    "pt": "b",
+    "got": [
+     "L.seat-2F"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "want": "L.seat-3A",
+    "x": 56.64999999999999,
+    "t": 1794311907878,
+    "y": 230,
+    "pt": "c",
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-3A",
+    "y": 230,
+    "pt": "l",
+    "t": 1794311909637,
+    "x": 44.64999999999999,
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "y": 230,
+    "t": 1794311911393,
+    "pt": "r",
+    "want": "L.seat-3A",
+    "x": 68.64999999999999,
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.seat-3A",
+    "x": 56.64999999999999,
+    "t": 1794311913154,
+    "y": 218,
+    "pt": "t",
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.seat-3A",
+    "x": 56.64999999999999,
+    "y": 242,
+    "pt": "b",
+    "t": 1794311914901,
+    "got": [
+     "L.seat-3A"
+    ],
+    "intent_ms": 346
+   },
+   {
+    "want": "L.seat-3B",
+    "x": 90.64999999999999,
+    "y": 230,
+    "pt": "c",
+    "t": 1794311916644,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 230,
+    "t": 1794311918400,
+    "pt": "l",
+    "want": "L.seat-3B",
+    "x": 78.64999999999999,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "pt": "r",
+    "t": 1794311920161,
+    "x": 102.64999999999999,
+    "y": 230,
+    "want": "L.seat-3B",
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-3B",
+    "x": 90.64999999999999,
+    "t": 1794311921917,
+    "y": 218,
+    "pt": "t",
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 362
+   },
+   {
+    "pt": "b",
+    "x": 90.64999999999999,
+    "want": "L.seat-3B",
+    "y": 242,
+    "t": 1794311923679,
+    "got": [
+     "L.seat-3B"
+    ],
+    "intent_ms": 351
+   },
+   {
+    "pt": "c",
+    "t": 1794311925426,
+    "x": 124.64999999999999,
+    "y": 230,
+    "want": "L.seat-3C",
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-3C",
+    "x": 112.64999999999999,
+    "y": 230,
+    "pt": "l",
+    "t": 1794311927186,
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-3C",
+    "x": 136.64999999999998,
+    "y": 230,
+    "pt": "r",
+    "t": 1794311928944,
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-3C",
+    "x": 124.64999999999999,
+    "t": 1794311930711,
+    "y": 218,
+    "pt": "t",
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-3C",
+    "x": 124.64999999999999,
+    "t": 1794311932470,
+    "y": 242,
+    "pt": "b",
+    "got": [
+     "L.seat-3C"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "pt": "c",
+    "t": 1794311934226,
+    "x": 170.65,
+    "y": 230,
+    "want": "L.seat-3D",
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.seat-3D",
+    "x": 158.65,
+    "t": 1794311935985,
+    "y": 230,
+    "pt": "l",
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "t": 1794311937745,
+    "pt": "r",
+    "x": 182.65,
+    "y": 230,
+    "want": "L.seat-3D",
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-3D",
+    "x": 170.65,
+    "y": 218,
+    "pt": "t",
+    "t": 1794311939500,
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 346
+   },
+   {
+    "pt": "b",
+    "t": 1794311941244,
+    "x": 170.65,
+    "y": 242,
+    "want": "L.seat-3D",
+    "got": [
+     "L.seat-3D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "x": 204.65,
+    "want": "L.seat-3E",
+    "y": 230,
+    "pt": "c",
+    "t": 1794311943003,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-3E",
+    "x": 192.65,
+    "t": 1794311944762,
+    "y": 230,
+    "pt": "l",
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 384
+   },
+   {
+    "want": "L.seat-3E",
+    "x": 216.65,
+    "t": 1794311946547,
+    "y": 230,
+    "pt": "r",
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 366
+   },
+   {
+    "want": "L.seat-3E",
+    "x": 204.65,
+    "y": 218,
+    "pt": "t",
+    "t": 1794311948304,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "want": "L.seat-3E",
+    "y": 242,
+    "pt": "b",
+    "t": 1794311950071,
+    "x": 204.65,
+    "got": [
+     "L.seat-3E"
+    ],
+    "intent_ms": 358
+   },
+   {
+    "want": "L.seat-3F",
+    "x": 238.65,
+    "y": 230,
+    "t": 1794311951816,
+    "pt": "c",
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "want": "L.seat-3F",
+    "x": 226.65,
+    "t": 1794311953579,
+    "y": 230,
+    "pt": "l",
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "want": "L.seat-3F",
+    "x": 250.65,
+    "t": 1794311955345,
+    "y": 230,
+    "pt": "r",
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-3F",
+    "x": 238.65,
+    "y": 218,
+    "pt": "t",
+    "t": 1794311957100,
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 363
+   },
+   {
+    "y": 242,
+    "pt": "b",
+    "t": 1794311958853,
+    "want": "L.seat-3F",
+    "x": 238.65,
+    "got": [
+     "L.seat-3F"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "pt": "c",
+    "t": 1794311960613,
+    "x": 56.64999999999999,
+    "y": 264,
+    "want": "L.seat-4A",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 367
+   },
+   {
+    "pt": "l",
+    "t": 1794311962378,
+    "x": 44.64999999999999,
+    "y": 264,
+    "want": "L.seat-4A",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-4A",
+    "x": 68.64999999999999,
+    "t": 1794311964136,
+    "y": 264,
+    "pt": "r",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "pt": "t",
+    "t": 1794311965893,
+    "x": 56.64999999999999,
+    "y": 252,
+    "want": "L.seat-4A",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 372
+   },
+   {
+    "pt": "b",
+    "t": 1794311967660,
+    "x": 56.64999999999999,
+    "y": 276,
+    "want": "L.seat-4A",
+    "got": [
+     "L.seat-4A"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "y": 264,
+    "want": "L.seat-4B",
+    "t": 1794311969419,
+    "x": 90.64999999999999,
+    "pt": "c",
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "t": 1794311971185,
+    "pt": "l",
+    "y": 264,
+    "want": "L.seat-4B",
+    "x": 78.64999999999999,
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 264,
+    "pt": "r",
+    "t": 1794311972945,
+    "want": "L.seat-4B",
+    "x": 102.64999999999999,
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-4B",
+    "x": 90.64999999999999,
+    "t": 1794311974703,
+    "y": 252,
+    "pt": "t",
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 360
+   },
+   {
+    "want": "L.seat-4B",
+    "x": 90.64999999999999,
+    "t": 1794311976461,
+    "y": 276,
+    "pt": "b",
+    "got": [
+     "L.seat-4B"
+    ],
+    "intent_ms": 371
+   },
+   {
+    "want": "L.seat-4C",
+    "y": 264,
+    "pt": "c",
+    "t": 1794311978228,
+    "x": 124.64999999999999,
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "t": 1794311979985,
+    "y": 264,
+    "x": 112.64999999999999,
+    "pt": "l",
+    "want": "L.seat-4C",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "pt": "r",
+    "t": 1794311981745,
+    "x": 136.64999999999998,
+    "y": 264,
+    "want": "L.seat-4C",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "pt": "t",
+    "x": 124.64999999999999,
+    "t": 1794311983510,
+    "y": 252,
+    "want": "L.seat-4C",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "t": 1794311985271,
+    "y": 276,
+    "x": 124.64999999999999,
+    "pt": "b",
+    "want": "L.seat-4C",
+    "got": [
+     "L.seat-4C"
+    ],
+    "intent_ms": 376
+   },
+   {
+    "x": 170.65,
+    "want": "L.seat-4D",
+    "y": 264,
+    "pt": "c",
+    "t": 1794311987037,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 359
+   },
+   {
+    "want": "L.seat-4D",
+    "t": 1794311988794,
+    "pt": "l",
+    "x": 158.65,
+    "y": 264,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "want": "L.seat-4D",
+    "x": 182.65,
+    "y": 264,
+    "t": 1794311990560,
+    "pt": "r",
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "x": 170.65,
+    "want": "L.seat-4D",
+    "pt": "t",
+    "t": 1794311992325,
+    "y": 252,
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 355
+   },
+   {
+    "pt": "b",
+    "t": 1794311994078,
+    "x": 170.65,
+    "y": 276,
+    "want": "L.seat-4D",
+    "got": [
+     "L.seat-4D"
+    ],
+    "intent_ms": 369
+   },
+   {
+    "pt": "c",
+    "t": 1794311995843,
+    "x": 204.65,
+    "y": 264,
+    "want": "L.seat-4E",
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 353
+   },
+   {
+    "x": 192.65,
+    "y": 264,
+    "pt": "l",
+    "want": "L.seat-4E",
+    "t": 1794311997586,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "t": 1794311999345,
+    "pt": "r",
+    "y": 264,
+    "want": "L.seat-4E",
+    "x": 216.65,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-4E",
+    "y": 252,
+    "pt": "t",
+    "t": 1794312001099,
+    "x": 204.65,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 364
+   },
+   {
+    "t": 1794312002845,
+    "pt": "b",
+    "y": 276,
+    "want": "L.seat-4E",
+    "x": 204.65,
+    "got": [
+     "L.seat-4E"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "want": "L.seat-4F",
+    "x": 238.65,
+    "y": 264,
+    "pt": "c",
+    "t": 1794312004623,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 390
+   },
+   {
+    "want": "L.seat-4F",
+    "x": 226.65,
+    "y": 264,
+    "pt": "l",
+    "t": 1794312006412,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 368
+   },
+   {
+    "y": 264,
+    "pt": "r",
+    "t": 1794312008169,
+    "want": "L.seat-4F",
+    "x": 250.65,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 361
+   },
+   {
+    "y": 252,
+    "pt": "t",
+    "t": 1794312009927,
+    "want": "L.seat-4F",
+    "x": 238.65,
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 370
+   },
+   {
+    "want": "L.seat-4F",
+    "x": 238.65,
+    "t": 1794312011679,
+    "y": 276,
+    "pt": "b",
+    "got": [
+     "L.seat-4F"
+    ],
+    "intent_ms": 351
+   }
+  ]
+ }
+]

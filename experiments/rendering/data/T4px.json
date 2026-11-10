@@ -1,0 +1,996 @@
+[
+ {
+  "run": "t4-px-1x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313226559,
+  "push_to_app_ms": 184,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 185
+   }
+  ],
+  "prerender_done_ms": 185,
+  "reload_requested_ms": 185,
+  "timeline": [
+   {
+    "run": "t4-px-1x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 5.8,
+    "memBefore": 86.7,
+    "memAfter": 86.9,
+    "file": "px1-systemMedium.png",
+    "bytes": 80931,
+    "px": "349x164",
+    "decodeMs": 4.5,
+    "at_ms": 232
+   },
+   {
+    "run": "t4-px-1x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 8.1,
+    "memBefore": 86.7,
+    "memAfter": 87.2,
+    "file": "px1-systemLarge.png",
+    "bytes": 162108,
+    "px": "349x365",
+    "decodeMs": 6.8,
+    "at_ms": 248
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 235,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313226777,
+    "ms": 14,
+    "end": 1794313226791,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313226791,
+    "ms": 17,
+    "end": 1794313226808,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 249,
+  "visible_ms": 2008,
+  "screenshot_frame_ms": 419,
+  "screenshot": "experiments/rendering/raw/t4-px-1x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 66,
+    "encodeMs": 7,
+    "bytes": 162108,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 82
+   },
+   "systemMedium": {
+    "renderMs": 20,
+    "encodeMs": 4,
+    "bytes": 80931,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 31
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:20:27.743 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:20:27.743 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105357a00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:20:27.743 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105357a00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:20:27.744 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:20:27.745 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:20:27.745 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105357a00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:20:27.751 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:27.753 Df chronod[8467:171adfc] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:20:27.758 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:27.758 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:27.759 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:27.759 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000006f470> for context id 385038013",
+   "2026-11-10 13:20:27.759 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:27.760 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:27.761 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:27.761 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000006d4c0> for context id 2972536957",
+   "2026-11-10 13:20:27.761 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:27.766 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:27.767 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:27.767 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:27.767 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:27.767 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:29.258 Df SpringBoard[20475:171addb] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:20:29.259 Df SpringBoard[20475:171addb] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-2x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313235964,
+  "push_to_app_ms": 177,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 178
+   }
+  ],
+  "prerender_done_ms": 178,
+  "reload_requested_ms": 179,
+  "timeline": [
+   {
+    "run": "t4-px-2x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 5.1,
+    "memBefore": 86.7,
+    "memAfter": 87.6,
+    "file": "px2-systemMedium.png",
+    "bytes": 277772,
+    "px": "698x328",
+    "decodeMs": 4.3,
+    "at_ms": 222
+   },
+   {
+    "run": "t4-px-2x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 10.8,
+    "memBefore": 86.7,
+    "memAfter": 88.7,
+    "file": "px2-systemLarge.png",
+    "bytes": 555140,
+    "px": "698x730",
+    "decodeMs": 9.3,
+    "at_ms": 243
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 225,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313236173,
+    "ms": 15,
+    "end": 1794313236188,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313236188,
+    "ms": 22,
+    "end": 1794313236210,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 246,
+  "visible_ms": 2052,
+  "screenshot_frame_ms": 436,
+  "screenshot": "experiments/rendering/raw/t4-px-2x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 37,
+    "encodeMs": 26,
+    "bytes": 555140,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 76
+   },
+   "systemMedium": {
+    "renderMs": 20,
+    "encodeMs": 14,
+    "bytes": 277772,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 42
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:20:37.174 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:37.174 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:20:37.174 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10592ba00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10592ba00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:20:37.175 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:20:37.176 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:20:37.176 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10592ba00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:20:37.181 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:37.189 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:37.189 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:37.189 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:37.189 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x6000000155e0> for context id 3933472262",
+   "2026-11-10 13:20:37.190 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:37.191 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:37.191 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:37.191 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:37.192 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:37.192 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:37.192 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:37.193 Df chronod[8467:171a8e9] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:20:37.198 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:37.199 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:37.199 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000007f320> for context id 3354955028",
+   "2026-11-10 13:20:37.200 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:37.211 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:37.212 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:37.212 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:37.620 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:38.691 Df SpringBoard[20475:171a8ca] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:20:38.693 Df SpringBoard[20475:171a8ca] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-3x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313245480,
+  "push_to_app_ms": 171,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 172
+   }
+  ],
+  "prerender_done_ms": 172,
+  "reload_requested_ms": 172,
+  "timeline": [
+   {
+    "run": "t4-px-3x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 11.2,
+    "memBefore": 86.7,
+    "memAfter": 88.7,
+    "file": "px3-systemMedium.png",
+    "bytes": 583989,
+    "px": "1047x492",
+    "decodeMs": 10.3,
+    "at_ms": 221
+   },
+   {
+    "run": "t4-px-3x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 23.5,
+    "memBefore": 86.7,
+    "memAfter": 91.1,
+    "file": "px3-systemLarge.png",
+    "bytes": 1167192,
+    "px": "1047x1095",
+    "decodeMs": 21.3,
+    "at_ms": 253
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 225,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313245682,
+    "ms": 20,
+    "end": 1794313245702,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313245702,
+    "ms": 32,
+    "end": 1794313245734,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 254,
+  "visible_ms": 2058,
+  "screenshot_frame_ms": 469,
+  "screenshot": "experiments/rendering/raw/t4-px-3x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 33,
+    "encodeMs": 58,
+    "bytes": 1167192,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 105
+   },
+   "systemMedium": {
+    "renderMs": 21,
+    "encodeMs": 29,
+    "bytes": 583989,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 58
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:20:46.671 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:20:46.672 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10598a000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:20:46.672 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10598a000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:20:46.672 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:46.672 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:20:46.673 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x10598a000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:20:46.679 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:46.692 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:46.693 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:46.693 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:46.693 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000006ced0> for context id 2149166501",
+   "2026-11-10 13:20:46.693 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:46.694 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:46.702 Df chronod[8467:171b014] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:20:46.717 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:46.717 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:46.717 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:46.717 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:46.717 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:46.718 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:46.718 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:46.718 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000000c450> for context id 3075422029",
+   "2026-11-10 13:20:46.719 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:46.727 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:46.727 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:46.727 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:46.727 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:46.727 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:48.191 Df SpringBoard[20475:171b1d7] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:20:48.192 Df SpringBoard[20475:171b1d7] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-4x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313255159,
+  "push_to_app_ms": 185,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 58.4,
+   "memAfter": 58.4,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 58.4,
+    "memAfter": 58.4,
+    "appState": 2,
+    "at_ms": 186
+   }
+  ],
+  "prerender_done_ms": 186,
+  "reload_requested_ms": 186,
+  "timeline": [
+   {
+    "run": "t4-px-4x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 35.4,
+    "memBefore": 86.7,
+    "memAfter": 94.6,
+    "file": "px4-systemLarge.png",
+    "bytes": 1972393,
+    "px": "1396x1460",
+    "decodeMs": 34.5,
+    "at_ms": 261
+   },
+   {
+    "run": "t4-px-4x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 14.5,
+    "memBefore": 86.8,
+    "memAfter": 90.3,
+    "file": "px4-systemMedium.png",
+    "bytes": 995544,
+    "px": "1396x656",
+    "decodeMs": 13.7,
+    "at_ms": 284
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 264,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313255376,
+    "ms": 44,
+    "end": 1794313255420,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313255420,
+    "ms": 21,
+    "end": 1794313255441,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 282,
+  "visible_ms": 2038,
+  "screenshot_frame_ms": 461,
+  "screenshot": "experiments/rendering/raw/t4-px-4x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 43,
+    "encodeMs": 101,
+    "bytes": 1972393,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 158
+   },
+   "systemMedium": {
+    "renderMs": 25,
+    "encodeMs": 49,
+    "bytes": 995544,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 82
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1012dd000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1012dd000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:20:56.338 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:20:56.339 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:20:56.340 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1012dd000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:20:56.346 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:20:56.357 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:56.358 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:56.358 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:56.358 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000000da90> for context id 1444262513",
+   "2026-11-10 13:20:56.358 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:56.359 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:20:56.381 Df chronod[8467:171b3ea] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:20:56.382 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:56.382 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:56.382 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:56.382 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:56.382 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:56.383 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:20:56.392 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:56.392 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000075bb0> for context id 702844945",
+   "2026-11-10 13:20:56.393 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:20:56.407 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:20:56.407 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:20:56.407 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:56.407 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:20:56.407 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:20:57.855 Df SpringBoard[20475:171b1e3] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:20:57.855 Df SpringBoard[20475:171b1e3] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-6x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313265109,
+  "push_to_app_ms": 184,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 184
+   }
+  ],
+  "prerender_done_ms": 184,
+  "reload_requested_ms": 185,
+  "timeline": [
+   {
+    "run": "t4-px-6x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 75.2,
+    "memBefore": 87.0,
+    "memAfter": 104.5,
+    "file": "px6-systemLarge.png",
+    "bytes": 4210417,
+    "px": "2094x2190",
+    "decodeMs": 74.2,
+    "at_ms": 298
+   },
+   {
+    "run": "t4-px-6x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 29.3,
+    "memBefore": 87.0,
+    "memAfter": 94.9,
+    "file": "px6-systemMedium.png",
+    "bytes": 2150703,
+    "px": "2094x984",
+    "decodeMs": 28.3,
+    "at_ms": 338
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 301,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313265324,
+    "ms": 85,
+    "end": 1794313265409,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313265409,
+    "ms": 37,
+    "end": 1794313265446,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 337,
+  "visible_ms": 2097,
+  "screenshot_frame_ms": 451,
+  "screenshot": "experiments/rendering/raw/t4-px-6x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 61,
+    "encodeMs": 210,
+    "bytes": 4210417,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 291
+   },
+   "systemMedium": {
+    "renderMs": 37,
+    "encodeMs": 106,
+    "bytes": 2150703,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 152
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1052f0000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1052f0000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:21:06.360 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:21:06.361 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x1052f0000 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:21:06.365 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:06.374 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:06.374 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:06.375 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:06.375 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x6000000558d0> for context id 912056695",
+   "2026-11-10 13:21:06.375 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:06.375 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:06.440 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:06.440 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:06.440 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:06.440 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:21:06.440 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:06.443 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:06.446 Df chronod[8467:171adfc] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:21:06.451 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:06.451 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000057560> for context id 2053770602",
+   "2026-11-10 13:21:06.451 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:06.498 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:06.498 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:06.498 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:06.904 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:07.855 Df SpringBoard[20475:171b5e4] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:21:07.856 Df SpringBoard[20475:171b5e4] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-8x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313275256,
+  "push_to_app_ms": 190,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.6,
+   "memAfter": 57.6,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.6,
+    "memAfter": 57.6,
+    "appState": 2,
+    "at_ms": 190
+   }
+  ],
+  "prerender_done_ms": 190,
+  "reload_requested_ms": 191,
+  "timeline": [
+   {
+    "run": "t4-px-8x",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 57.2,
+    "memBefore": 87.0,
+    "memAfter": 101.0,
+    "file": "px8-systemMedium.png",
+    "bytes": 3702857,
+    "px": "2792x1312",
+    "decodeMs": 56.2,
+    "at_ms": 286
+   },
+   {
+    "run": "t4-px-8x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 106.9,
+    "memBefore": 87.1,
+    "memAfter": 118.2,
+    "file": "px8-systemLarge.png",
+    "bytes": 7233263,
+    "px": "2792x2920",
+    "decodeMs": 105.7,
+    "at_ms": 451
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 289,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313275477,
+    "ms": 72,
+    "end": 1794313275549,
+    "result": "error"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313275592,
+    "ms": 112,
+    "end": 1794313275704,
+    "result": "error"
+   }
+  ],
+  "archive_done_ms": 448,
+  "visible_ms": 2062,
+  "screenshot_frame_ms": 453,
+  "screenshot": "experiments/rendering/raw/t4-px-8x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 90,
+    "encodeMs": 367,
+    "bytes": 7233263,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 471
+   },
+   "systemMedium": {
+    "renderMs": 53,
+    "encodeMs": 185,
+    "bytes": 3702857,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 247
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:21:16.461 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:21:16.462 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105b0ee00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:21:16.462 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105b0ee00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:21:16.462 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:21:16.463 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:21:16.464 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:21:16.464 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105b0ee00 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:21:16.470 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:16.476 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:16.476 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:16.476 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:16.476 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000074cc0> for context id 2424384507",
+   "2026-11-10 13:21:16.477 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:16.477 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:16.488 Df chronod[8467:171b5fd] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:21:16.505 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:16.506 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:16.506 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:16.506 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:21:16.506 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:16.507 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:16.507 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:16.507 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000006cc10> for context id 2419029306",
+   "2026-11-10 13:21:16.508 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:16.516 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:16.516 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:16.516 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:16.516 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:21:16.516 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:17.971 Df SpringBoard[20475:171b818] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:21:17.972 Df SpringBoard[20475:171b818] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ },
+ {
+  "run": "t4-px-12x",
+  "technique": "bitmap",
+  "trigger_ms": 1794313286154,
+  "push_to_app_ms": 200,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.6,
+   "memAfter": 57.6,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.6,
+    "memAfter": 57.6,
+    "appState": 2,
+    "at_ms": 201
+   }
+  ],
+  "prerender_done_ms": 201,
+  "reload_requested_ms": 202,
+  "timeline": [
+   {
+    "run": "t4-px-12x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 279.3,
+    "memBefore": 87.1,
+    "memAfter": 157.1,
+    "file": "px12-systemLarge.png",
+    "bytes": 15336760,
+    "px": "4188x4380",
+    "decodeMs": 277.9,
+    "at_ms": 527
+   },
+   {
+    "run": "t4-px-12x",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 223.9,
+    "memBefore": 87.1,
+    "memAfter": 157.2,
+    "file": "px12-systemLarge.png",
+    "bytes": 15336760,
+    "px": "4188x4380",
+    "decodeMs": 222.5,
+    "at_ms": 792
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 530,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313286393,
+    "ms": 286,
+    "end": 1794313286679,
+    "result": "error"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313286714,
+    "ms": 229,
+    "end": 1794313286943,
+    "result": "error"
+   }
+  ],
+  "archive_done_ms": 789,
+  "visible_ms": 2058,
+  "screenshot_frame_ms": 426,
+  "screenshot": "experiments/rendering/raw/t4-px-12x.png",
+  "generation": {
+   "systemLarge": {
+    "renderMs": 167,
+    "encodeMs": 792,
+    "bytes": 15336760,
+    "ops": 50,
+    "skipped": 1,
+    "wallMs": 974
+   },
+   "systemMedium": {
+    "renderMs": 95,
+    "encodeMs": 408,
+    "bytes": 8065500,
+    "ops": 19,
+    "skipped": 1,
+    "wallMs": 512
+   }
+  },
+  "syslog": [
+   "2026-11-10 13:21:27.388 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Sending content confirmation action: timeout=3.000000)",
+   "2026-11-10 13:21:27.388 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105099800 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewIsAppearing",
+   "2026-11-10 13:21:27.388 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105099800 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> viewDidAppear",
+   "2026-11-10 13:21:27.388 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:27.388 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update begin (2).",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (1).",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Requested mode changed to live.",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Effective presentation mode will change to live for reason: Requested mode",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating - Foreground",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] ensureAndEvaluateSnapshotView - reason: setEffectivePresentationMode - Live",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Batched update end (0).",
+   "2026-11-10 13:21:27.389 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Flushing batched updates for reason: Batch End",
+   "2026-11-10 13:21:27.390 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to preparing",
+   "2026-11-10 13:21:27.390 Df SpringBoard[20475:16f3745] [com.apple.SpringBoard:Widgets] <SBHWidgetContainerViewController:0x105099800 widget=[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium]> Setting visibility to visible not settled",
+   "2026-11-10 13:21:27.397 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Eating frame change in view because not configured to change the frame.",
+   "2026-11-10 13:21:27.402 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:27.402 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:27.402 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:27.402 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x600000018a90> for context id 651906089",
+   "2026-11-10 13:21:27.402 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:27.403 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Invalidating detached scene timer for reason: Window exists",
+   "2026-11-10 13:21:27.422 Df chronod[8467:171b835] [com.apple.chrono:widgetRendererSession] [<WidgetRenderSession-4489950875894388217-scene::2F0F0762-FC97-40AA-85A4-83DDF10AE5B9::0x10586be00-[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]>] Task priority did change: foregroundUserInteractive",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Received content confirmation action error: Error Domain=WidgetRendererErrorDomain Code=1 \"Widget was background\" UserInfo={NSLocalizedDescription=Widget was background}",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:21:27.434 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x105234000-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemLarge::349.67/365.00/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:27.445 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:27.445 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Saving touch policy assertion <BKSTouchDeliveryPolicyAssertion: 0x60000006f2a0> for context id 3263605015",
+   "2026-11-10 13:21:27.446 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewControllerTouch] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Updating touch delivery policies for layers: {(",
+   "2026-11-10 13:21:27.453 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Content state did change to ready",
+   "2026-11-10 13:21:27.453 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Transitioning from snapshot to live content.",
+   "2026-11-10 13:21:27.453 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Destroy snapshot views (animated: YES, reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:27.453 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Overriding animation to false because snapshot and content are the same.",
+   "2026-11-10 13:21:27.453 Df SpringBoard[20475:16f3745] [com.apple.chrono:ViewController] [0x10586be00-Timeline[<bundle-id>::<bundle-id>.Widgets:RenderLab:systemMedium::349.67/164.33/27.94:(null)~(null)]] Finish hiding snapshots (reason=transitionFromSnapshotToLiveContent)",
+   "2026-11-10 13:21:28.905 Df SpringBoard[20475:171ba1f] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID 2F0F0762-FC97-40AA-85A4-83DDF10AE5B9)",
+   "2026-11-10 13:21:28.906 Df SpringBoard[20475:171ba1f] [com.apple.duetexpertd.atx:homescreen] RAS: -[ATXWidgetDwellTracker widgetDidAppear:date:]: widget: {extBundleID: <bundle-id>.Widgets, kind: RenderLab, isSuggestedWidget: NO} (widgetID C464F921-5B94-4DB9-80E0-6AFC8CD719E3)",
+   "    widgetKind = RenderLab;",
+   "    widgetKind = RenderLab;"
+  ]
+ }
+]

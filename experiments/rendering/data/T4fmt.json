@@ -1,0 +1,412 @@
+[
+ {
+  "run": "t4-fmt-png100",
+  "technique": "bitmap",
+  "trigger_ms": 1794313355116,
+  "push_to_app_ms": 201,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 202
+   }
+  ],
+  "prerender_done_ms": 202,
+  "reload_requested_ms": 202,
+  "timeline": [
+   {
+    "run": "t4-fmt-png100",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 18.1,
+    "memBefore": 88.0,
+    "memAfter": 92.4,
+    "file": "fmt-png100-systemLarge.png",
+    "bytes": 1167192,
+    "px": "1047x1095",
+    "decodeMs": 17.2,
+    "at_ms": 276
+   },
+   {
+    "run": "t4-fmt-png100",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 10.6,
+    "memBefore": 88.0,
+    "memAfter": 90.0,
+    "file": "fmt-png100-systemMedium.png",
+    "bytes": 583989,
+    "px": "1047x492",
+    "decodeMs": 9.5,
+    "at_ms": 294
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 279,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313355364,
+    "ms": 27,
+    "end": 1794313355391,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313355391,
+    "ms": 17,
+    "end": 1794313355408,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 292,
+  "visible_ms": 2082,
+  "screenshot_frame_ms": 464,
+  "screenshot": "experiments/rendering/raw/t4-fmt-png100.png"
+ },
+ {
+  "run": "t4-fmt-jpg90",
+  "technique": "bitmap",
+  "trigger_ms": 1794313363571,
+  "push_to_app_ms": 192,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 193
+   }
+  ],
+  "prerender_done_ms": 193,
+  "reload_requested_ms": 193,
+  "timeline": [
+   {
+    "run": "t4-fmt-jpg90",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 63.1,
+    "memBefore": 88.0,
+    "memAfter": 94.7,
+    "file": "fmt-jpg90-systemLarge.jpg",
+    "bytes": 202004,
+    "px": "1047x1095",
+    "decodeMs": 60.9,
+    "at_ms": 295
+   },
+   {
+    "run": "t4-fmt-jpg90",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 4.4,
+    "memBefore": 86.5,
+    "memAfter": 90.5,
+    "file": "fmt-jpg90-systemMedium.jpg",
+    "bytes": 84567,
+    "px": "1047x492",
+    "decodeMs": 3.5,
+    "at_ms": 366
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 298,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313363794,
+    "ms": 130,
+    "end": 1794313363924,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313363924,
+    "ms": 37,
+    "end": 1794313363961,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 390,
+  "visible_ms": 2041,
+  "screenshot_frame_ms": 430,
+  "screenshot": "experiments/rendering/raw/t4-fmt-jpg90.png"
+ },
+ {
+  "run": "t4-fmt-jpg50",
+  "technique": "bitmap",
+  "trigger_ms": 1794313371866,
+  "push_to_app_ms": 175,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 176
+   }
+  ],
+  "prerender_done_ms": 176,
+  "reload_requested_ms": 177,
+  "timeline": [
+   {
+    "run": "t4-fmt-jpg50",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 3.8,
+    "memBefore": 86.6,
+    "memAfter": 90.6,
+    "file": "fmt-jpg50-systemMedium.jpg",
+    "bytes": 37853,
+    "px": "1047x492",
+    "decodeMs": 3.0,
+    "at_ms": 218
+   },
+   {
+    "run": "t4-fmt-jpg50",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 7.0,
+    "memBefore": 86.7,
+    "memAfter": 95.4,
+    "file": "fmt-jpg50-systemLarge.jpg",
+    "bytes": 95916,
+    "px": "1047x1095",
+    "decodeMs": 5.9,
+    "at_ms": 264
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 221,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313372072,
+    "ms": 41,
+    "end": 1794313372113,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313372113,
+    "ms": 75,
+    "end": 1794313372188,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 322,
+  "visible_ms": 2001,
+  "screenshot_frame_ms": 402,
+  "screenshot": "experiments/rendering/raw/t4-fmt-jpg50.png"
+ },
+ {
+  "run": "t4-fmt-heic90",
+  "technique": "bitmap",
+  "trigger_ms": 1794313380308,
+  "push_to_app_ms": 181,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 57.5,
+   "memAfter": 57.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 57.5,
+    "memAfter": 57.5,
+    "appState": 2,
+    "at_ms": 183
+   }
+  ],
+  "prerender_done_ms": 183,
+  "reload_requested_ms": 184,
+  "timeline": [
+   {
+    "run": "t4-fmt-heic90",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 77.8,
+    "memBefore": 86.6,
+    "memAfter": 90.6,
+    "file": "fmt-heic90-systemMedium.heic",
+    "bytes": 51622,
+    "px": "1047x492",
+    "decodeMs": 67.5,
+    "at_ms": 299
+   },
+   {
+    "run": "t4-fmt-heic90",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 9.4,
+    "memBefore": 87.2,
+    "memAfter": 96.1,
+    "file": "fmt-heic90-systemLarge.heic",
+    "bytes": 113566,
+    "px": "1047x1095",
+    "decodeMs": 8.1,
+    "at_ms": 345
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 302,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313380520,
+    "ms": 114,
+    "end": 1794313380634,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313380634,
+    "ms": 73,
+    "end": 1794313380707,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 399,
+  "visible_ms": 2021,
+  "screenshot_frame_ms": 415,
+  "screenshot": "experiments/rendering/raw/t4-fmt-heic90.png"
+ },
+ {
+  "run": "t4-fmt-heic50",
+  "technique": "bitmap",
+  "trigger_ms": 1794313388790,
+  "push_to_app_ms": 190,
+  "prerender": {
+   "op": "reload",
+   "out": "prerender.png",
+   "totalMs": 0.0,
+   "memBefore": 58.5,
+   "memAfter": 58.5,
+   "appState": 2
+  },
+  "prerender_all": [
+   {
+    "op": "reload",
+    "out": "prerender.png",
+    "totalMs": 0.0,
+    "memBefore": 58.5,
+    "memAfter": 58.5,
+    "appState": 2,
+    "at_ms": 190
+   }
+  ],
+  "prerender_done_ms": 190,
+  "reload_requested_ms": 191,
+  "timeline": [
+   {
+    "run": "t4-fmt-heic50",
+    "tech": "bitmap",
+    "family": "systemLarge",
+    "size": "349x365",
+    "prepMs": 9.8,
+    "memBefore": 87.4,
+    "memAfter": 96.2,
+    "file": "fmt-heic50-systemLarge.heic",
+    "bytes": 48076,
+    "px": "1047x1095",
+    "decodeMs": 8.6,
+    "at_ms": 237
+   },
+   {
+    "run": "t4-fmt-heic50",
+    "tech": "bitmap",
+    "family": "systemMedium",
+    "size": "349x164",
+    "prepMs": 6.3,
+    "memBefore": 87.4,
+    "memAfter": 91.4,
+    "file": "fmt-heic50-systemMedium.heic",
+    "bytes": 19806,
+    "px": "1047x492",
+    "decodeMs": 4.6,
+    "at_ms": 313
+   }
+  ],
+  "view_evals": 2,
+  "first_view_ms": 241,
+  "canvas_draws": [],
+  "archive": [
+   {
+    "kind": "RenderLab",
+    "family": "systemLarge",
+    "began": 1794313389008,
+    "ms": 79,
+    "end": 1794313389087,
+    "result": "success"
+   },
+   {
+    "kind": "RenderLab",
+    "family": "systemMedium",
+    "began": 1794313389087,
+    "ms": 38,
+    "end": 1794313389125,
+    "result": "success"
+   }
+  ],
+  "archive_done_ms": 335,
+  "visible_ms": 2015,
+  "screenshot_frame_ms": 417,
+  "screenshot": "experiments/rendering/raw/t4-fmt-heic50.png"
+ }
+]
