@@ -1,54 +1,124 @@
-# Apple Widget Framework — Agent-native iPhone UI Lab
+# Agent-native iPhone UI Lab
 
-**Status (November 2026): experimental research / prototype. Not a validated startup product.**
+**What if an AI agent could ask for a decision right on your iPhone Home Screen — without sending you back into another chat?**
 
-## Why this repository exists
+This repository investigates a **shared mobile interface for independent AI agents**. An agent could send a status update, a choice or a completed result; an installed native widget would render the appropriate UI, and a user's response could eventually be routed back to that agent.
 
-We are investigating whether an iPhone can become a **universal, adaptive interaction surface for independent AI agents**. The phone should show relevant information and decisions where they matter — in an existing Home Screen widget, a Live Activity / Dynamic Island, or a notification — without requiring the user to repeatedly open different agent chats.
+**Status: experimental SwiftUI / WidgetKit research prototype, not a shipping agent platform.** The code currently demonstrates local widget state and actions, *not* real agent connections or proven low-latency remote updates.
 
-**Core principle:** we do **not** build the agents or pre-build an interface for every task. A compatible agent sends a declarative description of its content, layout, available actions and lifecycle. Our framework renders that within safe, preinstalled native UI components, then sends user decisions back to the right agent.
+## The problem
 
-A longer-term optional *attention layer* could rank and schedule interactions across agents using permissioned context (e.g., desktop availability, calendar, location). This is a **hypothesis**, not the first thing to build.
+AI agents increasingly work in separate tools and sessions. One may be running tests, another researching, and a third waiting for approval. If progress, errors and questions remain buried in separate chats, using several agents becomes surprisingly manual.
 
-## Immediate priority: test actual iOS limitations
+The long-term idea is not to replace Siri, Claude or ChatGPT. It is to **connect their workflows to a common, context-aware interaction surface**: a status view when work is ongoing, a decision card when human input is needed, and a short result when the task finishes. Home Screen widgets, notifications, Live Activities and Dynamic Island are potential surfaces — each with different Apple-defined limits.
 
-**Before building accounts, an agent platform, a backend, or a business model, test how far native iPhone widgets can be pushed on a real device.**
+## The technical question
 
-The specific hypothesis to challenge: `can a fixed WidgetKit extension display radically different agent-defined content on demand without constantly rebuilding/installing the widget?`
+**Can one preinstalled WidgetKit extension render different agent-defined interfaces through changing data, without shipping a new widget implementation for every use case?**
 
-- **Layout changes** within a preinstalled SwiftUI component vocabulary: possible in principle.
-- **Visible changes at an arbitrary instant** without user interaction: **not guaranteed** by iOS. WidgetKit controls refresh. New WidgetKit push updates are opportunistic and budgeted.
-- **Widget button/toggle:** Apple documents an automatic timeline reload after an App Intent completes.
-- **Live Activity:** a distinct update mechanism for ongoing, time-limited activities; also subject to system constraints.
-- **Arbitrary downloaded code, fake persistent background activity or bypassing Apple sandbox:** **out of scope**.
+The approach is declarative: agents may describe supported layouts and actions as **data**. The device renders them using already compiled SwiftUI components. It does **not** download or execute arbitrary Swift or JavaScript.
 
-The first experiments measure native behavior — we will not claim a bypass without repeatable results on a non-developer-mode physical device.
+### Conceptual flow (not yet an implemented end-to-end integration)
 
-## Documents
+```text
+Claude Code / Codex / another compatible agent
+                    |
+            events + UI schema
+                    |
+         [future authenticated bridge]
+                    |
+         native iOS rendering layer
+                    |
+    status   <->   choice   <->   result
+                    |
+         [future response routing]
+                    |
+               source agent
+```
 
-- [Project vision, constraints, and chat-derived decisions](docs/PROJECT_CONTEXT.md)
-- [Technology & Apple API evidence](docs/IOS_FEASIBILITY.md)
-- [Experiment plan and success criteria](docs/WIDGET_EXPERIMENTS.md)
-- [Questions, market risks and competitor map](docs/OPEN_QUESTIONS.md)
-- [iPhone lab setup](prototype/README.md)
+An eventual attention layer might choose *when* an agent interrupts, or consolidate several requests based on permissions and context. That layer remains a **product hypothesis**, not an implemented capability.
 
-## Build/test order
+## What is in the repository today?
 
-1. Install a minimal native widget extension on an **actual iPhone**.
-2. Switch between status, choice and summary *layouts* using shared JSON, with and without requesting a timeline refresh.
-3. Test a button-driven App Intent updating the same widget **without launching the app**.
-4. Measure timeline-based scheduled changes; compare behavior with normal/developer WidgetKit modes.
-5. Compare to local Live Activity updates. **Then** add APNs WidgetKit pushes and remote agent messages in a separate milestone.
-6. Integrate one real agent only after the iOS rendering and response-path tests.
+The [`prototype/`](prototype/) folder contains a minimal **native iOS host app and WidgetKit extension** built with SwiftUI, App Intents and an App Group.
 
-## Non-goals for this phase
+| Component | Present in source | What it does |
+| --- | --- | --- |
+| Native widget | Yes | Renders `status`, `choice` and `result` layouts from a small, predefined schema |
+| Host app | Yes | Lets a tester edit JSON and publish it into shared App Group storage |
+| Widget actions | Yes | Switch between demo cards and acknowledge one of two visible choices through App Intents |
+| Refresh experiment | Yes | Requests a timeline reload; actual display timing is controlled by iOS |
+| External Claude/Codex integration | No | No real remote agent is contacted by the demo buttons |
+| APNs WidgetKit push | No | Planned separately from local interaction tests |
+| Live Activities / Dynamic Island | No | Research scope, not in the committed prototype |
+| Agent management / prioritization | No | Longer-term hypothesis, not a validated feature |
 
-No replacement for the system Home Screen, no scraping other apps, no universal access to ChatGPT/Claude conversation sessions, no promised sub-second widget streaming, no business-plan-driven scope expansion.
+**Important distinction:** The code is committed, but the repository's own experiment records do not establish a successful build, installation or controlled test on a physical iPhone. Treat the above as **implemented source paths**, not measured real-device performance. The widget refresh policy is a scheduling hint, not a promise of updates every five minutes or at any other fixed interval.
 
-## Security
+### Example UI payload
 
-The repository is public. Do not commit API keys, provisioning profiles, certificates, APNs keys, user locations or real agent data. Initial fixtures are synthetic.
+A compatible future sender might describe a question this way:
 
-## References
+```json
+{
+  "revision": 2,
+  "requestId": "demo-2",
+  "kind": "choice",
+  "title": "Tests need your input",
+  "message": "Investigate the failure or stop?",
+  "progress": 0.2,
+  "options": [
+    { "id": "investigate", "label": "Investigate" },
+    { "id": "stop", "label": "Stop" }
+  ],
+  "updatedAt": "2026-11-10T10:00:00Z",
+  "selectedOption": null
+}
+```
 
-See [iOS feasibility notes](docs/IOS_FEASIBILITY.md) for Apple documentation and limits.
+The supported schema is deliberately limited: only three `kind` values, bounded text and a maximum of two **visible** option buttons in the widget. This is a rendering and interaction experiment, not a universal remote UI or an approval mechanism for real-world operations.
+
+## Run the native prototype
+
+You need a **Mac with Xcode**, [XcodeGen](https://github.com/yonaskolb/XcodeGen), an iPhone or simulator for initial development, and correctly configured Apple signing/App Group capabilities for on-device testing.
+
+```bash
+git clone https://github.com/Matteo-Winter/apple-widget-framework.git
+cd apple-widget-framework/prototype
+xcodegen generate
+open AgentWidgetLab.xcodeproj
+```
+
+Before building, replace the example bundle IDs and App Group identifier across `project.yml`, both entitlement files and `Shared/WidgetModel.swift`. Choose the signing team in Xcode. Then install the host app, add the **Agent UI Lab** widget to the Home Screen and test publishing `status`, `choice` and `result` JSON. Use the widget's arrow and option buttons to exercise the local App Intent flow.
+
+**Full setup, prerequisites and troubleshooting:** [prototype/README.md](prototype/README.md).
+
+A simulator is useful during development, but does **not** establish refresh reliability, interaction latency or resource limits on a real device.
+
+## Research goals and constraints
+
+This project is intentionally built around **falsifiable tests** rather than promises about iOS workarounds:
+
+1. **Rendering flexibility:** Can one widget show materially different layouts without reinstalling it?
+2. **Direct interactions:** Can a person respond through native widget controls without opening the host app?
+3. **Visible-update reliability:** How long do app-initiated reloads, timeline updates and, later, push updates actually take?
+4. **Practical limits:** What happens with malformed payloads, stale choices, locked screens or backgrounded apps?
+5. **Safety:** How should an eventual authenticated agent response prevent stale, duplicated or unauthorized actions?
+
+Apple controls WidgetKit refresh and the available UI surfaces. Widgets are not general-purpose embedded web apps: arbitrary downloaded code, unrestricted continuous updates, free-form text entry and replacement of the entire system Home Screen are **not supported design assumptions**.
+
+## Research documentation
+
+| Document | What you will find |
+| --- | --- |
+| [Project context](docs/PROJECT_CONTEXT.md) | Vision, initial users, architecture hypothesis and scope decisions |
+| [iOS feasibility](docs/IOS_FEASIBILITY.md) | Apple API references, interaction possibilities and platform limitations |
+| [Widget experiments](docs/WIDGET_EXPERIMENTS.md) | Proposed experiments, success criteria and evidence requirements |
+| [Open questions](docs/OPEN_QUESTIONS.md) | Competitor context, market risks and validation questions |
+| [Prototype instructions](prototype/README.md) | Local build, signing, sample JSON, test plan and troubleshooting |
+
+## What comes next?
+
+The immediate next step is **repeatable device-level evidence**: verify build/signing, measure layout and response changes in normal conditions, and document failures just as carefully as successes. Only then does it make sense to add a minimal authenticated bridge to a real agent and compare the experience with existing mobile-agent tools.
+
+**This is public research code, not an App Store app or a production security reference.** Do not put real credentials, sensitive agent transcripts, personal location data or production approvals into the demo. No explicit software license is currently provided in this repository.
